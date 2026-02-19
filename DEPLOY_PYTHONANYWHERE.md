@@ -24,7 +24,7 @@ git commit -m "Preparar projeto para deploy no PythonAnywhere"
 2. Adicione o remote e envie o código:
 
 ```bash
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git remote add origin https://github.com/TCRMO/EstudosAnbima.git
 git branch -M main
 git push -u origin main
 ```
@@ -40,8 +40,8 @@ git push -u origin main
 ### 4.2. Clonar o Repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/TCRMO/EstudosAnbima.git
+cd EstudosAnbima
 ```
 
 ### 4.3. Criar Ambiente Virtual
@@ -89,7 +89,7 @@ import os
 import sys
 
 # Adicionar o diretório do projeto ao path
-path = '/home/SEU_USUARIO_PYTHONANYWHERE/SEU_REPOSITORIO'
+path = '/home/thalescarmo/EstudosAnbima'
 if path not in sys.path:
     sys.path.append(path)
 
@@ -101,21 +101,21 @@ from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 ```
 
-**IMPORTANTE**: Substitua `SEU_USUARIO_PYTHONANYWHERE` e `SEU_REPOSITORIO` pelos valores corretos!
+*(Valores já preenchidos para o usuário thalescarmo e repositório EstudosAnbima.)*
 
 ### 5.3. Configurar Virtualenv
 
 Na página Web, na seção "Virtualenv":
 
 1. Clique em "Enter path to a virtualenv"
-2. Digite: `/home/SEU_USUARIO_PYTHONANYWHERE/.virtualenvs/anbima-env`
+2. Digite: `/home/thalescarmo/.virtualenvs/anbima-env`
 
 ### 5.4. Configurar Arquivos Estáticos
 
 Na seção "Static files", adicione:
 
 - **URL**: `/static/`
-- **Directory**: `/home/SEU_USUARIO_PYTHONANYWHERE/SEU_REPOSITORIO/staticfiles`
+- **Directory**: `/home/thalescarmo/EstudosAnbima/staticfiles`
 
 ### 5.5. Configurar ALLOWED_HOSTS
 
@@ -128,7 +128,7 @@ nano anbima_cfg/settings.py
 Encontre a linha `ALLOWED_HOSTS = []` e altere para:
 
 ```python
-ALLOWED_HOSTS = ['SEU_USUARIO.pythonanywhere.com']
+ALLOWED_HOSTS = ['thalescarmo.pythonanywhere.com']
 ```
 
 Salve com `Ctrl+O`, Enter, e saia com `Ctrl+X`.
@@ -154,12 +154,12 @@ Copie a chave gerada e substitua no `settings.py`.
 ## Passo 6: Recarregar o Site
 
 1. Volte para a página "Web"
-2. Clique no botão verde "Reload SEU_USUARIO.pythonanywhere.com"
+2. Clique no botão verde "Reload thalescarmo.pythonanywhere.com"
 3. Aguarde alguns segundos
 
 ## Passo 7: Acessar seu Site
 
-Acesse: `https://SEU_USUARIO.pythonanywhere.com`
+Acesse: `https://thalescarmo.pythonanywhere.com`
 
 ## Solução de Problemas
 
@@ -183,7 +183,7 @@ Quando fizer alterações:
 
 ```bash
 # No console Bash do PythonAnywhere
-cd SEU_REPOSITORIO
+cd EstudosAnbima
 git pull
 python manage.py migrate  # Se houver mudanças no banco
 python manage.py collectstatic --noinput
