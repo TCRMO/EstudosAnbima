@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}Questão {{ indice|add:1 }} de {{ total_questoes }} - CFG Anbima{% endblock %}
+
+{% block content %}
+<!-- Barra de progresso -->
+<div class="mb-4">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+        <small class="text-muted fw-bold">
+            {% if tentativa.tipo == 'simulado' %}
+                {{ tentativa.simulado.nome }}
+            {% elif tentativa.tipo == 'tema' %}
+                Tema: {{ tentativa.tema.nome }}
+            {% elif tentativa.tipo == 'aleatorio' %}
+                Modo Aleatório
+            {% elif tentativa.tipo == 'revisao' %}
+                Revisão de Erros
+            {% endif %}
+        </small>
+        <small class="text-muted">
+            Questão <strong>{{ indice|add:1 }}</strong> de <strong>{{ total_questoes }}</strong>
+            &bull; {{ respondidas }} respondida{{ respondidas|pluralize:"s" }}
+        </small>
+    </div>
+    <div class="progress progress-questao">
+        <div class="progress-bar bg-primary" role="progressbar" style="width: {{ progresso }}%"></div>
+    </div>
+</div>
+
+<!-- Card da questão -->
+<div class="card questao-card mb-4">
+    <div class="card-body p-4">
+        <div class="d-flex justify-content-between align-items-start mb-3">
+            <span class="badge bg-secondary tema-badge">{{ questao.tema.nome }}</span>
+            <small class="text-muted">Cód: {{ questao.codigo }}</small>
+        </div>
+
+        <p class="questao-pergunta mb-4">{{ questao.pergunta }}</p>
+
+        <form method="post" id="form-resposta">
+            {% csrf_token %}
+
+            {% for letra, texto in alternativas %}
+            <button type="submit"
+                    name="resposta"
+                    value="{{ letra }}"
+                    class="alternativa-btn {% if feedback %}{% if letra == feedback.resposta_certa %}correta{% elif letra == feedback.escolha and not feedback.correta %}errada{% endif %}{% endif %}"
+                    {% if feedback %}disabled{% endif %}>
+                <span class="d-flex align-items-start">
+                    <span class="letra">{{ letra }}</span>
+                    <span>{{ texto }}</span>
+                </span>
+            </button>
+            {% endfor %}
+        </form>
+
+        {% if feedback %}
+        <div class="feedback-box mt-3 {% if feedback.correta %}bg-success-subtle text-success-emphasis{% else %}bg-danger-subtle text-danger-emphasis{% endif %}">
+            {% if feedback.correta %}
+                <i class="bi bi-check-circle-fill me-2"></i><strong>Correto!</strong> Você acertou esta questão.
+            {% else %}
+                <i class="bi bi-x-circle-fill me-2"></i><strong>Incorreto.</strong>
+                Você respondeu <strong>{{ feedback.escolha }}</strong>, mas a resposta correta é <strong>{{ feedback.resposta_certa }}</strong>.
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Navegação -->
+<div class="d-flex justify-content-between">
+    <div>
+        {% if indice_anterior is not None %}
+        <a href="{% url 'simulados:resolver_questao' tentativa.id indice_anterior %}" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left me-1"></i>Anterior
+        </a>
+        {% endif %}
+    </div>
+    <div>
+        {% if feedback %}
+            {% if proximo_indice < total_questoes %}
+            <a href="{% url 'simulados:resolver_questao' tentativa.id proximo_indice %}" class="btn btn-primary">
+                Próxima <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+            {% else %}
+            <a href="{% url 'simulados:resolver_questao' tentativa.id proximo_indice %}" class="btn btn-success">
+                <i class="bi bi-check2-all me-1"></i>Finalizar
+            </a>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

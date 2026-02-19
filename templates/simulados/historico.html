@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}Histórico - CFG Anbima{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2 class="fw-bold"><i class="bi bi-clock-history me-2 text-muted"></i>Histórico de Sessões</h2>
+    <p class="text-muted">Todas as suas sessões de estudo finalizadas.</p>
+</div>
+
+{% if tentativas %}
+<div class="card border-0 shadow-sm rounded-3">
+    <div class="card-body p-4">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Detalhes</th>
+                        <th class="text-center">Questões</th>
+                        <th class="text-center">Acertos</th>
+                        <th class="text-center">Resultado</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for t in tentativas %}
+                    <tr>
+                        <td><small class="text-muted">{{ t.data_inicio|date:"d/m/Y H:i" }}</small></td>
+                        <td><span class="badge bg-secondary">{{ t.get_tipo_display }}</span></td>
+                        <td>
+                            {% if t.simulado %}{{ t.simulado.nome }}
+                            {% elif t.tema %}{{ t.tema.nome }}
+                            {% else %}Misto{% endif %}
+                        </td>
+                        <td class="text-center">{{ t.total_questoes }}</td>
+                        <td class="text-center">{{ t.total_corretas }}/{{ t.total_questoes }}</td>
+                        <td class="text-center">
+                            <span class="badge {% if t.percentual_acerto >= 70 %}bg-success{% else %}bg-danger{% endif %}">
+                                {{ t.percentual_acerto }}%
+                            </span>
+                        </td>
+                        <td>
+                            <a href="{% url 'simulados:detalhe_tentativa' t.id %}" class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a href="{% url 'simulados:reset_dados' %}" class="btn btn-outline-danger btn-sm">
+        <i class="bi bi-trash me-1"></i>Limpar Histórico
+    </a>
+</div>
+{% else %}
+<div class="alert alert-info">
+    <i class="bi bi-info-circle me-2"></i>Nenhuma sessão finalizada ainda. Comece a estudar!
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% block title %}Resultado - CFG Anbima{% endblock %}
+
+{% block content %}
+<!-- Score principal -->
+<div class="text-center mb-5">
+    <div class="card border-0 shadow-sm rounded-4 py-5">
+        <div class="card-body">
+            <h4 class="text-muted mb-1">{{ tentativa.get_tipo_display }}</h4>
+            {% if tentativa.simulado %}
+                <h5 class="text-muted mb-3">{{ tentativa.simulado.nome }}</h5>
+            {% elif tentativa.tema %}
+                <h5 class="text-muted mb-3">{{ tentativa.tema.nome }}</h5>
+            {% endif %}
+
+            <div class="resultado-score {% if tentativa.percentual_acerto >= 70 %}resultado-aprovado{% else %}resultado-reprovado{% endif %}">
+                {{ tentativa.percentual_acerto }}%
+            </div>
+
+            <p class="fs-5 mt-2">
+                <strong>{{ tentativa.total_corretas }}</strong> acertos de <strong>{{ tentativa.total_questoes }}</strong> questões
+            </p>
+
+            {% if tentativa.percentual_acerto >= 70 %}
+            <div class="alert alert-success d-inline-block mt-2">
+                <i class="bi bi-trophy-fill me-2"></i>Parabéns! Resultado acima do ponto de corte (70%).
+            </div>
+            {% else %}
+            <div class="alert alert-warning d-inline-block mt-2">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>Continue estudando! O ponto de corte é 70%.
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Desempenho por tema -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-0 pt-4 px-4">
+        <h5 class="fw-bold mb-0"><i class="bi bi-bar-chart me-2 text-primary"></i>Desempenho por Tema</h5>
+    </div>
+    <div class="card-body px-4 pb-4">
+        {% for dt in desempenho_temas %}
+        <div class="mb-3">
+            <div class="d-flex justify-content-between mb-1">
+                <span class="fw-medium">{{ dt.nome }}</span>
+                <span class="{% if dt.percentual >= 70 %}text-success{% elif dt.percentual >= 50 %}text-warning{% else %}text-danger{% endif %} fw-bold">
+                    {{ dt.corretas }}/{{ dt.total }} ({{ dt.percentual }}%)
+                </span>
+            </div>
+            <div class="progress tema-bar">
+                <div class="progress-bar {% if dt.percentual >= 70 %}bg-success{% elif dt.percentual >= 50 %}bg-warning{% else %}bg-danger{% endif %}"
+                     role="progressbar"
+                     style="width: {{ dt.percentual }}%">
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Lista de respostas -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-0 pt-4 px-4">
+        <h5 class="fw-bold mb-0"><i class="bi bi-list-check me-2 text-primary"></i>Detalhamento das Respostas</h5>
+    </div>
+    <div class="card-body px-4 pb-4">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th width="50">#</th>
+                        <th>Tema</th>
+                        <th class="text-center">Sua Resp.</th>
+                        <th class="text-center">Correta</th>
+                        <th class="text-center">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in respostas %}
+                    <tr>
+                        <td class="text-muted">{{ forloop.counter }}</td>
+                        <td><span class="badge bg-light text-dark tema-badge">{{ r.questao.tema.nome }}</span></td>
+                        <td class="text-center fw-bold">{{ r.resposta_escolhida }}</td>
+                        <td class="text-center fw-bold">{{ r.questao.resposta_correta }}</td>
+                        <td class="text-center">
+                            {% if r.correta %}
+                            <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                            {% else %}
+                            <i class="bi bi-x-circle-fill text-danger fs-5"></i>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Ações -->
+<div class="text-center">
+    <a href="{% url 'simulados:home' %}" class="btn btn-primary me-2">
+        <i class="bi bi-house me-1"></i>Início
+    </a>
+    {% if tentativa.tipo == 'simulado' and tentativa.simulado %}
+    <a href="{% url 'simulados:iniciar_simulado' tentativa.simulado.id %}" class="btn btn-outline-primary me-2">
+        <i class="bi bi-arrow-repeat me-1"></i>Refazer Simulado
+    </a>
+    {% endif %}
+    <a href="{% url 'simulados:iniciar_revisao' %}" class="btn btn-outline-danger">
+        <i class="bi bi-arrow-repeat me-1"></i>Revisar Erros
+    </a>
+</div>
+{% endblock %}

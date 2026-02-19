@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - CFG Anbima{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2 class="fw-bold"><i class="bi bi-graph-up me-2 text-primary"></i>Dashboard de Desempenho</h2>
+    <p class="text-muted">Visão geral do seu progresso nos estudos.</p>
+</div>
+
+{% if not desempenho_temas.0.total %}
+<div class="alert alert-info">
+    <i class="bi bi-info-circle me-2"></i>
+    Você ainda não resolveu nenhuma questão. Comece um <a href="{% url 'simulados:lista_simulados' %}">simulado</a> ou estude por <a href="{% url 'simulados:lista_temas' %}">tema</a>!
+</div>
+{% else %}
+
+<!-- Desempenho por tema -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-0 pt-4 px-4">
+        <h5 class="fw-bold mb-0"><i class="bi bi-tags me-2"></i>Desempenho por Tema</h5>
+        <small class="text-muted">Ordenado do menor para o maior aproveitamento</small>
+    </div>
+    <div class="card-body px-4 pb-4">
+        {% for dt in desempenho_temas %}
+        {% if dt.total > 0 %}
+        <div class="mb-3">
+            <div class="d-flex justify-content-between mb-1">
+                <span class="fw-medium">{{ dt.tema.nome }}</span>
+                <span class="{% if dt.percentual >= 70 %}text-success{% elif dt.percentual >= 50 %}text-warning{% else %}text-danger{% endif %} fw-bold">
+                    {{ dt.corretas }}/{{ dt.total }} ({{ dt.percentual }}%)
+                </span>
+            </div>
+            <div class="progress tema-bar">
+                <div class="progress-bar {% if dt.percentual >= 70 %}bg-success{% elif dt.percentual >= 50 %}bg-warning{% else %}bg-danger{% endif %}"
+                     role="progressbar"
+                     style="width: {{ dt.percentual }}%">
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Desempenho por simulado -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-0 pt-4 px-4">
+        <h5 class="fw-bold mb-0"><i class="bi bi-journal-text me-2"></i>Desempenho por Simulado</h5>
+    </div>
+    <div class="card-body px-4 pb-4">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Simulado</th>
+                        <th class="text-center">Tentativas</th>
+                        <th class="text-center">Melhor Nota</th>
+                        <th class="text-center">Última Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ds in desempenho_simulados %}
+                    <tr>
+                        <td class="fw-medium">{{ ds.simulado.nome }}</td>
+                        <td class="text-center">{{ ds.tentativas }}</td>
+                        <td class="text-center">
+                            {% if ds.tentativas > 0 %}
+                            <span class="badge {% if ds.melhor_nota >= 70 %}bg-success{% else %}bg-danger{% endif %}">
+                                {{ ds.melhor_nota }}%
+                            </span>
+                            {% else %}
+                            <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-center">
+                            {% if ds.tentativas > 0 %}
+                            <span class="badge {% if ds.ultima_nota >= 70 %}bg-success{% else %}bg-danger{% endif %}">
+                                {{ ds.ultima_nota }}%
+                            </span>
+                            {% else %}
+                            <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Questões mais erradas -->
+{% if questoes_mais_erradas %}
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-0 pt-4 px-4">
+        <h5 class="fw-bold mb-0"><i class="bi bi-exclamation-triangle me-2 text-danger"></i>Top 10 Questões Mais Erradas</h5>
+    </div>
+    <div class="card-body px-4 pb-4">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Código</th>
+                        <th>Tema</th>
+                        <th>Pergunta</th>
+                        <th class="text-center">Erros</th>
+                        <th class="text-center">Respostas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for q in questoes_mais_erradas %}
+                    <tr>
+                        <td><code>{{ q.codigo }}</code></td>
+                        <td><span class="badge bg-light text-dark tema-badge">{{ q.tema.nome }}</span></td>
+                        <td><small>{{ q.pergunta|truncatewords:15 }}</small></td>
+                        <td class="text-center text-danger fw-bold">{{ q.total_erros }}</td>
+                        <td class="text-center">{{ q.total_respostas }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% endif %}
+{% endblock %}

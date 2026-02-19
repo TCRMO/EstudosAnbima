@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+
+{% block title %}CFG Anbima - Início{% endblock %}
+
+{% block content %}
+<!-- Hero -->
+<div class="text-center mb-5">
+    <h1 class="display-5 fw-bold text-primary mb-3">
+        <i class="bi bi-mortarboard-fill me-2"></i>CFG Anbima
+    </h1>
+    <p class="lead text-muted">Plataforma de estudos para a Certificação de Fundamentos em Gestão</p>
+
+    {% if total_respostas > 0 %}
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+            <div class="row g-3">
+                <div class="col-6 col-md-3">
+                    <div class="stat-card card bg-primary text-white p-3 text-center">
+                        <div class="stat-number">{{ total_tentativas }}</div>
+                        <div class="stat-label">Sessões</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-card card bg-info text-white p-3 text-center">
+                        <div class="stat-number">{{ total_respostas }}</div>
+                        <div class="stat-label">Respostas</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-card card bg-success text-white p-3 text-center">
+                        <div class="stat-number">{{ total_corretas }}</div>
+                        <div class="stat-label">Acertos</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-card card p-3 text-center {% if percentual_geral >= 70 %}bg-success{% else %}bg-warning{% endif %} text-white">
+                        <div class="stat-number">{{ percentual_geral }}%</div>
+                        <div class="stat-label">Aproveitamento</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Funcionalidades -->
+<div class="row g-4 mb-5">
+    <div class="col-md-6 col-lg-3">
+        <a href="{% url 'simulados:lista_simulados' %}" class="text-decoration-none">
+            <div class="card card-feature shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <div class="feature-icon text-primary"><i class="bi bi-journal-text"></i></div>
+                    <h5 class="card-title fw-bold">Simulados</h5>
+                    <p class="card-text text-muted">Resolva simulados completos com 60 questões, simulando a prova real.</p>
+                    <span class="badge bg-primary-subtle text-primary">{{ total_simulados }} simulados</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <a href="{% url 'simulados:lista_temas' %}" class="text-decoration-none">
+            <div class="card card-feature shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <div class="feature-icon text-success"><i class="bi bi-tags-fill"></i></div>
+                    <h5 class="card-title fw-bold">Por Tema</h5>
+                    <p class="card-text text-muted">Estude questões agrupadas por tema para reforçar pontos fracos.</p>
+                    <span class="badge bg-success-subtle text-success">{{ total_temas }} temas</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <a href="{% url 'simulados:iniciar_aleatorio' %}" class="text-decoration-none">
+            <div class="card card-feature shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <div class="feature-icon text-warning"><i class="bi bi-shuffle"></i></div>
+                    <h5 class="card-title fw-bold">Aleatório</h5>
+                    <p class="card-text text-muted">20 questões aleatórias de todos os temas. Ótimo para revisão rápida.</p>
+                    <span class="badge bg-warning-subtle text-warning">20 questões</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <a href="{% url 'simulados:iniciar_revisao' %}" class="text-decoration-none">
+            <div class="card card-feature shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <div class="feature-icon text-danger"><i class="bi bi-arrow-repeat"></i></div>
+                    <h5 class="card-title fw-bold">Revisão de Erros</h5>
+                    <p class="card-text text-muted">Revise as questões que você mais errou para fixar o conteúdo.</p>
+                    <span class="badge bg-danger-subtle text-danger">Personalizado</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Últimas tentativas -->
+{% if ultimas_tentativas %}
+<div class="card border-0 shadow-sm rounded-3">
+    <div class="card-header bg-white border-0 pt-4 px-4">
+        <h5 class="fw-bold mb-0"><i class="bi bi-clock-history me-2 text-muted"></i>Últimas Sessões</h5>
+    </div>
+    <div class="card-body px-4 pb-4">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Detalhes</th>
+                        <th class="text-center">Acertos</th>
+                        <th class="text-center">Resultado</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for t in ultimas_tentativas %}
+                    <tr>
+                        <td><span class="badge bg-secondary">{{ t.get_tipo_display }}</span></td>
+                        <td>
+                            {% if t.simulado %}{{ t.simulado.nome }}{% elif t.tema %}{{ t.tema.nome }}{% else %}Misto{% endif %}
+                        </td>
+                        <td class="text-center">{{ t.total_corretas }}/{{ t.total_questoes }}</td>
+                        <td class="text-center">
+                            <span class="badge {% if t.percentual_acerto >= 70 %}bg-success{% else %}bg-danger{% endif %}">
+                                {{ t.percentual_acerto }}%
+                            </span>
+                        </td>
+                        <td><small class="text-muted">{{ t.data_inicio|date:"d/m/Y H:i" }}</small></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center mt-3">
+            <a href="{% url 'simulados:historico' %}" class="btn btn-outline-primary btn-sm">Ver todo o histórico</a>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

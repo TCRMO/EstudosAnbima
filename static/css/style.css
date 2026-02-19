@@ -1,0 +1,209 @@
+/* ── Global ─────────────────────────────────────────────────────────── */
+:root {
+    --cor-acerto: #198754;
+    --cor-erro: #dc3545;
+    --cor-primaria: #0d6efd;
+    --cor-fundo: #f8f9fa;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* ── Cards ──────────────────────────────────────────────────────────── */
+.card-feature {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+.card-feature:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-feature .card-body {
+    padding: 2rem;
+}
+
+.card-feature .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ── Stat Cards ─────────────────────────────────────────────────────── */
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.stat-card .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.stat-card .stat-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.9;
+}
+
+/* ── Questão ────────────────────────────────────────────────────────── */
+.questao-card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.questao-pergunta {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.alternativa-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+}
+
+.alternativa-btn:hover:not(:disabled) {
+    border-color: var(--cor-primaria);
+    background: #e8f0fe;
+}
+
+.alternativa-btn.selected {
+    border-color: var(--cor-primaria);
+    background: #e8f0fe;
+    font-weight: 500;
+}
+
+.alternativa-btn.correta {
+    border-color: var(--cor-acerto);
+    background: #d1e7dd;
+}
+
+.alternativa-btn.errada {
+    border-color: var(--cor-erro);
+    background: #f8d7da;
+}
+
+.alternativa-btn .letra {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #e9ecef;
+    font-weight: 600;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+}
+
+.alternativa-btn.correta .letra {
+    background: var(--cor-acerto);
+    color: white;
+}
+
+.alternativa-btn.errada .letra {
+    background: var(--cor-erro);
+    color: white;
+}
+
+/* ── Progress ───────────────────────────────────────────────────────── */
+.progress-questao {
+    height: 8px;
+    border-radius: 4px;
+}
+
+/* ── Resultado ──────────────────────────────────────────────────────── */
+.resultado-score {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.resultado-aprovado {
+    color: var(--cor-acerto);
+}
+
+.resultado-reprovado {
+    color: var(--cor-erro);
+}
+
+/* ── Tema badge colors ──────────────────────────────────────────────── */
+.tema-badge {
+    font-size: 0.75rem;
+    padding: 0.35em 0.7em;
+    border-radius: 6px;
+}
+
+/* ── Dashboard bars ─────────────────────────────────────────────────── */
+.tema-bar {
+    height: 28px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* ── Lista item ─────────────────────────────────────────────────────── */
+.lista-item {
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.15s ease;
+}
+
+.lista-item:hover {
+    transform: translateY(-2px);
+}
+
+/* ── Feedback animation ─────────────────────────────────────────────── */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.feedback-box {
+    animation: fadeInUp 0.3s ease-out;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+}
+
+/* ── Responsive tweaks ──────────────────────────────────────────────── */
+@media (max-width: 576px) {
+    .questao-pergunta {
+        font-size: 1rem;
+    }
+
+    .resultado-score {
+        font-size: 3rem;
+    }
+
+    .stat-card .stat-number {
+        font-size: 1.5rem;
+    }
+}
