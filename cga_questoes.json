@@ -1,0 +1,2982 @@
+{
+  "simulados": [
+    {
+      "id": "01",
+      "nome": "CGA: SIMULADO (01)",
+      "questoes": [
+        {
+          "numero": 1,
+          "codigo": "425312",
+          "pergunta": "A estratégia de gestão de carteira de Renda Variável de replicação de um índice (full replication) é geralmente",
+          "alternativas": {
+            "A": "mais barata que a otimização, mas com menor tracking error.",
+            "B": "mais cara que a otimização, mas com menor tracking error.",
+            "C": "mais barata que a otimização, mas com maior tracking error.",
+            "D": "mais cara que a otimização e com maior tracking error."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 2,
+          "codigo": "427341",
+          "pergunta": "Considere os seguintes índices acionários: IBrX-100, Dow Jones e MSCI World Index. Dentre esses, é correto afirmar que o",
+          "alternativas": {
+            "A": "MSCI é o mais facilmente replicado.",
+            "B": "a indexação por otimização seria mais recomendável para o Dow Jones.",
+            "C": "o IBrX-100 é o mais difícil de ser replicado.",
+            "D": "a indexação por replicagem (full replication) seria mais recomendável para o Dow Jones."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 3,
+          "codigo": "427342",
+          "pergunta": "Um gestor de recursos que acredita nas premissas do modelo CAPM mais provavelmente adotará um estilo de gestão",
+          "alternativas": {
+            "A": "ativo.",
+            "B": "ativo, buscando superar o prêmio de risco de mercado.",
+            "C": "de Indexação Reforçada.",
+            "D": "passivo."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 4,
+          "codigo": "425313",
+          "pergunta": "Com relação à estratégia full replication, é correto afirmar que:",
+          "alternativas": {
+            "A": "contribui para aumentar o tracking error do fundo.",
+            "B": "é mais fácil de ser implementada quanto menos líquidas forem as ações do índice que se busca replicar.",
+            "C": "pode ser inviável quando o índice que se gostaria de replicar contiver um número muito elevado de ações.",
+            "D": "é utilizada por gestores que buscam superar determinado benchmark."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 5,
+          "codigo": "511202",
+          "pergunta": "A respeito do Total Return Equity Swap, pode-se afirmar que envolve a troca de uma rentabilidade",
+          "alternativas": {
+            "A": "prefixada pela variação do preço de uma ação.",
+            "B": "de um índice de ações pela variação do preço de uma ação.",
+            "C": "pré ou pós fixada pelo retorno de uma ação.",
+            "D": "da variação do preço de uma ação por uma taxa pós fixada."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 6,
+          "codigo": "427324",
+          "pergunta": "Um investidor que prefere ativos com baixo múltiplo de preços, elevados dividend yields e que acreditam estar momentaneamente desvalorizadas seguem o estilo de gestão:",
+          "alternativas": {
+            "A": "Growth.",
+            "B": "Blended.",
+            "C": "Value.",
+            "D": "Market Neutral."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 7,
+          "codigo": "306377",
+          "pergunta": "A estratégia de gestão de carteiras de Renda Variável que permite ao investidor obter dois alfas é a:",
+          "alternativas": {
+            "A": "Long-only.",
+            "B": "Passiva.",
+            "C": "Long and short.",
+            "D": "Indexação Reforçada."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 8,
+          "codigo": "427326",
+          "pergunta": "Investidores growth tradicionalmente:",
+          "alternativas": {
+            "A": "focam no numerador do índice P/L das ações que estão analisando.",
+            "B": "acreditam nas premissas das Finanças Comportamentais.",
+            "C": "preferem ações com elevado dividend yield.",
+            "D": "preferem ações com grande perspectiva de crescimento dos lucros."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 9,
+          "codigo": "511501",
+          "pergunta": "Considere as seguintes afirmativas:\n\n**I** — Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro.\n\n**II** — Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento.\n\nPode-se afirmar que o processo de análise descrito em",
+          "alternativas": {
+            "A": "I refere-se à análise bottom-up e em II, top-down.",
+            "B": "I refere-se à análise top-down e em II, bottom-up.",
+            "C": "ambas afirmativas referem-se à análise bottom-up.",
+            "D": "ambas afirmativas referem-se à análise top-down."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 10,
+          "codigo": "512101",
+          "pergunta": "A respeito de Gestão de Carteiras de Renda Fixa com relação a um benchmark, é correto afirmar que:",
+          "alternativas": {
+            "A": "o objetivo da Indexação Pura é proporcionar algum retorno ativo, mas com risco ativo nulo.",
+            "B": "a Indexação Reforçada proporciona alguma flexibilidade ao gestor, permitindo elaborar estratégias para superar o benchmark, mas com altos custos de transação.",
+            "C": "a Indexação Pura através da replicação literal de um índice é muitas vezes impraticável.",
+            "D": "a Gestão Ativa busca acompanhar a variação do benchmark de referência."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 11,
+          "codigo": "512102",
+          "pergunta": "A Indexação Reforçada, como estratégia de Gestão de Carteiras de Renda Fixa com relação a um benchmark, tem a seguinte característica:",
+          "alternativas": {
+            "A": "casa todas as exposições primárias de risco do índice de referência, mas não de todos os ativos.",
+            "B": "proporciona elevados retornos ativos, mas também com alto tracking error.",
+            "C": "tem como objetivo superar o benchmark de referência, mas com elevados custos de transação.",
+            "D": "o gestor não possui qualquer flexibilidade para atuar."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 12,
+          "codigo": "512201",
+          "pergunta": "Sejam as seguintes afirmações sobre a estratégia de imunização de carteiras de Renda Fixa:\n\n**I** — O principal objetivo é mitigar ou até mesmo neutralizar o risco da variação do preço dos ativos em função de mudanças na curva de juros.\n\n**II** — Pode ser decomposta em duas partes: risco de preço e risco de reinvestimento.\n\n**III** — O aumento das taxas de juros tem um efeito negativo sobre o reinvestimento.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 13,
+          "codigo": "512202",
+          "pergunta": "No processo de imunização de carteiras de Renda Fixa, a estratégia da Key Rate Duration consiste em:",
+          "alternativas": {
+            "A": "comprar títulos de mesma quantidade em ambas as extremidades da curva de juros para reduzir a volatilidade do preço da carteira.",
+            "B": "adquirir vários títulos com vencimentos iguais aos dos passivos e, assim, neutralizar o risco de preços e de reinvestimento.",
+            "C": "escalonar a compra de títulos ao longo de vários vencimentos da curva de juros, aumentando a diversificação da carteira.",
+            "D": "concentrar-se em determinados prazos de taxas de juros que podem representar maiores variações no preço, dada uma mudança na taxa de juros."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 14,
+          "codigo": "512203",
+          "pergunta": "Por conta da convexidade positiva da relação entre preço e taxa de juros, o preço do ativo:",
+          "alternativas": {
+            "A": "sobe mais rapidamente com a queda dos juros e cai mais rapidamente com a elevação dos juros.",
+            "B": "sobe mais rapidamente com a queda dos juros e cai mais lentamente com a elevação dos juros.",
+            "C": "sobe mais lentamente com a queda dos juros e cai mais rapidamente com a elevação dos juros.",
+            "D": "sobe mais lentamente com a queda dos juros e cai mais lentamente com a elevação dos juros."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 15,
+          "codigo": "512205",
+          "pergunta": "Um gestor de uma carteira de títulos prefixados possui uma expectativa de elevação das taxas de juros acima do que está implícita na estrutura a termo. Se o gestor estiver correto, as taxas de curto prazo se manterão e a inclinação da curva de rendimento aumentará de forma significativa. Esse gestor só pode assumir posições compradas e está avaliando três estruturas com a mesma duration para a sua carteira: bullet, ladder e barbell. Caso tal cenário se materialize, as estruturas com menor e maior perdas serão, respectivamente:",
+          "alternativas": {
+            "A": "Barbell e Bullet",
+            "B": "Bullet e Barbell",
+            "C": "Bullet e Ladder",
+            "D": "Barbell e Ladder"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 16,
+          "codigo": "512207",
+          "pergunta": "Uma carteira barbell, composta por títulos de renda fixa com vencimento em dois anos e vinte anos, é gerida em relação a um único passivo, que possui data de pagamento em dez anos. Essa carteira, inicialmente, encontra-se imunizada (duration matching). Caso ocorra um aumento na taxa de juros com deslocamento paralelo ou flat, a variação do valor de mercado da carteira de ativos, comparada à variação do valor de mercado do passivo, deverá apresentar:",
+          "alternativas": {
+            "A": "Maior oscilação, pois a convexidade dos ativos é menor do que a convexidade dos passivos.",
+            "B": "Menor oscilação, pois a convexidade dos ativos é maior do que a convexidade dos passivos.",
+            "C": "Menor oscilação, pois a convexidade dos ativos é menor do que a convexidade dos passivos.",
+            "D": "Maior oscilação, pois a convexidade dos ativos é maior do que a convexidade dos passivos."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 17,
+          "codigo": "104164",
+          "pergunta": "Um gestor de renda fixa poderá alterar a sua carteira para minimizar as perdas com um aumento da taxa de juros por meio da:",
+          "alternativas": {
+            "A": "Venda de Letras do Tesouro Nacional (LTN) e compra de Letras Financeiras do Tesouro (LFT) de mesmo prazo.",
+            "B": "Compra de Letras do Tesouro Nacional (LTN) e venda de Letras Financeiras do Tesouro (LFT) de mesmo prazo.",
+            "C": "Compra de Letras do Tesouro Nacional (LTN) e compra de Letras Financeiras do Tesouro (LFT) de mesmo prazo.",
+            "D": "Venda de Letras do Tesouro Nacional (LTN) e venda de Letras Financeiras do Tesouro (LFT) de mesmo prazo."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 18,
+          "codigo": "308101",
+          "pergunta": "Considere as seguintes afirmativas a respeito do índice S&P/B3 Brasil ESG:\n\n**I** — Tem como objetivo medir a performance das empresas com as melhores práticas de sustentabilidade baseadas em critérios ASG.\n\n**II** — Pode servir como índice de referência para ETFs ASG.\n\n**III** — Adota como principal fator de ponderação as notas ASG das companhias elegíveis à carteira teórica, através de uma metodologia proprietária da Standard&Poor's.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 19,
+          "codigo": "515303",
+          "pergunta": "Um titulo de renda fixa de uma empresa brasileira, emitido no mercado norte-americano com vencimento em sete anos, é negociado atualmente a 94% do par e possui cupom de 6,00% ao ano, com pagamento semestral de juros. O título não tem qualquer opção embutida. A duração efetiva (effective duration) desse papel é, aproximadamente:",
+          "alternativas": {
+            "A": "5,40.",
+            "B": "5,58.",
+            "C": "5,87.",
+            "D": "6,72"
+          },
+          "resposta_correta": "B",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 20,
+          "codigo": "513103",
+          "pergunta": "Sobre o Mercado de Balcão (Over-the-Counter) nos Estados Unidos, considere as seguintes afirmativas:\n\n**I** — É acessado por emissores de porte reduzido.\n\n**II** — Não é regulado, sendo restrito a grandes investidores (Accredited Investors).\n\n**III** — Amplamente descentralizado.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 21,
+          "codigo": "513202",
+          "pergunta": "Com relação aos tipos de Municipal Bonds (Munis), é correto afirmar que:",
+          "alternativas": {
+            "A": "General Obligations (GO) são títulos que pagam rendimento associado às receitas de um projeto específico.",
+            "B": "Os recursos para pagamento dos detentores de Revenue Bonds provêm da arrecadação do município que o emitiu.",
+            "C": "General Obligations (GO) possuem menor risco que os Revenue Bonds.",
+            "D": "Revenue Bonds geralmente oferecem menores retornos que o General Obligations."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 22,
+          "codigo": "513204",
+          "pergunta": "A respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities), podemos dizer que são:\n\n**I** — Emitidas pelo Tesouro norte-americano.\n\n**II** — Títulos que possuem duration maior que o título original de mesma taxa de cupom e mesmo prazo.\n\n**III** — Títulos negociáveis e sem pagamento de cupom.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 23,
+          "codigo": "303509",
+          "pergunta": "Dentre as alternativas abaixo, os títulos negociados no mercado norte americano que não possuem risco de reinvestimentos são:",
+          "alternativas": {
+            "A": "T-Bills e Commercial Papers",
+            "B": "T-Bills e TIPS",
+            "C": "T-Bonds e T-Notes",
+            "D": "T-Bonds e TIPS"
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 24,
+          "codigo": "303521",
+          "pergunta": "Um T-Bond está sendo negociado com remuneração de 6% ao ano e possui uma taxa de cupom de 5% ao ano. Desta forma, esse título está sendo negociado:",
+          "alternativas": {
+            "A": "Com ágio.",
+            "B": "Com deságio.",
+            "C": "No par.",
+            "D": "Prematuramente."
+          },
+          "resposta_correta": "B",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 25,
+          "codigo": "303523",
+          "pergunta": "Considere as seguintes afirmativas abaixo em relação as TIPS (Treasury Inflation Protected Securities):\n\n**I** — Tem seu preço ajustado de acordo com a inflação.\n\n**II** — O valor dos cupons recebidos não variam até o vencimento.\n\n**III** — Não tem seu valor de face alterado, mesmo que ocorra deflação.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 26,
+          "codigo": "207331",
+          "pergunta": "Em relação ao Índice de Sharpe, é correto afirmar que:",
+          "alternativas": {
+            "A": "relaciona o excesso de retorno do fundo sobre o benchmark com o desvio-padrão.",
+            "B": "relaciona o excesso de retorno do fundo sobre a taxa livre de risco com o risco diversificável.",
+            "C": "assume que os retornos do fundo analisado são normalmente distribuídos.",
+            "D": "relaciona o excesso de retorno do fundo sobre a taxa livre de risco com o risco sistêmico."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 27,
+          "codigo": "514101",
+          "pergunta": "Sobre o uso das taxas Time-Weighted (TW) e Money-Weighted (MW) no cálculo do retorno de uma carteira administrada, pode-se afirmar que as taxas:\n\n**I** — TW não são influenciadas por aportes e saídas de recursos.\n\n**II** — MW devem ser recalculadas a cada aporte ou saída de recursos.\n\n**III** — TW são mais apropriadas se o gestor da carteira não tiver controle sobre o fluxo de aportes e resgates de recursos.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 28,
+          "codigo": "514203",
+          "pergunta": "A respeito do benchmark Universo de Gestores, considere as seguintes afirmativas:\n\n**I** — Pode ser considerado mensurável e adequado.\n\n**II** — Está sujeito ao survivorship bias (viés de sobrevivência).\n\n**III** — Não pode ser especificado de antemão nem replicado.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 29,
+          "codigo": "207307",
+          "pergunta": "Avalie as afirmativas a respeito do índice de Treynor:\n\n**I** — O ativo é mais atraente quanto maior for o índice.\n\n**II** — É uma medida apropriada se o fundo de investimentos for suficientemente diversificado.\n\n**III** — É uma medida de retorno excedente de um ativo semelhante ao Índice Sharpe, com a diferença que utiliza o desvio padrão como medida de risco.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 30,
+          "codigo": "207329",
+          "pergunta": "Considere as seguintes afirmativas sobre o Tracking Error:\n\n**I** — Serve para mensurar o risco do ativo não entregar o seu devido benchmark.\n\n**II** — Quanto maior o seu valor, maiores são as oscilações perante o benchmark.\n\n**III** — Quanto menor o índice, menor a aderência do fundo em relação ao seu parâmetro de performance.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I, apenas",
+            "B": "II, apenas",
+            "C": "I e II, apenas",
+            "D": "I, II e III"
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 31,
+          "codigo": "207342",
+          "pergunta": "Um fundo de investimento indexado a um benchmark apresentou alta volatilidade nos meses de verão e baixa volatilidade nas demais estações do ano. Dessa forma, espera-se que o VaR (Value at Risk) do fundo em uma análise dos retornos dos últimos dois anos:",
+          "alternativas": {
+            "A": "superestima o VaR em todas as estações.",
+            "B": "superestima o VaR dos verões e subestima o VaR das demais estações.",
+            "C": "subestima o VaR dos verões e superestima o VaR das demais estações.",
+            "D": "subestima o VaR em todas as estações."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 32,
+          "codigo": "515101",
+          "pergunta": "Com o objetivo de garantir a continuidade dos negócios, os controles e as atividades de prevenção a riscos operacionais devem ser mais enfatizados em atividades que ocorrem com",
+          "alternativas": {
+            "A": "alta frequência e podem gerar alto impacto financeiro.",
+            "B": "baixa frequência e podem gerar alto impacto financeiro.",
+            "C": "alta frequência e podem gerar baixo impacto financeiro.",
+            "D": "baixa frequência e podem gerar baixo impacto financeiro."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 33,
+          "codigo": "207209",
+          "pergunta": "Um título prefixado com maturidade de 6 anos, paga cupom semestral de 3% e o principal no seu vencimento. Podemos afirmar que a duration de Macaulay deste título é:",
+          "alternativas": {
+            "A": "Igual a 3 anos.",
+            "B": "Um pouco inferior a 3 anos.",
+            "C": "Igual a 6 anos.",
+            "D": "Um pouco inferior a 6 anos."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 34,
+          "codigo": "515402",
+          "pergunta": "No cálculo da perda esperada para títulos de crédito, devem ser consideradas:\n\n**I** — Duration do título.\n\n**II** — Probabilidade de default.\n\n**III** — Taxa de recuperação.\n\nEstá correto em o que se afirma em:",
+          "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "I e II, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 35,
+          "codigo": "427315",
+          "pergunta": "Um investidor, que possui R$ 100 milhões para investir, opta por rebalancear sua carteira conforme a técnica CPPI (Constant Proportion Portfolio Insurance). Para tal, define piso de R$ 80 milhões, multiplicador 5 e elege apenas dois ativos para compor a carteira: ativo com risco e ativo livre de risco. No momento do primeiro rebalanceamento, desde a alocação inicial, os ativos com risco sofreram desvalorização de 5%. Com base na técnica CPPI, nesse primeiro rebalanceamento, com relação ao ativo livre de risco, o investidor deveria:",
+          "alternativas": {
+            "A": "Comprar R$ 25 milhões.",
+            "B": "Vender R$ 20 milhões.",
+            "C": "Comprar R$ 20 milhões.",
+            "D": "Vender R$ 25 milhões."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 36,
+          "codigo": "303198",
+          "pergunta": "Um gestor de renda fixa avalia uma carteira composta por três títulos públicos, conforme tabela abaixo. Dessa forma, o valor de mercado dessa carteira é de aproximadamente:",
+          "alternativas": {
+            "A": "R$ 1.377.220,00",
+            "B": "R$ 1.397.233,99",
+            "C": "R$ 1.513.806,19",
+            "D": "R$ 1.555.000,00"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s1q36.png"
+        },
+        {
+          "numero": 37,
+          "codigo": "207201",
+          "pergunta": "Em relação ao conceito de Duration e suas variáveis, podemos afirmar que:\n\n**I** — Quanto maior o cupom pago pelo título, maior será a sua Duration.\n\n**II** — Quanto maior a frequência de pagamentos dos cupons, menor será a Duration dos títulos.\n\n**III** — A variação da taxa de juros possui um relação direta com o preço dos títulos prefixados.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I, apenas",
+            "B": "II, apenas",
+            "C": "I e III, apenas",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 38,
+          "codigo": "105166",
+          "pergunta": "Considere as seguintes afirmativas sobre a taxa de performance em fundos de investimento:\n\n**I** — Deverá ser vinculada a um índice de referência verificável, originado por fonte independente, compatível com a política de investimentos do fundo.\n\n**II** — Poderá ser vinculada a percentual inferior a 100% do índice de referência.\n\n**III** — A cobrança deverá ser realizada em um período de, no mínimo, 6 meses.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "III, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 39,
+          "codigo": "105167",
+          "pergunta": "São obrigações do Administrador nos fundos de investimentos financeiros:\n\n**I** — Verificar, após a realização das operações pelo gestor, a compatibilidade dos preços praticados com os preços de mercado.\n\n**II** — Verificar, após a realização das operações pelo gestor, em periodicidade compatível com a política de investimentos da classe, a observância da carteira de ativos aos limites de composição, concentração e, se for o caso, de exposição ao risco de capital.\n\n**III** — Contratar o Custodiante.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 40,
+          "codigo": "101278",
+          "pergunta": "Devem ser registrados em sistema de registro ou serem objeto de depósito central:\n\n**I** — Ativos financeiros negociados no mercado brasileiro.\n\n**II** — Ativos financeiros emitidos por companhia aberta.\n\n**III** — Cotas de classes abertas.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "I.",
+            "D": "II."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 41,
+          "codigo": "105348",
+          "pergunta": "As classes de cotas de FIF (Fundo de Investimento Financeiro) devem observar os seguintes limites de concentração ao aplicar em ativos financeiros no exterior:\n\n**I** — Ilimitado para classes categorizadas como Renda Fixa – Dívida Externa.\n\n**II** — Até 40% do patrimônio líquido para classes exclusivamente destinadas a investidores profissionais.\n\n**III** — Até 20% do patrimônio líquido para as classes destinadas ao público em geral.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "I.",
+            "D": "III."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 42,
+          "codigo": "105322",
+          "pergunta": "A classe dos fundos de investimentos de renda fixa devem possuir um percentual mínimo do seu patrimônio líquido investidos em ativos relacionados diretamente ao fator de risco que dá nome à classe de:",
+          "alternativas": {
+            "A": "50%",
+            "B": "67%",
+            "C": "80%",
+            "D": "95%"
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 43,
+          "codigo": "105351",
+          "pergunta": "A classe de cotas deve observar, como regra geral, os seguintes limites máximos de concentração por emissor:",
+          "alternativas": {
+            "A": "até 20% do patrimônio líquido quando o emissor for companhia aberta.",
+            "B": "até 40% do patrimônio líquido quando o emissor for fundo de investimento.",
+            "C": "até 50% do patrimônio líquido quando a política de investimento prever a aquisição de ativos de uma única emissão de valores mobiliários.",
+            "D": "até 20% do patrimônio líquido quando o emissor for instituição financeira autorizada a funcionar pelo Banco Central do Brasil."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 44,
+          "codigo": "304508",
+          "pergunta": "Rafael aplicou R$ 100.000,00 em um Fundo de Renda Fixa Curto Prazo aberto no dia 01/08/2024. No final do último dia de novembro do mesmo ano, ele percebeu que estava com uma rentabilidade 10%. Desta forma, o valor que Rafael terá no primeiro dia útil de Dezembro será de:",
+          "alternativas": {
+            "A": "R$ 110.000,00",
+            "B": "R$ 108.500,00",
+            "C": "R$ 108.000,00",
+            "D": "R$ 107.750,00"
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 45,
+          "codigo": "105504",
+          "pergunta": "As perdas apuradas no resgate de cotas de fundos de investimento podem ser compensadas, ressalvadas situações especiais, no mesmo ou em outro fundo de investimento administrado:",
+          "alternativas": {
+            "A": "Por qualquer pessoa jurídica.",
+            "B": "Pela mesma pessoa jurídica.",
+            "C": "Por qualquer associado à ANBIMA.",
+            "D": "Prejuízo em fundos de investimentos não podem ser compensados."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "nome": "CGA: SIMULADO (02)",
+      "questoes": [
+        {
+          "numero": 1,
+          "codigo": "511208",
+          "pergunta": "Na comparação entre os métodos de indexação de uma carteira de renda variável por full replication e optimization, aquele que apresenta maior frequência requerida de rebalanceamento, maiores custos de implementação e menor tracking error é respectivamente:",
+          "alternativas": {
+            "A": "optimization, full replication e optimization.",
+            "B": "optimization, full replication e full replication.",
+            "C": "full replication e full replication e optimization.",
+            "D": "optimization, optimization e full replication."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 2,
+          "codigo": "427343",
+          "pergunta": "Considere as seguintes afirmativas a respeito de metodologias utilizadas para a gestão passiva de fundos de ações:\n\n**I** — A técnica de full replication é a mais adequada, independentemente da liquidez dos ativos que compõem o índice.\n\n**II** — Um gestor passivo pode utilizar derivativos e técnicas de otimização.\n\n**III** — Se os custos de transação forem elevados, pode-se gerir passivamente um fundo por meio da técnica de amostragem estratificada.\n\nÉ correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 3,
+          "codigo": "511207",
+          "pergunta": "A utilização de contratos futuros de um índice de ações para a indexação de uma carteira:\n\n**I** — Sujeita-se ao risco de taxa de juros.\n\n**II** — Permite o uso de uma estratégia de \"enhanced cash\" caso parte da carteira seja investida em ativos de renda fixa que paguem um prêmio sobre os títulos do tesouro.\n\n**III** — Isenta a carteira de ajustes diários nesses contratos.\n\nÉ correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 4,
+          "codigo": "427336",
+          "pergunta": "A estratégia de investimento:\n\n**I** — Long-Only pode usar a análise fundamentalista para encontrar ações subavaliadas.\n\n**II** — Long-Only pode gerar dois alfas.\n\n**III** — Long-and-Short tem como objetivo eliminar o risco não-sistemático da carteira.\n\n**IV** — Market-Neutral tem como um dos objetivos eliminar o risco sistemático da carteira.\n\nÉ correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e IV, apenas.",
+            "B": "I, III e IV, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II, III e IV."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 5,
+          "codigo": "511502",
+          "pergunta": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:\n\n**I** — o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos.\n\n**II** — as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices.\n\n**III** — os dois métodos não podem ser combinados na gestão de uma carteira de renda variável.\n\nÉ correto o que se afirma em",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 6,
+          "codigo": "427322",
+          "pergunta": "Sobre os estilos de gestão Value e Growth, é correto afirmar que:",
+          "alternativas": {
+            "A": "Investidores que defendem a teoria de Finanças Comportamentais darão preferência ao estilo Growth.",
+            "B": "O estilo Value assume que as ações estão corretamente precificadas.",
+            "C": "Ações blue chips estão entre as preferidas dos investidores Growth.",
+            "D": "Empresas do setor de tecnologia geralmente são exemplos de ações escolhidas por investidores que optam pelo estilo growth."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 7,
+          "codigo": "516101",
+          "pergunta": "Considere as seguintes afirmativas a respeito do processo de seleção de gestores:\n\n**I** — A existência de áreas de risco e compliance, com a devida independência em relação à área de gestão, é um ponto a ser observado pelo gestor, embora não seja uma exigência regulamentação de fundos no Brasil.\n\n**II** — A análise da qualidade da gestão de uma empresa de asset management deve considerar não apenas seus fundos atuais, mas também os fundos encerrados, reduzindo o viés de sobrevivência (Survivorship Bias).\n\n**III** — As práticas como cherry picking devem ser identificadas e consideradas pelo gestor ao realizar sua avaliação.\n\nÉ correto o que se afirma em",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 8,
+          "codigo": "511501",
+          "pergunta": "Considere as seguintes afirmativas:\n\n**I** — Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro.\n\n**II** — Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento.\n\nPode-se afirmar que o processo de análise descrito em",
+          "alternativas": {
+            "A": "I refere-se à análise bottom-up e em II, top-down.",
+            "B": "I refere-se à análise top-down e em II, bottom-up.",
+            "C": "ambas afirmativas referem-se à análise bottom-up.",
+            "D": "ambas afirmativas referem-se à análise top-down."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 9,
+          "codigo": "427328",
+          "pergunta": "Um gestor de fundos de investimento adota uma estratégia que contempla a aquisição de ações de empresas com patrimônio líquido inferior a sua capitalização de mercado e com relação Preço/Lucro (P/L) acima da média de mercado. Esse estilo de investimento é denominado:",
+          "alternativas": {
+            "A": "Growth.",
+            "B": "Value.",
+            "C": "Blend.",
+            "D": "Small Caps."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 10,
+          "codigo": "512103",
+          "pergunta": "A gestão de um Fundo de Renda Fixa por meio da estratégia de Indexação Reforçada busca:\n\n**I** — Oferecer maior retorno pela redução dos custos de construção e manutenção da carteira.\n\n**II** — Imunizar a carteira contra variações no nível e no formato da curva de juros.\n\n**III** — Replicar os principais fatores de risco do benchmark desse fundo.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 11,
+          "codigo": "512204",
+          "pergunta": "O processo de imunização de carteiras com um passivo único, considerando-se apenas os riscos ligados à taxa de juros, será mais eficientemente implementado através da aplicação em:",
+          "alternativas": {
+            "A": "dois títulos sem cupom, um dez anos antes e outro, dez anos depois do vencimento do passivo, pois não apresentará risco de imunização, independentemente dos movimentos da curva de rendimento.",
+            "B": "um único título sem pagamento de cupom, que possua o mesmo valor futuro e mesma duration que o passivo, mas apresentará risco de imunização em caso de mudanças paralelas nas curvas de juros.",
+            "C": "dois títulos sem cupom, um dez anos antes e outro, dez anos depois do vencimento do passivo, mas apresentará risco de imunização em movimentos paralelos da curva de juros.",
+            "D": "um único título sem pagamento de cupom, que possua o mesmo valor futuro e a mesma data de vencimento que o passivo, pois não apresentará risco de imunização, independentemente dos movimentos da curva de rendimento."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 12,
+          "codigo": "512302",
+          "pergunta": "Um gestor de uma carteira de títulos prefixados possui uma expectativa de redução das taxas de juros acima do que está implícita na estrutura a termo. Se o gestor estiver correto, as taxas de curto prazo se manterão e a inclinação da curva de rendimento diminuirá de forma significativa. Esse gestor só pode assumir posições compradas e está avaliando três estruturas com a mesma duration para a sua carteira: bullet, ladder e barbell. Caso tal cenário se materialize, as estruturas com menor e maior ganhos serão, respectivamente:",
+          "alternativas": {
+            "A": "Barbell e Bullet.",
+            "B": "Bullet e Barbell.",
+            "C": "Bullet e Ladder.",
+            "D": "Barbell e Ladder."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 13,
+          "codigo": "512208",
+          "pergunta": "Considere as seguintes afirmativas sobre Spread Duration:\n\n**I** — Mede a sensibilidade do preço de um título privado a mudanças em seu spread de crédito.\n\n**II** — É uma estratégia de imunização de carteiras de Renda Fixa.\n\n**III** — É uma medida irrelevante em se tratando de títulos do tipo plain-vanilla com cupom fixo pois não acrescenta qualquer informação nova sobre a carteira, sendo idêntica à duration modificada desse título.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 14,
+          "codigo": "104165",
+          "pergunta": "Um gestor de renda fixa poderá alterar a sua carteira para maximizar os ganhos com uma redução da taxa de juros por meio da:",
+          "alternativas": {
+            "A": "venda de Letras do Tesouro Nacional (LTN) e compra de Letras Financeiras do Tesouro (LFT) de mesmo prazo.",
+            "B": "compra de Letras do Tesouro Nacional (LTN) e venda de Letras Financeiras do Tesouro (LFT) de mesmo prazo.",
+            "C": "compra de Letras do Tesouro Nacional (LTN) e compra de Letras Financeiras do Tesouro (LFT) de mesmo prazo.",
+            "D": "venda de Letras do Tesouro Nacional (LTN) e venda de Letras Financeiras do Tesouro (LFT) de mesmo prazo."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 15,
+          "codigo": "303194",
+          "pergunta": "Rafael comprou uma debênture brasileira com vencimento em 4 anos, por R$ 1.058,00. Ela tem um cupom de 10% a.a, com pagamento anual. Desta forma, qual a duration de Macaulay do título que Rafael adquiriu?",
+          "alternativas": {
+            "A": "3,28 anos.",
+            "B": "3,50 anos.",
+            "C": "3,56 anos.",
+            "D": "4,00 anos."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 16,
+          "codigo": "512104",
+          "pergunta": "Na gestão de um fundo de renda fixa que utiliza a estratégia de indexação pura em relação a um benchmark de mercado, são fatores que dificultam a minimização do tracking error da carteira:",
+          "alternativas": {
+            "A": "o grande número de títulos que compõem o benchmark e a elevada liquidez desses papéis no mercado secundário.",
+            "B": "o grande número de títulos que compõem o benchmark e a baixa liquidez desses papéis no mercado secundário.",
+            "C": "o pequeno número de títulos que compõem o benchmark e a elevada liquidez desses papéis no mercado secundário.",
+            "D": "o pequeno número de títulos que compõem o benchmark e a baixa liquidez desses papéis no mercado secundário."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 17,
+          "codigo": "303143",
+          "pergunta": "Um gestor de renda fixa recebe da área de research, a Estrutura a Termo de Taxa de Juros atual e a expectativa da área quanto ao comportamento da curva nos vértices 2 anos, 5 anos e 10 anos. Ele analisa então 4 carteiras, formadas por títulos sem cupom de 2, 5 e 10 anos de vencimento. Se a área de research estiver correta, e as previsões se concretizarem, o gestor deveria, para maximizar os ganhos, investir na carteira:",
+          "alternativas": {
+            "A": "A.",
+            "B": "B.",
+            "C": "C.",
+            "D": "D."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s2q17.png"
+        },
+        {
+          "numero": 18,
+          "codigo": "513104",
+          "pergunta": "Considere as seguintes informações a respeito de ações do setor de utilities nos Estudos Unidos:\n\n**I** — Apresentam alta variabilidade no pagamento de dividendos.\n\n**II** — Oferecem aos acionistas retornos com baixa correlação em relação ao índice de mercado.\n\n**III** — Estão sujeitas a intensa carga regulatória.\n\nEstá correto o que se afirma em",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 19,
+          "codigo": "513201",
+          "pergunta": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:\n\n**I** — São emitidos apenas por cidades norte-americanas.\n\n**II** — Há dois principais tipos: Revenue Bonds e General Obligations.\n\n**III** — Os rendimentos são isentos de tributação.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 20,
+          "codigo": "513101",
+          "pergunta": "Representam possíveis operações de serem realizadas no Mercado de Balcão (Over-the-Counter) nos Estados Unidos:\n\n**I** — O Market Maker pode vender ações diretamente para investidores.\n\n**II** — Fundo de Investimento e Banco são contrapartes de uma operação de swap.\n\n**III** — Investidor vende block trade de ações via bolsa.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 21,
+          "codigo": "513203",
+          "pergunta": "Os títulos emitidos no mercado norte-americano cujos pagamentos de principal e juros são separados e negociados como ativos individuais são chamados:",
+          "alternativas": {
+            "A": "TIPS.",
+            "B": "STRIPS.",
+            "C": "Revenue Bonds.",
+            "D": "T-Bill."
+          },
+          "resposta_correta": "B",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 22,
+          "codigo": "513205",
+          "pergunta": "Quando ocorre a emissão de uma STRIPS (Separated Trading of Registered Interest and Principal of Securities), podemos afirmar que a duration dos títulos formados a partir dos cupons, em relação à duration do título que deu origem à STRIPS:",
+          "alternativas": {
+            "A": "pode ser menor ou maior.",
+            "B": "é maior.",
+            "C": "é igual.",
+            "D": "é menor."
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 23,
+          "codigo": "303530",
+          "pergunta": "Um título de renda fixa corporativo, emitido no mercado norte-americano, é negociado atualmente a 91,80% de seu valor de face, o que representa um Yield to Maturity de 5,60%. Seu vencimento será em 10 anos e a taxa de cupom anual paga pelo emissor é 4,375%. Podemos então afirmar que o Current Yield (rendimento corrente) desse título é:",
+          "alternativas": {
+            "A": "maior do que a taxa de cupom anual e menor do que o Yield to Maturity.",
+            "B": "menor do que a taxa de cupom anual e menor do que o Yield to Maturity.",
+            "C": "menor do que a taxa de cupom anual e maior do que o Yield to Maturity.",
+            "D": "maior do que a taxa de cupom anual e maior do que o Yield to Maturity."
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 24,
+          "codigo": "207320",
+          "pergunta": "Considerando os dados da tabela abaixo, caso seu cliente queira que você o indique o fundo que possui menores chances de se descolar do seu benchmark, você deveria indicar o:",
+          "alternativas": {
+            "A": "Fundo X, pois possui menor tracking error.",
+            "B": "Fundo Y, pois possui maior tracking error.",
+            "C": "Fundo X, pois possui menor desvio padrão.",
+            "D": "Fundo Y, pois possui maior desvio padrão."
+          },
+          "resposta_correta": "A",
+          "tema": "Avaliação de Desempenho",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s2q24.png"
+        },
+        {
+          "numero": 25,
+          "codigo": "207332",
+          "pergunta": "Dois fundos de investimentos, A e B, possuem o mesmo Índice de Sharpe, mas o fundo de investimentos A apresenta risco superior ao do fundo B. Se dentre as variáveis, apenas a taxa livre de risco subir, podemos afirmar que:",
+          "alternativas": {
+            "A": "os fundos continuarão com os mesmos índices de Sharpe.",
+            "B": "os índices de Sharpe dos fundos sofrerão alterações, mas ainda serão iguais para os dois fundos.",
+            "C": "o índice de Sharpe do fundo A passará a ser superior.",
+            "D": "o índice de Sharpe do fundo B passará a ser superior."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 26,
+          "codigo": "306413",
+          "pergunta": "Seja uma carteira com Índice de Sharpe de 1,8. Se a Taxa Livre de Risco for de 5% e o desvio-padrão do mercado for de 5%, é correto afirmar que o índice M2 da carteira é de",
+          "alternativas": {
+            "A": "5,00%",
+            "B": "11,80%",
+            "C": "14,00%",
+            "D": "16,80%"
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 27,
+          "codigo": "514304",
+          "pergunta": "Dentre os índices abaixo, o que relaciona Retorno Ativo com Risco Ativo é o:",
+          "alternativas": {
+            "A": "Sharpe.",
+            "B": "Treynor.",
+            "C": "M2.",
+            "D": "Information Ratio."
+          },
+          "resposta_correta": "D",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 28,
+          "codigo": "207305",
+          "pergunta": "Considerando o Índice Sharpe(IS) dos 3 fundos abaixo, podemos afirmar que:",
+          "alternativas": {
+            "A": "IS A > IS B",
+            "B": "IS B > IS C",
+            "C": "Não é possível determinar",
+            "D": "IS C > IS B"
+          },
+          "resposta_correta": "D",
+          "tema": "Avaliação de Desempenho",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s2q28.png"
+        },
+        {
+          "numero": 29,
+          "codigo": "514302",
+          "pergunta": "Dadas as informações a seguir, um gestor com um mandato ativo deveria optar pelo fundo com as seguintes características:",
+          "alternativas": {
+            "A": "Fundo I - Alfa = 2; Tracking Error = 3,9.",
+            "B": "Fundo II - Alfa = 1; Tracking Error = 1,5.",
+            "C": "Fundo III - Alfa = 1,2; Tracking Error = 2,5.",
+            "D": "Fundo IV - Alfa = 1,5; Tracking Error = 2,0."
+          },
+          "resposta_correta": "A",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 30,
+          "codigo": "515102",
+          "pergunta": "Considere as seguintes afirmativas sobre gestão de riscos:\n\n**I** — O diretor jurídico de uma asset management pode acumular a função de diretor de riscos, liberando assim o gestor para focar no que realmente importa da gestão.\n\n**II** — O administrador de recursos de terceiros pode exercer também a função de diretor de riscos.\n\n**III** — A atividade de gerenciamento de riscos deve ser segregada da unidade de negócios e unidade executora da atividade de auditoria interna.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 31,
+          "codigo": "515401",
+          "pergunta": "A diferença entre os credit spreads de um título, observada entre os mercados de títulos e de Credit Default Swap – CDS, é historicamente de 30 basis points. Momentaneamente, essa diferença caiu para 15 basis points. Diante desse cenário, a melhor opção para o investidor é montar uma posição",
+          "alternativas": {
+            "A": "comprada no título e vendida no CDS.",
+            "B": "vendida no título e comprada no CDS.",
+            "C": "comprada no título e comprada no CDS.",
+            "D": "vendida no título e vendida no CDS."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 32,
+          "codigo": "515701",
+          "pergunta": "Um gestor elabora uma carteira com os ativos X e Y, cuja correlação é 0,4. Uma unidade do ativo X possui VaR de R$ 350.000,00 e uma unidade do ativo Y, R$ 180.000,00. Se o gestor compõe o portfolio com duas unidades do ativo X e três unidades do ativo Y, o VaR dessa carteira será de aproximadamente:",
+          "alternativas": {
+            "A": "R$ 453.100,00",
+            "B": "R$ 676.240,00.",
+            "C": "R$ 1.041.153,00.",
+            "D": "R$ 1.240.000,00."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 33,
+          "codigo": "515204",
+          "pergunta": "A utilização da simulação de Monte Carlo para cálculo do Value at Risk (V@R) seria mais apropriada para uma carteira:",
+          "alternativas": {
+            "A": "composta apenas por ações.",
+            "B": "com muitas opções.",
+            "C": "de Renda Fixa que contenha diversos contratos de DI futuro.",
+            "D": "composta por contratos a termo."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 34,
+          "codigo": "515302",
+          "pergunta": "Um título de renda fixa apresenta duration modificada de 5,5. O ajuste de convexidade para uma variação de 125 basis points na taxa de juros é de 1,60%. Se a taxa de juros cair 125 basis points, a variação percentual estimada no preço desse título será de:",
+          "alternativas": {
+            "A": "3,90%.",
+            "B": "5,28%.",
+            "C": "7,10%.",
+            "D": "8,48%."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 35,
+          "codigo": "303197",
+          "pergunta": "Um gestor de renda fixa avalia uma carteira composto por três títulos públicos, conforme tabela abaixo. Dessa forma, a Duration de Macaulay desta carteira é aproximadamente de:",
+          "alternativas": {
+            "A": "273 dias úteis",
+            "B": "275 dias úteis",
+            "C": "283 dias úteis",
+            "D": "293 dias úteis"
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s2q35.png"
+        },
+        {
+          "numero": 36,
+          "codigo": "506202",
+          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de rebalanceamento corredor e por calendário.\n\n**I** — O rebalanceamento por corredor permite reações mais rápidas a desvios da alocação estratégica do que a estratégia por calendário.\n\n**II** — O rebalanceamento por calendário envolve menores custos de monitoramento, comparativamente à estratégia por corredor.\n\n**III** — No rebalanceamento por corredor, quanto maior a aversão a risco do cliente, menor o corredor.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 37,
+          "codigo": "105127",
+          "pergunta": "Segundo a Comissão de Valores Mobiliários (CVM), a classe de cotas que permite ao investidor conhecer o valor da cota no momento de sua aplicação é a:",
+          "alternativas": {
+            "A": "Multimercado",
+            "B": "Ações",
+            "C": "Cambial",
+            "D": "Renda fixa"
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 38,
+          "codigo": "105349",
+          "pergunta": "Como regra geral, poderão investir em ativos financeiros emitidos no exterior as classes de cotas de FIF (Fundo de Investimento Financeiro), de forma ilimitada as:",
+          "alternativas": {
+            "A": "Classes categorizadas como \"Renda Fixa – Dívida Externa\"",
+            "B": "Classes exclusivamente destinadas a investidores qualificados.",
+            "C": "Classes destinadas ao público em geral.",
+            "D": "Classes destinadas a investidores qualificados e profissionais."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 39,
+          "codigo": "105168",
+          "pergunta": "Em relação aos limites de concentração de um FIF (Fundo de Investimento Financeiro), podemos afirmar que:\n\n**I** — É de responsabilidade do gestor o cumprimento dos limites de composição e concentração de carteira, de exposição ao risco de capital e de concentração em fatores de risco.\n\n**II** — Caso ocorra desenquadramento, o gestor é responsável por encaminhar à CVM um plano de ação para o reenquadramento da carteira.\n\n**III** — Fica o Administrador responsável por reenquadrar a carteira do fundo aos limites preestabelecidos.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I.",
+            "B": "I e II.",
+            "C": "II.",
+            "D": "I e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 40,
+          "codigo": "105169",
+          "pergunta": "Nos fundos de investimento financeiro (FIF), as classes de cotas têm os seguintes prazos máximos para atingir os limites de concentração por emissor e por modalidade de ativo financeiro:\n\n**I** — 60 dias, a contar da data da primeira integralização de cotas, para as classes fechadas.\n\n**II** — 180 dias, a contar da data de encerramento da distribuição, para as classes abertas.\n\nCom relação a tais afirmações, podemos concluir que:",
+          "alternativas": {
+            "A": "a primeira está correta e a segunda, incorreta.",
+            "B": "a primeira está incorreta e a segunda, correta.",
+            "C": "ambas estão corretas.",
+            "D": "ambas estão incorretas."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 41,
+          "codigo": "105353",
+          "pergunta": "Em relação aos limites de concentração por modalidade de ativo financeiro em Fundo de Investimento Financeiro (FIF), considere as seguintes afirmativas:\n\n**I** — Não há limite de concentração por modalidade quando o investimento for em títulos públicos federais.\n\n**II** — Poderá ocorrer concentração do patrimônio líquido do fundo integralmente em debêntures emitidas por companhia aberta e objeto de oferta pública.\n\n**III** — Não é permitida a alocação total do patrimônio líquido do fundo em criptoativos.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "II e III, apenas.",
+            "C": "I e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 42,
+          "codigo": "105321",
+          "pergunta": "A classe de um fundo de investimento possui seu patrimônio aplicado com a seguinte distribuição. Qual é o fator mais prejudicial para essa classe?",
+          "alternativas": {
+            "A": "Alta na taxa de juros.",
+            "B": "Queda na cotação do dólar em 7%.",
+            "C": "Alta na cotação do dólar em 7%.",
+            "D": "Queda no índice Ibovespa em 5%."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s2q42.png"
+        },
+        {
+          "numero": 43,
+          "codigo": "105174",
+          "pergunta": "Os limites de composição e concentração de carteira, de exposição a risco de capital e de concentração em fatores de risco são responsabilidade do:",
+          "alternativas": {
+            "A": "Administrador.",
+            "B": "Gestor.",
+            "C": "Custodiante.",
+            "D": "Distribuidor."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 44,
+          "codigo": "304502",
+          "pergunta": "Um investidor aplicou R$ 63.000,00 em um fundo de investimento de Renda Fixa de Curto Prazo. Na data da aplicação deste fundo aberto, o valor da cota para convenção era de R$ 18,00. Após cinco meses, no último dia útil de novembro, houve uma antecipação de Imposto de Renda. Sabendo que nesta data o valor da cota era de R$ 20,00 cada, podemos afirmar que este investidor agora possui:",
+          "alternativas": {
+            "A": "3.500 cotas",
+            "B": "3.450 cotas",
+            "C": "3.430 cotas",
+            "D": "3.420 cotas"
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 45,
+          "codigo": "511402",
+          "pergunta": "Sejam as seguintes afirmativas a respeito dos critérios para gestores de fundos IS (Investimento Sustentável):\n\n**I** — Tratam da existência de um compromisso formal da sustentabilidade na atividade de gestão, com compromisso com a sustentabilidade, governança e transparência.\n\n**II** — O documento com detalhamento dos critérios deve estar disponível para consulta interna e pública e sofrer atualizações em períodos não superiores a 24 meses.\n\n**III** — A Resolução CVM 175 prevê a possibilidade de um fundo de investimento ser qualificado como sustentável.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "nome": "CGA: SIMULADO (03)",
+      "questoes": [
+        {
+          "numero": 1,
+          "codigo": "427322",
+          "pergunta": "Sobre os estilos de gestão Value e Growth, é correto afirmar que:",
+          "alternativas": {
+            "A": "Investidores que defendem a teoria de Finanças Comportamentais darão preferência ao estilo Growth.",
+            "B": "O estilo Value assume que as ações estão corretamente precificadas.",
+            "C": "Ações blue chips estão entre as preferidas dos investidores Growth.",
+            "D": "Empresas do setor de tecnologia geralmente são exemplos de ações escolhidas por investidores que optam pelo estilo growth."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 2,
+          "codigo": "306379",
+          "pergunta": "Um gestor deseja separar alfa e beta em sua carteira. Para isso, ele gostaria de compor o portfolio com dois tipos de investimento: um para gerar o retorno excedente em relação ao exigido pelo CAPM e outro para ter exposição ao risco sistêmico. Dentre as estratégias abaixo, a que atingiria esse objetivo seria respectivamente:",
+          "alternativas": {
+            "A": "LFT e ETF de Índice.",
+            "B": "LTN e ações do setor financeiro.",
+            "C": "ETF de índice e Long-Short.",
+            "D": "Long-Short e ETF de índice."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 3,
+          "codigo": "427338",
+          "pergunta": "Um investidor que adota o estilo growth mais provavelmente:",
+          "alternativas": {
+            "A": "focará no numerador do índice P/L para escolher quais ativos adquirir.",
+            "B": "pagará múltiplos fundamentalistas elevados.",
+            "C": "comprará ações blue chips.",
+            "D": "preferirá ações de empresas maduras e já consolidada em seus mercados."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 4,
+          "codigo": "306378",
+          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:\n\n**I** — O gestor busca retornos positivos explorando eventuais distorções de preços.\n\n**II** — É possível ganhar 3 alfas.\n\n**III** — Pode ter como objetivo eliminar o risco sistêmico.\n\nÉ correto o que se afirma em",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 5,
+          "codigo": "511314",
+          "pergunta": "Investidores que buscam empresas com crescimento consistente de lucros acima dos níveis gerais do mercado, mas excluem as companhias com avaliações muito elevadas, seguem o estilo de investimento chamado:",
+          "alternativas": {
+            "A": "Value.",
+            "B": "Growth.",
+            "C": "Long and Short.",
+            "D": "GARP."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 6,
+          "codigo": "427325",
+          "pergunta": "Dentre as alternativas abaixo, é uma provável característica de gestores estilo Value:",
+          "alternativas": {
+            "A": "acreditam nas Hipóteses do Mercado Eficiente.",
+            "B": "não valorizam uma política de elevada distribuição de dividendos.",
+            "C": "costumam investir em ações do setor de tecnologia.",
+            "D": "costumam investir em ações do setor de utilities."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 7,
+          "codigo": "511315",
+          "pergunta": "Com relação à Lei Fundamental da Gestão Ativa (Fundamental Law of Active Management), é correto afirmar que:",
+          "alternativas": {
+            "A": "Breadth refere-se ao número de tentativas independentes que o gestor efetuou com base em suas previsões.",
+            "B": "Information Coefficient mede a relação entre o retorno ativo e o risco ativo do gestor.",
+            "C": "Information Ration mede a habilidade do gestor a partir da correlação entre suas previsões e os retornos efetivamente obtidos.",
+            "D": "Quanto menor o Tracking Error, melhor a qualidade da gestão ativa."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 8,
+          "codigo": "511503",
+          "pergunta": "Uma gestora está interessada em estimar o crescimento da receita de um fabricante de computadores. Para isso, ela combina previsões sobre o crescimento das vendas do setor com hipóteses a respeito do market share do fabricante. A abordagem utilizada é denominada:",
+          "alternativas": {
+            "A": "Bottom-up.",
+            "B": "Análise Técnica.",
+            "C": "Cherry picking.",
+            "D": "Top-down."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 9,
+          "codigo": "511319",
+          "pergunta": "Um gestor de investimentos possui uma carteira indexada a um benchmark, mas gostaria de obter algum retorno ativo, mantendo estrito controle sobre o tracking error. Então, dentre as alternativas abaixo, a melhor opção para esse gestor seria implementar a estratégia",
+          "alternativas": {
+            "A": "Full Replication.",
+            "B": "Passiva.",
+            "C": "Ativa.",
+            "D": "Enhanced Indexing."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 10,
+          "codigo": "512213",
+          "pergunta": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:\n\n**I** — Quanto menor a duration do título, maior a convexidade.\n\n**II** — A convexidade positiva desse gráfico proporciona maior elevação dos preços dos títulos, quando as taxas de juros caem.\n\n**III** — O ajuste de convexidade é somado à Duration Modificada.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 11,
+          "codigo": "512306",
+          "pergunta": "Considere as seguintes informações sobre teorias de curvas de juros:\n\n**I** — A Teoria das Expectativas Puras defende que comportamento das taxas de juros reflete as expectativas dos agentes de mercado.\n\n**II** — A Teoria da Preferência por liquidez afirma que a curva de juros poderá ser positiva ou negativamente inclinada.\n\n**III** — A Teoria de Segmentação de Mercado se baseia na premissa de que os investidores têm preferência por determinados vencimentos da curva de juros.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 12,
+          "codigo": "512304",
+          "pergunta": "Um gestor deseja imunizar um passivo único de R$ 8 milhões com vencimento em oito anos. Das alternativas abaixo, a que proporcionaria uma imunização mais eficiente seria estruturar uma carteira:",
+          "alternativas": {
+            "A": "com vencimentos em até 5 anos com a estratégia Ladder.",
+            "B": "Barbell com vencimentos em 3 e 13 anos.",
+            "C": "com vencimentos em até 5 anos com a estratégia Bullet.",
+            "D": "com vencimentos em até 10 anos com a estratégia Ladder."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 13,
+          "codigo": "512105",
+          "pergunta": "Com relação à estratégia Enhanced Indexing para gestão de carteiras de renda fixa, considere as afirmativas abaixo: I. Para implementá-la, é necessário casar todas as exposições primárias de risco do índice, mas não de todos os ativos II. O objetivo é alcançar um acompanhamento mais eficiente do índice ao evitar replicar totalmente o benchmark, o que pode gerar um excesso de transações e, consequentemente, de custos, como acontece na indexação pura. III. Alguns dos riscos que a estratégia procura casar podem ser Duration Modificada e Key Rate Duration. Estão corretas apenas as afirmativas:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 14,
+          "codigo": "512305",
+          "pergunta": "Analisando a tabela a seguir sobre o comportamento das taxas de juros, pode-se afirmar que as taxas de 3 meses a 1 ano:",
+          "alternativas": {
+            "A": "subiram no último mês e as taxas de 1 a 30 anos subiram nos últimos 12 meses.",
+            "B": "caíram no último mês e as taxas de 2 a 30 anos subiram no último mês.",
+            "C": "subiram no último mês e as taxas de 2 a 30 anos subiram nos últimos 12 meses.",
+            "D": "caíram no último mês e as taxas de 3 meses a 30 anos subiram no último mês."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q14.png"
+        },
+        {
+          "numero": 15,
+          "codigo": "512402",
+          "pergunta": "A tabela a seguir representa a análise de atribuição de desempenho de dois gestores de Renda Fixa, para um determinado período. Se o retorno do benchmark foi de 1,12%, pode-se afirmar que os retornos atribuídos à gestão de taxa de juros dos gestores 1 e 2 foram respectivamente:",
+          "alternativas": {
+            "A": "0,15% e 0,46%.",
+            "B": "0,40% e 0,08%.",
+            "C": "0,20% e 0,34%.",
+            "D": "0,22% e 0,48%."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q15.png"
+        },
+        {
+          "numero": 16,
+          "codigo": "303535",
+          "pergunta": "Um gestor de renda fixa estuda 4 diferentes carteiras, variando o percentual alocado em T-Bills, T-Notes e T-Bonds. Se ele espera que a inclinação da curva aumente, conforme gráfico a seguir, a carteira menos prejudicada seria a:",
+          "alternativas": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q16.png"
+        },
+        {
+          "numero": 17,
+          "codigo": "303144",
+          "pergunta": "Um gestor de renda fixa tem a expectativa que a curva de juros futuros deverá sofrer uma torção a partir de quedas de diferentes magnitudes nos vértices 2 e 5 anos. Ele analisa 4 carteiras compostas por títulos sem cupom, com vencimentos em 2, 5 e 10 anos. Se suas expectativas estiverem corretas, a carteira que apresentaria a o melhor desempenho seria:",
+          "alternativas": {
+            "A": "A.",
+            "B": "B.",
+            "C": "C.",
+            "D": "D."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q17.png"
+        },
+        {
+          "numero": 18,
+          "codigo": "303146",
+          "pergunta": "Um gestor de Renda Fixa tem a expectativa que a curva de juros se movimente da seguinte forma:\n\n* Vencimento 2 anos: queda de 12% ao ano para 8% ao ano;\n* Vencimento 4 anos: elevação de 11% ao ano para 13% ao ano;\n* Vencimento 8 anos: manutenção em 7% ano.\n\nSe esse cenário se configurar, dentre as carteiras abaixo, que relacionam o peso da carteira total alocado em cada título sem cupom nos respectivos vencimentos, a que obteria o melhor desempenho seria:",
+          "alternativas": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q18.png"
+        },
+        {
+          "numero": 19,
+          "codigo": "513102",
+          "pergunta": "A respeito do Mercado de Balcão (Over-the-Counter) nos Estados Unidos, é correto afirmar:",
+          "alternativas": {
+            "A": "os ativos negociados geralmente têm alta liquidez.",
+            "B": "é acessado somente por emissores de elevada capitalização de mercado.",
+            "C": "o ambiente de negociações é altamente regulado.",
+            "D": "o bid-ask spread costuma ser maior do que no mercado de bolsa."
+          },
+          "resposta_correta": "D",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 20,
+          "codigo": "513207",
+          "pergunta": "Sobre o Eurodollar Certificate of Deposit (CD), é correto afirmar que:",
+          "alternativas": {
+            "A": "possuem garantia do FDIC.",
+            "B": "representa um tipo de investimento de renda fixa em dólares emitido na Europa.",
+            "C": "expõe o investidor ao risco soberano do país onde for emitido.",
+            "D": "representa um tipo de investimento de renda fixa em euros emitido fora dos Estados Unidos."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 21,
+          "codigo": "303531",
+          "pergunta": "Um título de renda fixa corporativo, emitido no mercado norte-americano, é negociado atualmente a 101,80% de seu valor de face, o que representa um Yield to Maturity de 4,15%. Seu vencimento será em 10 anos e a taxa de cupom anual paga pelo emissor é 4,375%. Podemos então afirmar que o Current Yield (rendimento corrente) desse título é:",
+          "alternativas": {
+            "A": "maior do que a taxa de cupom anual e menor do que o Yield to Maturity.",
+            "B": "menor do que a taxa de cupom anual e menor do que o Yield to Maturity.",
+            "C": "menor do que a taxa de cupom anual e maior do que o Yield to Maturity.",
+            "D": "maior do que a taxa de cupom anual e maior do que o Yield to Maturity."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 22,
+          "codigo": "513209",
+          "pergunta": "A respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities), podemos dizer que são:",
+          "alternativas": {
+            "A": "emitidas pelo Tesouro dos Estados Unidos a partir da separação do título original em principal e juros.",
+            "B": "negociáveis e têm pagamento de cupom semestral.",
+            "C": "títulos com duration menor que seu ativo subjacente.",
+            "D": "emitidas por instituições financeiras a partir da separação do título original em principal e juros."
+          },
+          "resposta_correta": "D",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 23,
+          "codigo": "425307",
+          "pergunta": "Com relação às common stocks, avalie as alternativas:\n\n**I** — São subordinadas às preferred stocks no caso de liquidação da empresa.\n\n**II** — São as ações de maior liquidez.\n\n**III** — São ações preferenciais que podem ser convertidas em ordinárias.\n\nEstá correto o que está afirmado em:",
+          "alternativas": {
+            "A": "I.",
+            "B": "I e II",
+            "C": "II e III.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 24,
+          "codigo": "425105",
+          "pergunta": "Um cliente brasileiro deseja investir em uma Eurobond com vencimento em 20 anos. Caso este título tenha uma proteção para o emissor, esta proteção seria através de uma:",
+          "alternativas": {
+            "A": "Cláusula de CALL com exercício a valor de mercado.",
+            "B": "Cláusula de CALL com exercício a valor fixo.",
+            "C": "Cláusula de PUT com exercício a valor de mercado.",
+            "D": "Cláusula de PUT com exercício a valor fixo."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 25,
+          "codigo": "207311",
+          "pergunta": "Suponha que duas carteiras têm o mesmo retorno médio e o mesmo desvio padrão de retorno, porém a carteira A tem um beta maior do que a carteira B. Pode-se afirmar que o índice de Sharpe da carteira A:",
+          "alternativas": {
+            "A": "É maior do que o da carteira B.",
+            "B": "É o mesmo da carteira B.",
+            "C": "É menor do que o da carteira B.",
+            "D": "Não é possível afirmar."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 26,
+          "codigo": "207315",
+          "pergunta": "A medida de risco utilizada no cálculo do Índice de Sharpe e do Índice de Treynor são respectivamente:",
+          "alternativas": {
+            "A": "Desvio Padrão e Correlação.",
+            "B": "Índice Beta e Desvio Padrão.",
+            "C": "VaR e Covariância.",
+            "D": "Desvio Padrão e Beta."
+          },
+          "resposta_correta": "D",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 27,
+          "codigo": "207335",
+          "pergunta": "Em um cenário no qual a Taxa Livre Risco está em 2%, dois fundos de investimentos apresentam as seguintes características: - Fundo A: Retorno = 8%; Desvio-padrão = 3%; Beta = 1,5 - Fundo B: Retorno = 6%; Desvio-padrão = 2%; Beta = 1,5 Caso apenas a Taxa Livre de Risco altere, subindo para 4%, pode-se afirmar que:",
+          "alternativas": {
+            "A": "o Fundo A passará a ter um Índice de Sharpe maior que o do Fundo B.",
+            "B": "o Fundo B passará a ter um Índice de Sharpe maior que o do Fundo A.",
+            "C": "os Índices de Sharpe de ambos os fundos serão impactados da mesma forma.",
+            "D": "o índice de Sharpe do Fundo B aumentará e o do Fundo A, diminuirá."
+          },
+          "resposta_correta": "A",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 28,
+          "codigo": "514102",
+          "pergunta": "Quando o gestor de um fundo não possui controle sobre aplicações e resgates, é mais correto utilizar, para avaliar o desempenho desse gestor, a medida:",
+          "alternativas": {
+            "A": "Money-Weighted Rate of Return (MWRR).",
+            "B": "Time-Weighted Rate of Return (TWRR).",
+            "C": "Taxa Interna de Retorno (TIR).",
+            "D": "Valor Presente Líquido (VPL)."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 29,
+          "codigo": "207333",
+          "pergunta": "Constitui uma limitação do Value at Risk:",
+          "alternativas": {
+            "A": "Deve ser verificado usando backtesting.",
+            "B": "O cálculo é muito complexo e requer uso intensivo de computação e algoritmos.",
+            "C": "É insensível à correlação dos ativos.",
+            "D": "Subestima a frequência de eventos extremos."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 30,
+          "codigo": "514104",
+          "pergunta": "Um fundo de investimento recebeu um aporte inicial de R$ 84.500.000,00 no dia 31/5. No dia 18/6, recebeu outro aporte, no valor de R$ 5.500.000,00. Se o MWRR (Money Weighted Rate of Return) no mês de junho foi de 2,5%, o patrimônio líquido do fundo em 30/6 será de aproximadamente:",
+          "alternativas": {
+            "A": "R$ 92.067.892,00.",
+            "B": "R$ 92.167.093,00.",
+            "C": "R$ 92.250.000,00.",
+            "D": "R$ 93.154.169,00."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 31,
+          "codigo": "515202",
+          "pergunta": "Considere as seguintes afirmativas sobre Value at Risk:\n\n**I** — O cálculo do VaR analítico ou paramétrico envolve relacionar os retornos passados, organizá-los em uma ordem e, após acumulá-los, identificar os menores retornos, de acordo com o percentual de confiança desejado.\n\n**II** — O VaR Histórico leva em consideração no seu cálculo a correlação entre os ativos, o coeficiente do intervalo de confiança, o volume da carteira e o prazo.\n\n**III** — O VaR de Monte Carlo é calculado da mesma forma que o VaR Histórico, mas a partir da geração aleatória de dados.\n\nEstá correto o que se afirma em apenas em:",
+          "alternativas": {
+            "A": "II e III.",
+            "B": "I e III.",
+            "C": "III.",
+            "D": "I e II."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 32,
+          "codigo": "427313",
+          "pergunta": "A estratégia de rebalanceamento de carteiras que apresenta o melhor resultado em mercados voláteis sem tendência é:",
+          "alternativas": {
+            "A": "CPPI.",
+            "B": "Buy and Hold.",
+            "C": "Constant Mix.",
+            "D": "Stop Loss."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 33,
+          "codigo": "515201",
+          "pergunta": "Considere o seguinte histograma de retornos, que detalha a frequência relativa de diversos retornos obtidos por um fundo de investimento nos últimos doze meses. A partir de sua análise, podemos afirmar que o VaR histórico desse fundo, com 95% de confiança, foi de:",
+          "alternativas": {
+            "A": "-2%.",
+            "B": "-2,5%.",
+            "C": "-3%.",
+            "D": "-5%."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 34,
+          "codigo": "207213",
+          "pergunta": "Em um swap de taxas de juros, a tendência de maior risco de contraparte no período da vigência deste derivativo está concentrada no:",
+          "alternativas": {
+            "A": "início do período.",
+            "B": "meio do período.",
+            "C": "final do período.",
+            "D": "momento após a liquidação."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 35,
+          "codigo": "515404",
+          "pergunta": "A diferença entre os credit spreads de um título, observada entre os mercados de títulos e de Credit Default Swap – CDS, é historicamente de 20 basis points. Momentaneamente, essa diferença caiu para 10 basis points. Diante desse cenário, a melhor opção para o investidor é montar uma posição:",
+          "alternativas": {
+            "A": "comprada no título e vendida no CDS.",
+            "B": "vendida no título e comprada no CDS.",
+            "C": "comprada no título e comprada no CDS.",
+            "D": "vendida no título e vendida no CDS."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 36,
+          "codigo": "515702",
+          "pergunta": "A respeito do orçamento total de risco, em um processo de gestão de investimentos e riscos, é correto afirmar que a soma do risco alocado será:",
+          "alternativas": {
+            "A": "menor ou igual ao orçamento total de risco.",
+            "B": "maior ao orçamento total de risco.",
+            "C": "menor ao orçamento total de risco.",
+            "D": "maior ou igual ao orçamento total de risco."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 37,
+          "codigo": "105157",
+          "pergunta": "Após 90 (noventa) dias do início de atividades, a classe de cotas que mantiver, a qualquer tempo, patrimônio líquido diário inferior a R$ 1.000.000,00 (um milhão de reais) pelo período de 90 (noventa) dias consecutivos",
+          "alternativas": {
+            "A": "pode solicitar à CVM um prazo maior para captar mais recursos.",
+            "B": "deve ser fechado para novas captações.",
+            "C": "deve ser imediatamente liquidada ou incorporada a outra classe de cotas e, caso não atenda essa condição, a CVM cancelará o registro de funcionamento.",
+            "D": "deve ser fechado para resgates."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 38,
+          "codigo": "105350",
+          "pergunta": "Como regra geral, as classes de cotas de FIF (Fundo de Investimento Financeiro) devem observar os seguintes limites de concentração ao aplicar em ativos financeiros no exterior:",
+          "alternativas": {
+            "A": "sem limite para classes categorizadas como \"Renda Fixa – Dívida Externa\" e classes destinadas exclusivamente a investidores profissionais.",
+            "B": "até 20% de seu patrimônio líquido para classes exclusivamente destinadas a investidores qualificados.",
+            "C": "até 40% de seu patrimônio líquido para classes exclusivamente destinadas ao público em geral.",
+            "D": "no mínimo 67% de seu patrimônio líquido para classes exclusivamente destinadas a investidores profissionais."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 39,
+          "codigo": "105170",
+          "pergunta": "São obrigações do gestor de um fundo de investimento:",
+          "alternativas": {
+            "A": "observar os limites de composição e concentração de carteira e de concentração em fatores de risco.",
+            "B": "contratar serviço de tesouraria, controle e processamento dos ativos.",
+            "C": "contratar serviço de auditoria independente.",
+            "D": "contratar serviço de escrituração das cotas."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 40,
+          "codigo": "105175",
+          "pergunta": "A respeito das responsabilidades do administrador e do gestor acerca dos deveres quanto aos limites de concentração, é correto afirmar:",
+          "alternativas": {
+            "A": "os limites de composição e concentração de carteira, de exposição a risco de capital e de concentração em fatores de risco devem ser cumpridos pelo administrador.",
+            "B": "o gestor deve diligenciar pelo reenquadramento aos limites de concentração e composição da carteira, no melhor interesse dos cotistas.",
+            "C": "o gestor deve informar à CVM caso a carteira de ativos permaneça desenquadrada por 10 dias úteis consecutivos, até o final do dia útil seguinte ao encerramento do prazo, bem como informar seu reenquadramento tão logo verificado.",
+            "D": "se a carteira permanecer desenquadrada por 10 dias consecutivos, o administrador deve encaminhar à CVM um plano de ação para o reenquadramento da carteira."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 41,
+          "codigo": "205313-A",
+          "pergunta": "Os Fundos Incentivados de Infraestrutura (FI-Infra) são fundos do tipo:",
+          "alternativas": {
+            "A": "Renda Fixa e podem ser constituídos apenas sob a forma de regime aberto.",
+            "B": "Renda Fixa e podem ser constituídos sob a forma de regime aberto ou fechado.",
+            "C": "Multimercado e podem ser constituídos apenas sob a forma de regime aberto.",
+            "D": "Multimercado e podem ser constituídos sob a forma de regime aberto ou fechado."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 42,
+          "codigo": "105323",
+          "pergunta": "A classe dos fundos de Renda Variável indexados devem ter o seu patrimônio líquido investido em ações, com o peso mínimo de:",
+          "alternativas": {
+            "A": "51%",
+            "B": "67%",
+            "C": "80%",
+            "D": "75%"
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 43,
+          "codigo": "105305",
+          "pergunta": "Considere as seguintes afirmativas sobre as classes tipificadas como Renda Fixa Simples dos fundos de investimento financeiro:\n\n**I** — São constituídos sob a forma de classe aberta ou fechada.\n\n**II** — Têm no mínimo 95% de seu patrimônio líquido, isolada ou cumulativamente, por títulos de dívida pública federal, títulos de renda fixa de emissão ou coobrigação de instituições financeiras que possuam no mínimo mesma classificação que os títulos públicos federais.\n\n**III** — Dispensam análise de \"suitability\".\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 44,
+          "codigo": "304506",
+          "pergunta": "Um investidor aplicou R$ 100 mil em um fundo de investimentos renda fixa longo prazo e mais R$ 100 mil em um fundo de investimentos de renda fixa curto prazo em 31/12/2023. Esses fundos renderam, respectivamente, 20% e 10%, até 31/05/2024. Desta forma, o valor total retido pelo come-cotas foi:",
+          "alternativas": {
+            "A": "R$ 4.500,00",
+            "B": "R$ 5.000,00",
+            "C": "R$ 6.000,00",
+            "D": "R$ 6.750,00"
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 45,
+          "codigo": "511403",
+          "pergunta": "Além dos critérios a serem aplicados ao gestor, a denominação de um fundo como sustentável depende de um conjunto de requisitos divididos nas seguintes frentes:",
+          "alternativas": {
+            "A": "Compromisso com a sustentabilidade, transparência e ações continuadas.",
+            "B": "Compromisso com a sustentabilidade, governança e ações continuadas.",
+            "C": "Governança, transparência e ações continuadas.",
+            "D": "Compromisso com a sustentabilidade, governança e transparência."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "nome": "CGA: SIMULADO (04)",
+      "questoes": [
+        {
+          "numero": 1,
+          "codigo": "427327",
+          "pergunta": "Com relação aos estilos Growth e Value, é correto afirmar que investidores:",
+          "alternativas": {
+            "A": "Value muitas vezes fazem apostas contrárias à tendência de mercado.",
+            "B": "Growth costumam investir em ações de concessionárias de serviços públicos.",
+            "C": "Value têm preferência por ações de empresas start-up.",
+            "D": "Growth preferem ações do setor financeiro."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 2,
+          "codigo": "511502",
+          "pergunta": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:\n\n**I** — o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos.\n\n**II** — as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices.\n\n**III** — os dois métodos não podem ser combinados na gestão de uma carteira de renda variável.\n\nÉ correto o que se afirma em",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 3,
+          "codigo": "105207",
+          "pergunta": "As classes passivas de fundos de investimentos devem possuir uma política de investimentos que possua estratégias com ganhos através de:",
+          "alternativas": {
+            "A": "arbitragem em operações financeiras não correndo risco de mercado.",
+            "B": "apostas em operações estruturadas em busca de rentabilidade nas distorções ocorridas na curva de juros.",
+            "C": "operações que busquem proporcionar rentabilidade mais próxima possível do seu benchmark.",
+            "D": "operações que busquem proporcionar rentabilidade que supere o seu benchmark."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 4,
+          "codigo": "205329",
+          "pergunta": "Para um investidor, uma das diferenças entre aplicar em classes abertas de fundos de investimentos em ações (FIA), indexados ao Ibovespa, com gestão passiva, ou nos fundos de investimentos em Índice de Mercado (ETF), que replicam a performance do Ibovespa, é a possibilidade do investidor:",
+          "alternativas": {
+            "A": "aplicar e resgatar suas cotas de ETF diretamente com a instituição financeira distribuidora do fundo.",
+            "B": "aplicar e resgatar suas cotas do FIA diretamente na B3.",
+            "C": "comprar e vender suas cotas do ETF na B3, via home broker.",
+            "D": "comprar e vender suas cotas do FIA na B3, via home broker."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 5,
+          "codigo": "204338",
+          "pergunta": "Uma das principais características do mercado futuro é:",
+          "alternativas": {
+            "A": "Existência do risco de contraparte.",
+            "B": "Possibilidade de alongamento dos prazos.",
+            "C": "Possibilidade de alavancagem dos resultados.",
+            "D": "Não padronização dos contratos."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 6,
+          "codigo": "427323",
+          "pergunta": "Um investidor que adota o estilo Value mais provavelmente:",
+          "alternativas": {
+            "A": "focará no denominador do índice P/L para escolher quais ativos adquirir.",
+            "B": "investirá em ativos com elevados múltiplos de preço.",
+            "C": "defenderá as teorias de finanças comportamentais.",
+            "D": "acreditará que os ativos estão corretamente precificados."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 7,
+          "codigo": "511304",
+          "pergunta": "Em uma estratégia de merger arbitrage, o gestor pode montar uma posição provavelmente lucrativa se:",
+          "alternativas": {
+            "A": "vender ações da empresa adquirida e vender ações da empresa adquirente.",
+            "B": "comprar ações da empresa adquirida e comprar ações da empresa adquirente.",
+            "C": "comprar ações da empresa adquirida e vender ações da empresa adquirente.",
+            "D": "vender ações da empresa adquirida e comprar ações da empresa adquirente."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 8,
+          "codigo": "511318",
+          "pergunta": "Das estratégias abaixo, a que costuma apresentar o melhor Information Ratio é:",
+          "alternativas": {
+            "A": "Full Replication",
+            "B": "Enhanced Indexing",
+            "C": "Quantitative Arbitrage.",
+            "D": "Event Driven."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 9,
+          "codigo": "425314",
+          "pergunta": "A respeito do método alternativo de Indexação conhecido por Amostragem Estratificada, considere as seguintes afirmativas:\n\n**I** — Utiliza na formação da carteira informações sobre correlação entre os ativos.\n\n**II** — O gestor define um subconjunto do índice, selecionando os ativos de forma a replicar as condições de retorno e risco desse índice\n\n**III** — O gestor geralmente compra primeiro as ações mais líquidas e de menor custo e, depois, avaliará a relação benefício/custo de adicionar ações menos líquidas e de menor representatividade no índice.\n\nÉ correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 10,
+          "codigo": "306513",
+          "pergunta": "Um investidor possui as seguintes aplicações. Recentemente, o Especialista em Investimentos deste cliente, participou de uma reunião da sua instituição financeira que acreditam que a inflação tende a aumentar bastante pelos próximos meses. Com base nessa expectativa e dentre as alternativas abaixo, este profissional deveria recomendar ao investidor:",
+          "alternativas": {
+            "A": "Vender a NTN-F; e comprar LFT e LTN.",
+            "B": "Vender LFT; e comprar LTN e NTN-F.",
+            "C": "Vender LTN e NTN-F; e comprar LFT.",
+            "D": "Manter a carteira com está."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q10.png"
+        },
+        {
+          "numero": 11,
+          "codigo": "303536",
+          "pergunta": "Um gestor de renda fixa estuda 4 diferentes carteiras, variando o percentual alocado em T-Bill, T-Notes e T-Bonds. Se ele espera que a inclinação da curva aumente, conforme gráfico a seguir, a carteira mais prejudicada seria a:",
+          "alternativas": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+          },
+          "resposta_correta": "B",
+          "tema": "Investimentos no Exterior",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q11.png"
+        },
+        {
+          "numero": 12,
+          "codigo": "512309",
+          "pergunta": "A respeito das teorias sobre formação de curvas de juros, é correto afirmar que a Teoria:",
+          "alternativas": {
+            "A": "das Expectativas Puras defende que a curva de juros será sempre ascendente.",
+            "B": "da Preferência por Liquidez afirma que os títulos mais curtos deveriam fornecer maiores prêmios de risco aos investidores.",
+            "C": "de Segmentação de Mercado se baseia nas condições de oferta e demanda para cada vértice.",
+            "D": "da Preferência por Liquidez defende que a curva de juros será sempre descendente."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 13,
+          "codigo": "512211",
+          "pergunta": "A estratégia de imunização de carteiras de Renda Fixa construída a partir da concentração em determinados prazos de taxas de juros que podem representar maiores variações no preço, dada uma mudança na taxa de juros, é chamada: [ver tabela/gráfico no material original]",
+          "alternativas": {
+            "A": "Key Rate Duration.",
+            "B": "Cash Flow Matching.",
+            "C": "Duration Matching.",
+            "D": "Dollar Duration."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q13.png"
+        },
+        {
+          "numero": 14,
+          "codigo": "512212",
+          "pergunta": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:\n\n**I** — Quanto maior a duration do título, maior a convexidade.\n\n**II** — A convexidade positiva desse gráfico proporciona menor queda dos preços dos títulos, quando as taxas de juros sobem.\n\n**III** — O ajuste de convexidade é somado à Duration de Macaualy.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 15,
+          "codigo": "303145",
+          "pergunta": "Um gestor de renda fixa tem a expectativa que a curva de juros futuros deverá sofrer uma torção a partir de quedas de diferentes magnitudes nos vértices 2 e 5 anos. Ele analisa 4 carteiras compostas por títulos sem cupom, com vencimentos em 2, 5 e 10 anos. Se suas expectativas estiverem corretas, a carteira que apresentaria a o pior desempenho seria:",
+          "alternativas": {
+            "A": "A.",
+            "B": "B.",
+            "C": "C.",
+            "D": "D."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q15.png"
+        },
+        {
+          "numero": 16,
+          "codigo": "303147",
+          "pergunta": "Um gestor de Renda Fixa tem a expectativa que a curva de juros se movimente da seguinte forma:\n\n* Vencimento 2 anos: queda de 12% ao ano para 8% ao ano;\n* Vencimento 4 anos: elevação de 11% ao ano para 13% ao ano;\n* Vencimento 8 anos: manutenção em 7% ano.\n\nSe esse cenário se configurar, dentre as carteiras abaixo, com os respectivos pesos em cada vértice da curva, a que obteria o pior desempenho seria:",
+          "alternativas": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q16.png"
+        },
+        {
+          "numero": 17,
+          "codigo": "512401",
+          "pergunta": "A tabela a seguir representa a análise de atribuição de desempenho de dois gestores de Renda Fixa, para um determinado período. Se o retorno do benchmark foi de 1,12%, pode-se afirmar que os retornos atribuídos à gestão de taxa de juros dos gestores 1 e 2 foram respectivamente:",
+          "alternativas": {
+            "A": "0,15% e 0,46%.",
+            "B": "0,05% e - 0,12%.",
+            "C": "0,20% e 0,34%.",
+            "D": "0,22% e 0,48%."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q17.png"
+        },
+        {
+          "numero": 18,
+          "codigo": "303150",
+          "pergunta": "Considere duas carteiras de Renda Fixa distintas. Uma delas tem valor de ativos de R$ 20.000.000,00 e duration modificada de 7,20; a outra possui passivos de R$ 18.000.000,00 e duration modificada de 6. Ocorrendo uma alta de 100 basis points na curva de juros, o resultado combinado da variação do preço atual das carteiras será de:",
+          "alternativas": {
+            "A": "R$ 360.000,00",
+            "B": "– R$ 360.000,00",
+            "C": "R$ 2.520.000,00",
+            "D": "– R$ 2.520.000,00"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 19,
+          "codigo": "303529",
+          "pergunta": "Com relação aos títulos públicos americanos, podemos afirmar que as:",
+          "alternativas": {
+            "A": "Treasury Bills (T-Bills) são negociadas com deságio.",
+            "B": "Treasury Notes (T-Notes) são títulos emitidos com prazo mínimo de 10 anos.",
+            "C": "Treasury Bonds (T-Bonds) são títulos que pagam cupons anuais.",
+            "D": "Treasury Inflation Protected Securities (TIPS) são títulos que não possuem pagamento de cupom."
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 20,
+          "codigo": "303528",
+          "pergunta": "Uma instituição financeira está com falta de liquidez e decide realizar uma operação de Repurchase Agreement (REPO) por um prazo de alguns dias, utilizando como colateral seus títulos americano T-Bonds com vencimento em 30 anos. Neste tipo de operação, em regra geral, os cupons gerados pelos títulos americanos durante a operação serão:",
+          "alternativas": {
+            "A": "Repassados ao vendedor e a posse é do comprador.",
+            "B": "Pagos ao comprador e a posse é do vendedor.",
+            "C": "Pagos ao comprador e a posse também será do comprador.",
+            "D": "Cancelados, pois será tratado como uma operação ilegal, já que o prazo do Repurchase Agreement deve ser o mesmo do título colateralizado."
+          },
+          "resposta_correta": "A",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 21,
+          "codigo": "303524",
+          "pergunta": "Considere as seguintes afirmativas abaixo em relação aos títulos emitidos nos EUA chamados de Commercial Papers:\n\n**I** — São títulos que necessitam de registro na SEC.\n\n**II** — Possuem baixa liquidez no mercado secundário.\n\n**III** — São títulos de curto prazo.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 22,
+          "codigo": "303522",
+          "pergunta": "Dentre as alternativas abaixo, os títulos negociados no mercado norte americano e que implicam em risco de reinvestimentos são:",
+          "alternativas": {
+            "A": "Treasury Bill",
+            "B": "Commercial Papers",
+            "C": "TIPS",
+            "D": "Certificate of Deposits"
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 23,
+          "codigo": "425201",
+          "pergunta": "No caso de falência de uma empresa americana, a ordem de recebimento seria primeiro para os investidores detentores de:",
+          "alternativas": {
+            "A": "Common stock, Bonds e Preferred stock.",
+            "B": "Bonds, Common stock e Preferred stock",
+            "C": "Preferred stock, Common stock e bonds.",
+            "D": "Bonds, Preferred stocks e Common stocks."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 24,
+          "codigo": "425104",
+          "pergunta": "Um investidor brasileiro deseja investir em uma Eurobond com vencimento em 20 anos. Caso este título tenha uma proteção para o investidor, esta proteção seria através de:",
+          "alternativas": {
+            "A": "uma cláusula de CALL com exercício a valor de mercado.",
+            "B": "uma cláusula de CALL com exercício a valor fixo.",
+            "C": "uma cláusula de PUT com exercício a valor de mercado.",
+            "D": "uma cláusula de PUT com exercício a valor fixo."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 25,
+          "codigo": "207334",
+          "pergunta": "O Tracking Error de uma carteira passiva, que cobra taxa de administração de 0,5%, será",
+          "alternativas": {
+            "A": "de 0,5%.",
+            "B": "entre 0% e 0,5%.",
+            "C": "maior que 0,5%.",
+            "D": "menor que 0,5%."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 26,
+          "codigo": "514201",
+          "pergunta": "São propriedades válidas de um benchmark:\n\n**I** — Especificação prévia - o benchmark deve ser estabelecido antes de se iniciar a avaliação.\n\n**II** — Abrangência – todos os ativos de risco devem compor o benchmark.\n\n**III** — Investibilidade – possibilidade de investimento no próprio benchmark como alternativa de gestão passiva.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 27,
+          "codigo": "207336",
+          "pergunta": "Considere as seguintes informações sobre dois fundos, A e B. Podemos então concluir que o fundo A superou o B no retorno ajustado ao risco:",
+          "alternativas": {
+            "A": "não-sistemático.",
+            "B": "sistemático.",
+            "C": "total.",
+            "D": "diversificável."
+          },
+          "resposta_correta": "B",
+          "tema": "Avaliação de Desempenho",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q27.png"
+        },
+        {
+          "numero": 28,
+          "codigo": "514105",
+          "pergunta": "Uma carteira recebe um aporte inicial de R$ 100.000. Ao final do primeiro mês, recebe outro aporte, no valor de R$ 20.000 e, ao final do segundo mês, um resgate de R$ 10.000. Considerando que no final do mês 1 o saldo da carteira era R$ 125.000, ao final do mês 2, R$ 111.250 e, ao final do mês 3, R$ 115.700 (quando o investidor resgata todos os recursos), pode-se afirmar que o Time-Weighted Rate of Return e o Money-Weighted Rate of Return dessa carteira são respectivamente:",
+          "alternativas": {
+            "A": "5,18% ao período e 5,92% ao período.",
+            "B": "1,70% ao mês e 1,94% ao mês.",
+            "C": "5,92% ao período e 1,70% ao mês.",
+            "D": "5,92% ao mês e 5,18% ao mês."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 29,
+          "codigo": "207323",
+          "pergunta": "Entre dois fundos que objetivam a mesma rentabilidade, um investidor deve escolher aquele que apresente maior:",
+          "alternativas": {
+            "A": "Volatilidade",
+            "B": "Duration",
+            "C": "Beta",
+            "D": "Índice Sharpe"
+          },
+          "resposta_correta": "D",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 30,
+          "codigo": "207331",
+          "pergunta": "Em relação ao Índice de Sharpe, é correto afirmar que:",
+          "alternativas": {
+            "A": "relaciona o excesso de retorno do fundo sobre o benchmark com o desvio-padrão.",
+            "B": "relaciona o excesso de retorno do fundo sobre a taxa livre de risco com o risco diversificável.",
+            "C": "assume que os retornos do fundo analisado são normalmente distribuídos.",
+            "D": "relaciona o excesso de retorno do fundo sobre a taxa livre de risco com o risco sistêmico."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 31,
+          "codigo": "515203",
+          "pergunta": "Considere as seguintes afirmativas sobre Value at Risk:\n\n**I** — O Benchmark VaR (B-Var) representa a perda máxima de um título ou carteira acima da perda registrada pelo respectivo benchmark.\n\n**II** — O VaR Analítico ou Paramétrico tem como vantagem não utilizar dados históricos para cálculo da perda esperada, como ocorre no VaR histórico.\n\n**III** — O VaR de Monte Carlo permite a incorporação no modelo de qualquer formato de distribuição dos retornos que serão analisados.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 32,
+          "codigo": "306508",
+          "pergunta": "Um gestor elabora uma carteira de investimentos baseando sua decisão de alocação a partir de sua visão de longo prazo do mercado. Depois de os recursos estarem alocados em ativos financeiros, em alguns momentos, quando o dividend yield de algumas ações se tornava atrativo, o gestor adquiria tais ações pontualmente, sem impactar no benchmark escolhido ou na alocação de longo prazo. É correto afirmar que esse estilo de alocação é conhecido por:",
+          "alternativas": {
+            "A": "Alocação estratégica e tática.",
+            "B": "Gestão passiva.",
+            "C": "Alocação Top-down.",
+            "D": "Análise Fundamentalista."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 33,
+          "codigo": "515403",
+          "pergunta": "Um título de Renda Fixa, cujo valor de face é R$ 70.000,00, é adquirido por um investidor com ágio, no valor de R$ 78.000,00. O risco de inadimplência do emissor é de 8% e, em ocorrendo o default, a perda dada a inadimplência será de 75%. Com isso, o valor da perda esperada por esse investidor será de:",
+          "alternativas": {
+            "A": "R$ 3.520,00.",
+            "B": "R$ 4.840,00.",
+            "C": "R$ 5.460,00.",
+            "D": "R$ 6.840,00."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 34,
+          "codigo": "515305",
+          "pergunta": "Um título de renda fixa apresenta duration modificada de 5,5. O ajuste de convexidade para uma variação de 125 basis points na taxa de juros é de 1,60%. Se a taxa de juros subir 125 basis points, a variação percentual estimada no preço desse título será de:",
+          "alternativas": {
+            "A": "-3,90%",
+            "B": "-5,28%",
+            "C": "-7,10%",
+            "D": "-8,48%"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 35,
+          "codigo": "515703",
+          "pergunta": "Um gestor elabora uma carteira com os ativos X e Y, cuja correlação é 0,5. Uma unidade do ativo X possui VaR de R$ 6.000,00 e uma unidade do ativo Y, de R$ 8.000,00. Se o gestor compõe a carteira com uma unidade do ativo X e uma unidade do ativo Y, o VaR dessa carteira será de aproximadamente:",
+          "alternativas": {
+            "A": "R$ 12.166,00.",
+            "B": "R$ 13.479,00.",
+            "C": "R$ 14.569,00.",
+            "D": "R$ 15.912,00."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 36,
+          "codigo": "515406",
+          "pergunta": "A diferença entre os credit spreads de um título, observada entre os mercados de títulos e de Credit Default Swap – CDS, é historicamente de 10 basis points. Momentaneamente, essa diferença subiu para 20 basis points. Diante desse cenário, a melhor opção para o investidor é montar uma posição",
+          "alternativas": {
+            "A": "comprada no título e vendida no CDS.",
+            "B": "vendida no título e comprada no CDS.",
+            "C": "comprada no título e comprada no CDS.",
+            "D": "vendida no título e vendida no CDS."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 37,
+          "codigo": "105171",
+          "pergunta": "O administrador de um fundo de investimento é responsável por:",
+          "alternativas": {
+            "A": "realizar a gestão das carteiras de ativos financeiros das classes do fundo.",
+            "B": "definir a política de investimento do fundo.",
+            "C": "fiscalizar as operações de compra e venda de ativos realizadas pelo gestor.",
+            "D": "emitir as cotas do fundo para os investidores."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 38,
+          "codigo": "105352",
+          "pergunta": "Sobre a possibilidade de investimento em cotas de outros FIF (Fundo de Investimento Financeiro), considere as seguintes afirmativas:\n\n**I** — As classes de investimento em cotas devem adquirir classes do mesmo tipo que a sua, em todos os casos possíveis.\n\n**II** — Como regra geral, os Fundos Multimercados poderão investir em cotas de FIF de qualquer tipo.\n\n**III** — É dispensado que o regulamento informe o percentual máximo do patrimônio líquido que poderá ser aplicado em uma única classe, sendo obrigatório apenas que seja informado o percentual mínimo.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I e II.",
+            "B": "II.",
+            "C": "I.",
+            "D": "II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 39,
+          "codigo": "205105",
+          "pergunta": "Um fundo de investimentos financeiro de classe única, possui duas subclasses de cotas: uma destinada exclusivamente para investidores qualificados e, outra, destinado ao público em geral. Desta forma, considere as seguintes práticas adotadas por um administrador fiduciário com relação as subclasses desse fundo:\n\n**I** — A taxa de administração da subclasse destinada exclusivamente para investidores qualificados é de 1% ao ano e para a subclasse para o público em geral, 2% ao ano. Já a taxa de performance é igual para ambas as subclasses, sendo de 20% sobre o que exceder o benchmark.\n\n**II** — As operações mais lucrativas são alocadas no fundo destinado exclusivamente para investidores qualificados, mas o administrador divulga amplamente essa prática (full disclosure).\n\nCom relação a tais práticas, pode-se afirmar que:",
+          "alternativas": {
+            "A": "ambas são permitidas.",
+            "B": "a prática I é permitida mas a II, não.",
+            "C": "a prática II é permitida mas a I, não.",
+            "D": "ambas são proibidas."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 40,
+          "codigo": "105304",
+          "pergunta": "A classe de um fundo de investimento financeiro, destinado a investidores não qualificado, pode concentrar os investimentos em títulos emitidos por instituição financeira e em títulos emitidos por companhia aberta, respectivamente:",
+          "alternativas": {
+            "A": "Até 20% e 20% da carteira.",
+            "B": "Até 20% e 10% da carteira.",
+            "C": "Até 10% e 20% da carteira.",
+            "D": "Até 10% e 10% da carteira."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 41,
+          "codigo": "105335",
+          "pergunta": "Sobre a classe tipificada como Renda Fixa Simples, considere as seguintes afirmativas:\n\n**I** — Podem realizar investimentos no exterior.\n\n**II** — São permitidas operações com derivativos exclusivamente para fins de proteção da carteira (hedge).\n\n**III** — Não permitem cobrança de taxa de performance.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "II e III, apenas.",
+            "C": "I e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 42,
+          "codigo": "105172",
+          "pergunta": "O regulamento da classe de cotas restrita pode:",
+          "alternativas": {
+            "A": "admitir a utilização de ativos financeiros na integralização e resgate de cotas, com critérios detalhados e precisos para adoção desses procedimentos.",
+            "B": "admitir que os pedidos de resgate de cotas sejam aceitos somente em determinadas datas ou períodos, sem a necessidade de definição expressa no regulamento.",
+            "C": "calcular e cobrar taxas consoante critérios estabelecidos na regulamentação, sem seguir o que está definido no regulamento.",
+            "D": "permitir que o gestor contraia empréstimos em nome da classe de cotas para fazer frente ao inadimplemento de cotistas que deixem de integralizar as cotas que subscreveram, sem limitação de valor."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 43,
+          "codigo": "304507",
+          "pergunta": "Um investidor aplicou no dia 01/julho/2016, R$ 100 mil em um clube de investimentos, adquirindo assim 10.000 cotas. No dia 01/dezembro do mesmo ano, o clube de investimentos havia valorizado 20%. O valor do come-cotas retido pelo clube foi:",
+          "alternativas": {
+            "A": "R$ 0,00",
+            "B": "R$ 3.000,00",
+            "C": "R$ 4.000,00",
+            "D": "R$ 4.500,00"
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 44,
+          "codigo": "105517",
+          "pergunta": "O investidor que teve perdas em um fundo de investimento poderá compensar IR em:",
+          "alternativas": {
+            "A": "Fundos do mesmo administrador e de mesma alíquota",
+            "B": "Fundos de qualquer administrador e alíquota.",
+            "C": "Fundos do mesmo administrador, seja de Longo Prazo ou Curto Prazo.",
+            "D": "Qualquer tipo de fundo do mesmo administrador."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 45,
+          "codigo": "108104",
+          "pergunta": "A respeito dos requisitos para um fundo ser classificado como Investimento Sustentável pela Anbima, considere as seguintes afirmativas:\n\n**I** — Aplicar filtros positivos e negativos é o principal requisito para obter tal classificação.\n\n**II** — Como uma das práticas de ações continuadas, o fundo deverá adotar um processo sistemático de engajamento ativo com as empresas da carteira a respeito de questões relevantes, para fins de seus objetivos.\n\n**III** — Em se tratando de fundos passivos que utilizam índice como referencia, é esperado que o fundo seja capaz de atestar que o indicador utilizado está alinhado ao objetivo de investimento sustentável.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "nome": "CGA: SIMULADO (05)",
+      "questoes": [
+        {
+          "numero": 1,
+          "codigo": "427349",
+          "pergunta": "Um gestor de um fundo de investimento deseja obter exposição a empresas do setor de tecnologia. Desse modo, o estilo de investimento mais adequado para o gestor aplicar a este fundo seria:",
+          "alternativas": {
+            "A": "Estilo Value.",
+            "B": "Estilo Growth.",
+            "C": "Estilo Indexado.",
+            "D": "Estilo Blend."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 2,
+          "codigo": "511506",
+          "pergunta": "Um investidor deseja construir uma carteira de ações com base na análise bottom-up. A partir disso, esse investidor provavelmente levará em consideração primeiramente:",
+          "alternativas": {
+            "A": "os indicadores macroeconômicos e projeções de mercado.",
+            "B": "os fatores que afetam as empresas específicas que são objeto de análise.",
+            "C": "as tendências gerais do mercado de ações.",
+            "D": "os indicadores técnicos e gráficos de preços."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 3,
+          "codigo": "427346",
+          "pergunta": "Um investidor que adota o estilo Growth ao construir uma carteira de ações provavelmente:",
+          "alternativas": {
+            "A": "buscará empresas com perspectivas de crescimento de receitas e lucros acima da média.",
+            "B": "valorizará empresas com múltiplos de preço baixos.",
+            "C": "baseará suas decisões em análise técnica.",
+            "D": "acreditará que os ativos não estão corretamente precificados."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 4,
+          "codigo": "205328",
+          "pergunta": "Sobre fundos de investimentos, é correto afirmar que:",
+          "alternativas": {
+            "A": "ETFs podem ser adquiridos via homebroker na B3.",
+            "B": "Fundos de Investimentos em Ações (FIA) são adquiridos via homebroker na B3.",
+            "C": "ETFs e Fundo de Investimentos em Ações (FIA) são adquiridos pela mesma forma, via instituição financeira.",
+            "D": "ETFs são fundos ativos que buscam superar o seu benchmark."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 5,
+          "codigo": "427347",
+          "pergunta": "Um investidor que segue a estratégia de investimento em valor (Value) provavelmente:",
+          "alternativas": {
+            "A": "buscará empresas com alto crescimento de receitas.",
+            "B": "baseará suas decisões em análise técnica.",
+            "C": "valorizará empresas com múltiplos de preço baixos.",
+            "D": "acreditará que os ativos estão corretamente precificados."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 6,
+          "codigo": "205372",
+          "pergunta": "Uma das principais vantagens de investir em Exchange Traded Funds (ETFs) em relação a investir em ações individuais é:",
+          "alternativas": {
+            "A": "o maior potencial de retorno de curto prazo.",
+            "B": "a diversificação imediata em uma carteira de ativos.",
+            "C": "o acesso direto a ofertas públicas iniciais (IPOs).",
+            "D": "a possibilidade de votação em assembleias de acionistas."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 7,
+          "codigo": "425335",
+          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Variável Full Replication e Otimização:\n\n**I** — A estratégia Full Replication é geralmente mais cara para implementar que a Otimização.\n\n**II** — A estratégia Full Replication possui maior tracking error que a Otimização.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "alternativas": {
+            "A": "ambas estão corretas.",
+            "B": "ambas estão incorretas.",
+            "C": "a primeira está incorreta e a segunda, correta.",
+            "D": "a primeira está correta e a segunda, incorreta."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 8,
+          "codigo": "425336",
+          "pergunta": "Um gestor estuda a possibilidade de implementar a técnica de gestão de carteiras de Renda Variável Full Replication. Ele analisa então as três características seguintes dessa técnica:\n\n**I** — Se implementada, contribuirá para reduzir o tracking error do fundo.\n\n**II** — É mais fácil de ser implementada quanto mais líquidas forem as ações do índice que se busca replicar.\n\n**III** — É recomendada para fundos com gestão ativa.\n\nPode-se afirmar que são características corretamente enunciadas da técnica Full Replication apenas aquelas descritas em:",
+          "alternativas": {
+            "A": "II e III.",
+            "B": "I.",
+            "C": "I e II.",
+            "D": "II."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 9,
+          "codigo": "306380",
+          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:\n\n**I** — Consiste em vender uma ação que não se possui e, com o recurso da venda, comprar outra ação.\n\n**II** — É uma operação que busca obter ganhos com distorções de preços dos ativos envolvidos.\n\n**III** — Pode gerar até 2 alfas.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "II e III, apenas.",
+            "B": "I e III, apenas.",
+            "C": "I e II, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 10,
+          "codigo": "512210",
+          "pergunta": "Uma carteira de renda fixa concentrada em títulos prefixados de longo prazo seria mais beneficiada se ocorresse na curva de juros um:",
+          "alternativas": {
+            "A": "Bear flattening",
+            "B": "Bull flattening",
+            "C": "Bear steepening",
+            "D": "Bull steepening"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 11,
+          "codigo": "512106",
+          "pergunta": "Considere as seguintes afirmativas a respeito de estratégias de Gestão de Carteiras de Renda Fixa:\n\n**I** — A Indexação Pura busca superar o benchmark e sem risco ativo.\n\n**II** — A Indexação Reforçada proporciona certa flexibilidade para o gestor tentar superar o benchmark.\n\n**III** — A Indexação Pura muitas vezes é inviável de ser implementada.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "II e III.",
+            "B": "I e III.",
+            "C": "II.",
+            "D": "III."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 12,
+          "codigo": "512209",
+          "pergunta": "Considere as seguintes afirmativas a respeito de imunização de carteiras de Renda Fixa:\n\n**I** — O risco de mudança de taxa de juros em uma carteira de renda fixa com cupons pode ser decomposto em risco de preço e risco de reinvestimento.\n\n**II** — O aumento da taxa de juros é positivo para o preço do título, mas negativo para o reinvestimento dos cupons.\n\n**III** — Em um cenário de queda da taxa de juros, o ganho com o aumento do preço do título deve ser igual ou superior às perdas com o reinvestimento dos cupons.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "I.",
+            "D": "III."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 13,
+          "codigo": "512206",
+          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Fixa em relação a passivos:\n\n**I** — Para imunizar uma carteira com múltiplos passivos, o gestor poderia comprar vários títulos com vencimentos iguais aos dos passivos.\n\n**II** — A Key Rate Duration é uma estratégia em que o gestor se concentra em determinados prazos de taxa de juros que podem representar maiores variações no preço dada uma mudança na taxa de juros.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "alternativas": {
+            "A": "ambas estão corretas.",
+            "B": "ambas estão incorretas.",
+            "C": "a primeira está incorreta e a segunda, correta.",
+            "D": "a primeira está correta e a segunda, incorreta."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 14,
+          "codigo": "512107",
+          "pergunta": "Considere as seguintes afirmativas a respeito de um fundo de Renda Fixa que utiliza a estratégia de indexação pura em relação a um benchmark de mercado:\n\n**I** — O grande número de títulos que compõem o benchmark facilita a implementação dessa estratégia.\n\n**II** — A elevada liquidez dos títulos que compõem o benchmark dificulta a implementação dessa estratégia.\n\nA respeito de tais afirmações, podemos dizer que: [ver tabela/gráfico no material original]",
+          "alternativas": {
+            "A": "ambas estão corretas.",
+            "B": "ambas estão incorretas.",
+            "C": "a primeira está incorreta e a segunda, correta.",
+            "D": "a primeira está correta e a segunda, incorreta."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q14.png"
+        },
+        {
+          "numero": 15,
+          "codigo": "515306",
+          "pergunta": "A respeito da convexidade em títulos de renda fixa, é correto afirmar que:",
+          "alternativas": {
+            "A": "quanto maior a duration do título, menor a convexidade.",
+            "B": "a convexidade positiva de títulos de renda fixa proporciona menor elevação de preços dos títulos quando as taxas de juros caem.",
+            "C": "a convexidade positiva de títulos de renda fixa proporciona maior queda de preços dos títulos quando as taxas de juros sobem.",
+            "D": "o ajuste de convexidade é somado à Duration Modificada."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 16,
+          "codigo": "512403",
+          "pergunta": "A tabela a seguir representa a análise de atribuição de desempenho de dois gestores de Renda Fixa, para um determinado período. Com base nessas informações, pode-se afirmar que os retornos atribuídos à gestão de taxa de juros dos gestores 1 e 2 foram respectivamente:",
+          "alternativas": {
+            "A": "-0,15% e 0,05%.",
+            "B": "0,45% e 0,10%.",
+            "C": "0,30% e 0,15%.",
+            "D": "0,45% e 0,43%."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q16.png"
+        },
+        {
+          "numero": 17,
+          "codigo": "512303",
+          "pergunta": "Considere as seguintes afirmativas a respeito de teorias sobre o comportamento esperado da curva de juros:\n\n**I** — A Teoria das Expectativas Puras defende que os investidores têm preferência por títulos de determinados vencimentos e o que determina a taxa de juros é tão somente a demanda e a oferta por títulos de determinado vencimento.\n\n**II** — A Teoria da Preferência por Liquidez defende que a curva de juros será sempre positivamente inclinada.\n\n**III** — A Teoria da Segmentação associa o formato da curva de juros às expectativas dos agentes de mercado.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I.",
+            "B": "II e III.",
+            "C": "I e II.",
+            "D": "II."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 18,
+          "codigo": "512307",
+          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia de imunização de carteiras Barbell:\n\n**I** — O gestor aloca metade da carteira em títulos de curto prazo e a outra metade em títulos de longo prazo.\n\n**II** — A estratégia se beneficia em cenários de elevação da curva de juros.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "alternativas": {
+            "A": "ambas estão corretas.",
+            "B": "ambas estão incorretas.",
+            "C": "a primeira está incorreta e a segunda, correta.",
+            "D": "a primeira está correta e a segunda, incorreta."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 19,
+          "codigo": "425306",
+          "pergunta": "Em relação as aplicações em Hedge Funds, podemos afirmar que estes fundos possuem as seguintes características: [ver tabela/gráfico no material original]",
+          "alternativas": {
+            "A": "Vinculada ao Benchmark // SEC // INDEPENDENTE",
+            "B": "Vinculada ao Benchmark // NÃO FISCALIZADO // DEPENDENTE",
+            "C": "Absoluta // SEC // DEPENDENTE",
+            "D": "Absoluta // NÃO FISCALIZADO // INDEPENDENTE"
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q19.png"
+        },
+        {
+          "numero": 20,
+          "codigo": "513206",
+          "pergunta": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:\n\n**I** — É um título de dívida emitido por governos locais nos Estados Unidos.\n\n**II** — São usados para levantar dinheiro para financiar projetos de infraestrutura, como construção de escolas, hospitais, sistemas de transporte e outras obras públicas.\n\n**III** — Podem ser adquiridos por seguradoras.\n\nEstá correto o que se afirma em:",
+          "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+          },
+          "resposta_correta": "D",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 21,
+          "codigo": "513208",
+          "pergunta": "Considere as seguintes afirmativas a respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities):\n\n**I** — As STRIPS têm um benefício implícito do governo norte-americano.\n\n**II** — A duration das STRIPS pode ser maior ou menor que a do título de origem.\n\n**III** — As STRIPS são corrigidas pelo CPI.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "II.",
+            "D": "II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 22,
+          "codigo": "303334",
+          "pergunta": "Um investidor está analisando adquirir um título de renda fixa e está em dúvida entre uma puttable bond e uma eurobond sem esta opção da mesma empresa. Com relação ao preço unitário destes ativos, podemos afirmar que o preço da puttable bond:",
+          "alternativas": {
+            "A": "Será maior, pois a puttable bond confere o direito de vender pelo preço de exercício em caso de aumento da taxa de retorno exigida pelo mercado.",
+            "B": "Será maior, pois a puttable bond confere o direito de vender pelo preço de exercício em caso de diminuição da taxa de retorno exigida pelo mercado.",
+            "C": "Será menor, pois a puttable bond confere o direito de vender pelo preço de exercício em caso de aumento da taxa de retorno exigida pelo mercado.",
+            "D": "Será menor, pois a puttable bond confere o direito de vender pelo preço de exercício em caso de diminuição da taxa de retorno exigida pelo mercado."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 23,
+          "codigo": "303532",
+          "pergunta": "Uma Treasurie Bond, com vencimento de 10 anos, possui valor de face de U$ 1.000,00 e pagamento de cupom de 8% ao ano. Sabendo que seu preço atual para aquisição está em U$ 937,50, podemos afirmar que um investidor que adquire este título, terá um Current Yield (CY) e um Yield to Maturiry (YTM), respectivamente, de:",
+          "alternativas": {
+            "A": "CY: 8,00% a.a; YTM: 8,00% a.a.",
+            "B": "CY: 8,00% a.a; YTM: 8,96% a.a.",
+            "C": "CY: 8,53% a.a; YTM: 8,96% a.a.",
+            "D": "CY: 8,53% a.a; YTM: 8,00% a.a."
+          },
+          "resposta_correta": "C",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 24,
+          "codigo": "303140",
+          "pergunta": "Uma empresa americana possui uma Eurobond (título de renda fixa) que está sendo negociado com ágio no mercado secundário. Desta forma, podemos afirmar que:",
+          "alternativas": {
+            "A": "O Coupon Rate é menor que o Yield to Maturity.",
+            "B": "O Coupon Rate é maior que o Yield to Maturity.",
+            "C": "O Coupon Rate é igual que o Yield to Maturity.",
+            "D": "Não existe correlação entre Coupon Rate e Yield to Maturity."
+          },
+          "resposta_correta": "B",
+          "tema": "Investimentos no Exterior"
+        },
+        {
+          "numero": 25,
+          "codigo": "514108",
+          "pergunta": "Uma carteira, com valor inicial de R$ 1.000,00, registrou valor final de R$ 1.090,00 após um mês. Durante esse período, ela recebeu um aporte no dia 5 de R$ 30 e outro no dia 20 de R$ 20. Se os valores finais da carteira nos dias 5 e 20 foram respectivamente R$ 1.150,00 e R$ 1.200,00, o valor do Time Weighted Rate of Return (TWRR) nesse mês foi de aproximadamente:",
+          "alternativas": {
+            "A": "2,58%.",
+            "B": "3,17%.",
+            "C": "4,39%.",
+            "D": "5,28%."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 26,
+          "codigo": "514109",
+          "pergunta": "Um fundo de investimento, que inicialmente possuía patrimônio líquido de R$ 5.000.000,00, recebeu um aporte de R$ 500.000,00 após um mês, finalizando esse período com patrimônio líquido de R$ 6.000.000,00. No mês seguinte, não houve movimentações e o fundo encerrou o segundo mês com patrimônio líquido de R$ 5.800.000,00. O Money Weighted Rate of Return (MWRR) desse fundo nesse período foi de:",
+          "alternativas": {
+            "A": "2,82%.",
+            "B": "4,50%.",
+            "C": "5,00%.",
+            "D": "5,22%."
+          },
+          "resposta_correta": "A",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 27,
+          "codigo": "306411",
+          "pergunta": "Considere a tabela. Quais fundos foram mais eficientes que o Ibovespa, segundo o índice de Sharpe?",
+          "alternativas": {
+            "A": "VALOR e MAJIMBU.",
+            "B": "MAJIMBU e PEGASUS.",
+            "C": "VALOR e POTENCIAL.",
+            "D": "POTENCIAL e PEGASUS"
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q27.png"
+        },
+        {
+          "numero": 28,
+          "codigo": "207301",
+          "pergunta": "Considerando a tabela abaixo, podemos afirmar que o fundo A:",
+          "alternativas": {
+            "A": "Possui maior risco e maior proximidade ao benchmark que o fundo B.",
+            "B": "Possui maior risco e menor proximidade ao benchmark que o fundo B.",
+            "C": "Possui menor risco e maior proximidade ao benchmark que o fundo B.",
+            "D": "Possui menor risco e menor proximidade ao benchmark que o fundo B."
+          },
+          "resposta_correta": "A",
+          "tema": "Avaliação de Desempenho",
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q28.png"
+        },
+        {
+          "numero": 29,
+          "codigo": "306415",
+          "pergunta": "Um ativo possui índice de Sharpe de 2,5. Considerando taxa livre de risco de 2% e o desvio-padrão do mercado de 4%, pode-se afirmar que o Índice M2 desse ativo é de aproximadamente:",
+          "alternativas": {
+            "A": "6,00%.",
+            "B": "8,00%.",
+            "C": "10%.",
+            "D": "12%."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Carteiras - Renda Variável"
+        },
+        {
+          "numero": 30,
+          "codigo": "514303",
+          "pergunta": "Na avaliação de desempenho de um fundo de investimento, o gestor utiliza o Information Ratio para analisar o retorno ajustado ao risco. Se o retorno excedente do fundo em relação ao benchmark é de 5% e o tracking error é de 3%, o Information Ratio do fundo será igual a:",
+          "alternativas": {
+            "A": "0,60.",
+            "B": "1,00.",
+            "C": "1,67.",
+            "D": "2,50."
+          },
+          "resposta_correta": "C",
+          "tema": "Avaliação de Desempenho"
+        },
+        {
+          "numero": 31,
+          "codigo": "515304",
+          "pergunta": "Um gestor está analisando a compra de um título de Renda Fixa com opção embutida. Dentre as alternativas a seguir, pode-se afirmar que o título com opção embutida de:",
+          "alternativas": {
+            "A": "compra permitirá ao emissor recomprar o título se os juros subirem.",
+            "B": "venda permitirá ao emissor vender o título se os juros caírem.",
+            "C": "venda permitirá ao investidor vender o título se os juros subirem.",
+            "D": "compra permitirá ao investidor comprar o título se os juros caírem."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 32,
+          "codigo": "FCC-207301",
+          "pergunta": "O gerenciamento de riscos vem se constituindo em uma atividade fundamental nas organizações, sendo o Value at Risk (VaR) uma ferramenta bastante difundida. O VaR:",
+          "alternativas": {
+            "A": "Apresenta um problema caracterizado por não ser aplicável a uma distribuição normal.",
+            "B": "Necessita da fixação de específico nível de confiança.",
+            "C": "Dispensa o uso de dados históricos.",
+            "D": "Não necessita de definição de horizonte de tempo para a perda."
+          },
+          "resposta_correta": "B",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 33,
+          "codigo": "207233",
+          "pergunta": "Uma carteira de investimentos possui as seguintes características:\n\n**I** — Duration de Macaulay de 4,00.\n\n**II** — Duration Modificada de 3,20.\n\nDesta forma, podemos afirmar que:",
+          "alternativas": {
+            "A": "O prazo médio dos títulos da carteira é de 3,20.",
+            "B": "Se a taxa de juros subir 100 basis points, a carteira desvaloriza 4,00%.",
+            "C": "Se a taxa de juros cair 100 basis points, a carteira valoriza 3,20%.",
+            "D": "Se a taxa de juros subir 100 basis points, a carteira valoriza 3,20%."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Carteiras - Renda Fixa"
+        },
+        {
+          "numero": 34,
+          "codigo": "207343",
+          "pergunta": "O stress testing em gestão de risco representa uma:",
+          "alternativas": {
+            "A": "técnica que avalia a sensibilidade da carteira de investimentos a diferentes cenários econômicos adversos.",
+            "B": "medida que compara a rentabilidade de uma carteira de investimentos em relação a um índice de referência.",
+            "C": "análise que mede a volatilidade histórica de uma carteira de investimentos.",
+            "D": "estratégia que busca diversificar os investimentos para reduzir o risco de mercado."
+          },
+          "resposta_correta": "A",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 35,
+          "codigo": "515405",
+          "pergunta": "A diferença entre os credit spreads de um título, observada entre os mercados de títulos e de Credit Default Swap – CDS, deve aumentar até voltar aos patamares anteriores. Diante desse cenário, a melhor opção para o investidor é montar uma posição:",
+          "alternativas": {
+            "A": "comprada no título e vendida no CDS.",
+            "B": "vendida no título e comprada no CDS.",
+            "C": "comprada no título e comprada no CDS.",
+            "D": "vendida no título e vendida no CDS."
+          },
+          "resposta_correta": "D",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 36,
+          "codigo": "515407",
+          "pergunta": "Um título de Renda Fixa, cujo valor de face é R$ 100.000,00, é adquirido por um investidor com ágio, no valor de R$ 102.000,00. O risco de inadimplência do emissor é de 6% e, em ocorrendo o default, a perda dada a inadimplência será de 80%. Com isso, o valor da perda esperada por esse investidor será de:",
+          "alternativas": {
+            "A": "R$ 3.520,00.",
+            "B": "R$ 4.896,00.",
+            "C": "R$ 4.920,00.",
+            "D": "R$ 6.120,00."
+          },
+          "resposta_correta": "C",
+          "tema": "Gestão de Risco"
+        },
+        {
+          "numero": 37,
+          "codigo": "105173",
+          "pergunta": "A cobrança de Taxa de Performance em classes tipificadas como Renda Fixa, como regra geral, poderá ocorrer quando a classe:",
+          "alternativas": {
+            "A": "tiver tratamento fiscal destinado a fundos de longo prazo.",
+            "B": "for destinada para o público em geral.",
+            "C": "for tipificada como \"Renda Fixa – Crédito Privado\"",
+            "D": "for classificada como \"Renda Fixa – Simples\"."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 38,
+          "codigo": "205314-A",
+          "pergunta": "Em relação aos limites de concentração por modalidade de ativo financeiro, a classe de cotas deve observar os seguintes limites:\n\n**I** — Até 20% do patrimônio líquido em cotas de FII (Fundo de Investimento Imobiliário).\n\n**II** — Caso o FIF (Fundo de Investimento Financeiro) seja destinado ao público em geral, não é permitida aplicação em cotas de FIF destinadas exclusivamente a investidores qualificados.\n\n**III** — Até 10% do patrimônio líquido do fundo em criptoativos.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I.",
+            "B": "III.",
+            "C": "I e III.",
+            "D": "II e III."
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 39,
+          "codigo": "105156",
+          "pergunta": "Considere as seguintes afirmativas sobre taxa de administração de fundos de investimento:\n\n**I** — Nas classes abertas, deve ser provisionada por dia útil, sempre como despesa da classe e apropriada conforme estabelecido no regulamento.\n\n**II** — Pode ser utilizada para remunerar o distribuidor.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "alternativas": {
+            "A": "ambas estão corretas.",
+            "B": "ambas estão incorretas.",
+            "C": "a primeira está incorreta e a segunda, correta.",
+            "D": "a primeira está correta e a segunda, incorreta."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 40,
+          "codigo": "205315-A",
+          "pergunta": "Um FIF (Fundo de Investimento Financeiro) pode alocar parte do seu patrimônio líquido em determinadas modalidades de ativos, como em cotas de FIDC (Fundo de Investimento em Direitos Creditórios) e cotas de FIP (Fundo de Investimento em Participações). Os limites de concentração nessas modalidades são, respectivamente:",
+          "alternativas": {
+            "A": "20% e 20%.",
+            "B": "20% e 15%.",
+            "C": "15% e 20%.",
+            "D": "15% e 15%."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 41,
+          "codigo": "105341",
+          "pergunta": "Um Fundo de Investimento de Renda Fixa adquiriu para a sua carteira um lote de Nota do Tesouro Nacional série B (NTN-B), com vencimento em 15/05/2020. Sobre o conceito denominado marcação a mercado, um especialista em investimento explicará ao seu cliente que se:\n\n**I** — o fundo permanecer com esse título em sua carteira até o vencimento, a sua rentabilidade refletirá a taxa de juros acordada na aquisição, caso os recebimentos de cupom sejam reinvestidos pela mesma taxa de aquisição.\n\n**II** — ocorrer queda na Taxa Selic, esse título poderá ter seu cupom desvalorizado.\n\n**III** — a taxa de juros de mercado estiver sendo negociada acima da taxa de juros na data de aquisição, a cota do fundo poderá apresentar rentabilidade negativa.\n\nEstá correto o que se afirma em",
+          "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "I, II e III.",
+            "C": "II e III, apenas.",
+            "D": "I e II apenas."
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 42,
+          "codigo": "105339",
+          "pergunta": "O gestor de um fundo de investimentos está adquirindo ativos de renda fixa para a carteira de uma classe. Ele está comprando LFT (Tesouro Selic), CDB da maior instituição financeira do país (rating AAA) e Debêntures de uma empresa aberta com rating CCC, que está com valor de mercado muito abaixo do seu par. O percentual máximo que ele poderá alocar em cada um desses ativos nessa carteira, respectivamente, é de:",
+          "alternativas": {
+            "A": "80%, 40% e 20%",
+            "B": "100%, 20% e 5%",
+            "C": "100%, 20% e 10%",
+            "D": "100%, 100% e 10%"
+          },
+          "resposta_correta": "C",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 43,
+          "codigo": "105342",
+          "pergunta": "A classe de um fundo de investimento financeiro pode aplicar até 10% de seu patrimônio líquido em ativos dos seguintes emissores:\n\n**I** — Instituição Financeira.\n\n**II** — Companhia aberta.\n\n**III** — Gestor e de companhias integrantes de seu grupo econômico.\n\nEstá correto o que se afirma apenas em:",
+          "alternativas": {
+            "A": "I.",
+            "B": "II e III.",
+            "C": "I e II.",
+            "D": "II."
+          },
+          "resposta_correta": "D",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 44,
+          "codigo": "105503",
+          "pergunta": "É o participante dos fundos de investimentos responsável pelo recolhimento do imposto semestral, conhecido como come-cotas:",
+          "alternativas": {
+            "A": "Administrador",
+            "B": "Custodiante",
+            "C": "Gestor",
+            "D": "Próprio Cotista"
+          },
+          "resposta_correta": "A",
+          "tema": "Legislação, Regulação e Tributação"
+        },
+        {
+          "numero": 45,
+          "codigo": "105504",
+          "pergunta": "As perdas apuradas no resgate de cotas de fundos de investimento podem ser compensadas, ressalvadas situações especiais, no mesmo ou em outro fundo de investimento administrado:",
+          "alternativas": {
+            "A": "Por qualquer pessoa jurídica.",
+            "B": "Pela mesma pessoa jurídica.",
+            "C": "Por qualquer associado à ANBIMA.",
+            "D": "Prejuízo em fundos de investimentos não podem ser compensados."
+          },
+          "resposta_correta": "B",
+          "tema": "Legislação, Regulação e Tributação"
+        }
+      ]
+    }
+  ]
+}

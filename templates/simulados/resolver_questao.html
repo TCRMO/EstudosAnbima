@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Questão {{ indice|add:1 }} de {{ total_questoes }} - CFG Anbima{% endblock %}
+{% block title %}Questão {{ indice|add:1 }} de {{ total_questoes }} - Anbima{% endblock %}
 
 {% block content %}
 <!-- Barra de progresso -->
@@ -36,6 +36,12 @@
         </div>
 
         <p class="questao-pergunta mb-4">{{ questao.pergunta }}</p>
+
+        {% if questao.url_imagem %}
+        <div class="text-center my-3">
+            <img src="{{ questao.url_imagem }}" class="img-fluid rounded border" alt="Imagem da questão">
+        </div>
+        {% endif %}
 
         <form method="post" id="form-resposta">
             {% csrf_token %}

@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}Selecionar Prova - Anbima{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5 mt-3">
+    <h1 class="display-5 fw-bold text-primary mb-2">
+        <i class="bi bi-mortarboard-fill me-2"></i>Plataforma de Estudos
+    </h1>
+    <p class="lead text-muted">Escolha a certificação que deseja estudar</p>
+</div>
+
+<div class="row g-4 justify-content-center">
+    <!-- CFG -->
+    <div class="col-md-5">
+        <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="prova" value="CFG">
+            <button type="submit" class="btn w-100 p-0 border-0 text-start">
+                <div class="card card-feature shadow h-100 text-center p-4">
+                    <div class="card-body">
+                        <div class="feature-icon text-primary mb-3">
+                            <i class="bi bi-award-fill" style="font-size: 3rem;"></i>
+                        </div>
+                        <h3 class="fw-bold mb-1">CFG</h3>
+                        <p class="text-muted mb-3">Certificação de Fundamentos em Gestão</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <span class="badge bg-primary-subtle text-primary fs-6">
+                                {{ cfg_simulados }} simulado{{ cfg_simulados|pluralize:"s" }}
+                            </span>
+                            <span class="badge bg-secondary-subtle text-secondary fs-6">
+                                {{ cfg_questoes }} questões
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <!-- CGA -->
+    <div class="col-md-5">
+        <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="prova" value="CGA">
+            <button type="submit" class="btn w-100 p-0 border-0 text-start">
+                <div class="card card-feature shadow h-100 text-center p-4">
+                    <div class="card-body">
+                        <div class="feature-icon text-success mb-3">
+                            <i class="bi bi-trophy-fill" style="font-size: 3rem;"></i>
+                        </div>
+                        <h3 class="fw-bold mb-1">CGA</h3>
+                        <p class="text-muted mb-3">Certificação de Gestores Anbima</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <span class="badge bg-success-subtle text-success fs-6">
+                                {{ cga_simulados }} simulado{{ cga_simulados|pluralize:"s" }}
+                            </span>
+                            <span class="badge bg-secondary-subtle text-secondary fs-6">
+                                {{ cga_questoes }} questões
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}

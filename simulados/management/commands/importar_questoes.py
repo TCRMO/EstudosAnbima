@@ -1,4 +1,5 @@
 import json
+import os
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
@@ -7,7 +8,7 @@ from simulados.models import Questao, Simulado, Tema
 
 
 class Command(BaseCommand):
-    help = 'Importa questões do arquivo cfg_questoes.json para o banco de dados'
+    help = 'Importa questões de um arquivo JSON (cfg_questoes.json ou cga_questoes.json) para o banco de dados'
 
     def add_arguments(self, parser):
         parser.add_argument(
@@ -20,7 +21,15 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         arquivo = settings.BASE_DIR / options['arquivo']
 
+        # Derive the exam type and unique prefix from the filename
+        # e.g. "cfg_questoes.json" → prova="CFG", prefix="CFG-"
+        #      "cga_questoes.json" → prova="CGA", prefix="CGA-"
+        basename = os.path.basename(options['arquivo'])
+        prova = basename.replace('_questoes.json', '').upper()
+        prefixo = prova + '-'
+
         self.stdout.write(f'Lendo arquivo: {arquivo}')
+        self.stdout.write(f'Prova: {prova} | Prefixo de simulado: {prefixo}')
 
         with open(arquivo, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -28,11 +37,12 @@ class Command(BaseCommand):
         total_questoes = 0
 
         for sim_data in data['simulados']:
-            simulado, created = Simulado.objects.get_or_create(
-                codigo=sim_data['id'],
-                defaults={'nome': sim_data['nome']},
+            codigo_simulado = prefixo + sim_data['id']
+            simulado, created = Simulado.objects.update_or_create(
+                codigo=codigo_simulado,
+                defaults={'nome': sim_data['nome'], 'prova': prova},
             )
-            action = 'Criado' if created else 'Já existia'
+            action = 'Criado' if created else 'Atualizado'
             self.stdout.write(f'  {action} simulado: {simulado.nome}')
 
             for q_data in sim_data['questoes']:
@@ -50,6 +60,7 @@ class Command(BaseCommand):
                         'alternativa_d': q_data['alternativas']['D'],
                         'resposta_correta': q_data['resposta_correta'],
                         'tema': tema,
+                        'url_imagem': q_data.get('url_imagem') or '',
                     },
                 )
                 if q_created:

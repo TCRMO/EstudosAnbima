@@ -5,6 +5,8 @@ from . import views
 app_name = 'simulados'
 
 urlpatterns = [
+    # Seleção de prova
+    path('selecionar-prova/', views.selecionar_prova, name='selecionar_prova'),
     # Home / Dashboard
     path('', views.home, name='home'),
     path('dashboard/', views.dashboard, name='dashboard'),

@@ -13,9 +13,13 @@ class Tema(models.Model):
         return self.nome
 
 
+PROVA_CHOICES = [('CFG', 'CFG'), ('CGA', 'CGA')]
+
+
 class Simulado(models.Model):
     codigo = models.CharField(max_length=10, unique=True)
     nome = models.CharField(max_length=200)
+    prova = models.CharField(max_length=3, choices=PROVA_CHOICES, default='CFG')
 
     class Meta:
         ordering = ['codigo']
@@ -46,6 +50,7 @@ class Questao(models.Model):
         max_length=1,
         choices=[('A', 'A'), ('B', 'B'), ('C', 'C'), ('D', 'D')],
     )
+    url_imagem = models.URLField(blank=True, null=True)
 
     class Meta:
         ordering = ['simulado', 'numero']
@@ -76,6 +81,7 @@ class Tentativa(models.Model):
     ]
 
     tipo = models.CharField(max_length=20, choices=TIPO_CHOICES)
+    prova = models.CharField(max_length=3, choices=PROVA_CHOICES, default='CFG')
     simulado = models.ForeignKey(
         Simulado,
         on_delete=models.SET_NULL,

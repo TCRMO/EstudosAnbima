@@ -1,14 +1,16 @@
 {% extends 'base.html' %}
 
-{% block title %}CFG Anbima - Início{% endblock %}
+{% block title %}{{ prova }} Anbima - Início{% endblock %}
 
 {% block content %}
 <!-- Hero -->
 <div class="text-center mb-5">
     <h1 class="display-5 fw-bold text-primary mb-3">
-        <i class="bi bi-mortarboard-fill me-2"></i>CFG Anbima
+        <i class="bi bi-mortarboard-fill me-2"></i>{{ prova }} Anbima
     </h1>
-    <p class="lead text-muted">Plataforma de estudos para a Certificação de Fundamentos em Gestão</p>
+    <p class="lead text-muted">
+        {% if prova == 'CFG' %}Certificação de Fundamentos em Gestão{% else %}Certificação de Gestores Anbima{% endif %}
+    </p>
 
     {% if total_respostas > 0 %}
     <div class="row justify-content-center mt-4">
