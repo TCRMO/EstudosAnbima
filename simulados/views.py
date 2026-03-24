@@ -295,7 +295,12 @@ def iniciar_aleatorio(request):
         return redir
     prova = _get_prova_ativa(request)
 
-    tentativa = Tentativa.objects.create(tipo='aleatorio', prova=prova)
+    ids = list(
+        Questao.objects.filter(simulado__prova=prova)
+        .order_by('?')[:20]
+        .values_list('id', flat=True)
+    )
+    tentativa = Tentativa.objects.create(tipo='aleatorio', prova=prova, questoes_ids=ids)
     return redirect('simulados:resolver_questao', tentativa_id=tentativa.id, indice=0)
 
 
@@ -322,7 +327,12 @@ def iniciar_revisao(request):
     if not questoes_erradas_ids:
         return render(request, 'simulados/sem_erros.html')
 
-    tentativa = Tentativa.objects.create(tipo='revisao', prova=prova)
+    ids = list(
+        Questao.objects.filter(id__in=questoes_erradas_ids, simulado__prova=prova)
+        .order_by('?')[:20]
+        .values_list('id', flat=True)
+    )
+    tentativa = Tentativa.objects.create(tipo='revisao', prova=prova, questoes_ids=ids)
     return redirect('simulados:resolver_questao', tentativa_id=tentativa.id, indice=0)
 
 
@@ -330,7 +340,7 @@ def iniciar_revisao(request):
 
 
 def _get_questoes_tentativa(tentativa):
-    """Retorna o queryset de questões para a tentativa."""
+    """Retorna a lista de questões para a tentativa."""
     prova = tentativa.prova
     if tentativa.tipo == 'simulado':
         return tentativa.simulado.questoes.all().order_by('numero')
@@ -339,9 +349,14 @@ def _get_questoes_tentativa(tentativa):
             Questao.objects.filter(tema=tentativa.tema, simulado__prova=prova)
             .order_by('simulado__codigo', 'numero')
         )
-    elif tentativa.tipo == 'aleatorio':
-        return Questao.objects.filter(simulado__prova=prova).order_by('?')[:20]
-    elif tentativa.tipo == 'revisao':
+    elif tentativa.tipo in ('aleatorio', 'revisao'):
+        ids = tentativa.questoes_ids
+        if ids:
+            questoes_map = {q.id: q for q in Questao.objects.filter(id__in=ids)}
+            return [questoes_map[qid] for qid in ids if qid in questoes_map]
+        # Fallback para tentativas antigas sem IDs persistidos
+        if tentativa.tipo == 'aleatorio':
+            return list(Questao.objects.filter(simulado__prova=prova).order_by('?')[:20])
         ids_erradas = (
             Resposta.objects.filter(
                 correta=False,
@@ -352,7 +367,7 @@ def _get_questoes_tentativa(tentativa):
             .values_list('questao_id', flat=True)
             .distinct()
         )
-        return (
+        return list(
             Questao.objects.filter(id__in=ids_erradas, simulado__prova=prova)
             .order_by('?')[:20]
         )

@@ -99,6 +99,7 @@ class Tentativa(models.Model):
     data_inicio = models.DateTimeField(default=timezone.now)
     data_fim = models.DateTimeField(null=True, blank=True)
     finalizada = models.BooleanField(default=False)
+    questoes_ids = models.JSONField(default=list, blank=True)
 
     class Meta:
         ordering = ['-data_inicio']

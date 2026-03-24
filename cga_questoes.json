@@ -111,7 +111,7 @@
         {
           "numero": 9,
           "codigo": "511501",
-          "pergunta": "Considere as seguintes afirmativas:\n\n**I** — Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro.\n\n**II** — Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento.\n\nPode-se afirmar que o processo de análise descrito em",
+          "pergunta": "Considere as seguintes afirmativas:\n\nI — Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro.\n\nII — Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento.\n\nPode-se afirmar que o processo de análise descrito em",
           "alternativas": {
             "A": "I refere-se à análise bottom-up e em II, top-down.",
             "B": "I refere-se à análise top-down e em II, bottom-up.",
@@ -119,7 +119,20 @@
             "D": "ambas afirmativas referem-se à análise top-down."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro."
+            },
+            {
+              "letra": "II",
+              "texto": "Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento."
+            }
+          ],
+          "conclusao": "Pode-se afirmar que o processo de análise descrito em",
+          "tem_itens": true
         },
         {
           "numero": 10,
@@ -150,7 +163,7 @@
         {
           "numero": 12,
           "codigo": "512201",
-          "pergunta": "Sejam as seguintes afirmações sobre a estratégia de imunização de carteiras de Renda Fixa:\n\n**I** — O principal objetivo é mitigar ou até mesmo neutralizar o risco da variação do preço dos ativos em função de mudanças na curva de juros.\n\n**II** — Pode ser decomposta em duas partes: risco de preço e risco de reinvestimento.\n\n**III** — O aumento das taxas de juros tem um efeito negativo sobre o reinvestimento.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Sejam as seguintes afirmações sobre a estratégia de imunização de carteiras de Renda Fixa:\n\nI — O principal objetivo é mitigar ou até mesmo neutralizar o risco da variação do preço dos ativos em função de mudanças na curva de juros.\n\nII — Pode ser decomposta em duas partes: risco de preço e risco de reinvestimento.\n\nIII — O aumento das taxas de juros tem um efeito negativo sobre o reinvestimento.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -158,7 +171,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Sejam as seguintes afirmações sobre a estratégia de imunização de carteiras de Renda Fixa:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O principal objetivo é mitigar ou até mesmo neutralizar o risco da variação do preço dos ativos em função de mudanças na curva de juros."
+            },
+            {
+              "letra": "II",
+              "texto": "Pode ser decomposta em duas partes: risco de preço e risco de reinvestimento."
+            },
+            {
+              "letra": "III",
+              "texto": "O aumento das taxas de juros tem um efeito negativo sobre o reinvestimento."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 13,
@@ -228,7 +258,7 @@
         {
           "numero": 18,
           "codigo": "308101",
-          "pergunta": "Considere as seguintes afirmativas a respeito do índice S&P/B3 Brasil ESG:\n\n**I** — Tem como objetivo medir a performance das empresas com as melhores práticas de sustentabilidade baseadas em critérios ASG.\n\n**II** — Pode servir como índice de referência para ETFs ASG.\n\n**III** — Adota como principal fator de ponderação as notas ASG das companhias elegíveis à carteira teórica, através de uma metodologia proprietária da Standard&Poor's.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito do índice S&P/B3 Brasil ESG:\n\nI — Tem como objetivo medir a performance das empresas com as melhores práticas de sustentabilidade baseadas em critérios ASG.\n\nII — Pode servir como índice de referência para ETFs ASG.\n\nIII — Adota como principal fator de ponderação as notas ASG das companhias elegíveis à carteira teórica, através de uma metodologia proprietária da Standard&Poor's.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -236,7 +266,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Considere as seguintes afirmativas a respeito do índice S&P/B3 Brasil ESG:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Tem como objetivo medir a performance das empresas com as melhores práticas de sustentabilidade baseadas em critérios ASG."
+            },
+            {
+              "letra": "II",
+              "texto": "Pode servir como índice de referência para ETFs ASG."
+            },
+            {
+              "letra": "III",
+              "texto": "Adota como principal fator de ponderação as notas ASG das companhias elegíveis à carteira teórica, através de uma metodologia proprietária da Standard&Poor's."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 19,
@@ -254,7 +301,7 @@
         {
           "numero": 20,
           "codigo": "513103",
-          "pergunta": "Sobre o Mercado de Balcão (Over-the-Counter) nos Estados Unidos, considere as seguintes afirmativas:\n\n**I** — É acessado por emissores de porte reduzido.\n\n**II** — Não é regulado, sendo restrito a grandes investidores (Accredited Investors).\n\n**III** — Amplamente descentralizado.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Sobre o Mercado de Balcão (Over-the-Counter) nos Estados Unidos, considere as seguintes afirmativas:\n\nI — É acessado por emissores de porte reduzido.\n\nII — Não é regulado, sendo restrito a grandes investidores (Accredited Investors).\n\nIII — Amplamente descentralizado.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -262,7 +309,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "Sobre o Mercado de Balcão (Over-the-Counter) nos Estados Unidos, considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "É acessado por emissores de porte reduzido."
+            },
+            {
+              "letra": "II",
+              "texto": "Não é regulado, sendo restrito a grandes investidores (Accredited Investors)."
+            },
+            {
+              "letra": "III",
+              "texto": "Amplamente descentralizado."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 21,
@@ -280,7 +344,7 @@
         {
           "numero": 22,
           "codigo": "513204",
-          "pergunta": "A respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities), podemos dizer que são:\n\n**I** — Emitidas pelo Tesouro norte-americano.\n\n**II** — Títulos que possuem duration maior que o título original de mesma taxa de cupom e mesmo prazo.\n\n**III** — Títulos negociáveis e sem pagamento de cupom.\n\nEstá correto o que se afirma em:",
+          "pergunta": "A respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities), podemos dizer que são:\n\nI — Emitidas pelo Tesouro norte-americano.\n\nII — Títulos que possuem duration maior que o título original de mesma taxa de cupom e mesmo prazo.\n\nIII — Títulos negociáveis e sem pagamento de cupom.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -288,7 +352,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "A respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities), podemos dizer que são:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Emitidas pelo Tesouro norte-americano."
+            },
+            {
+              "letra": "II",
+              "texto": "Títulos que possuem duration maior que o título original de mesma taxa de cupom e mesmo prazo."
+            },
+            {
+              "letra": "III",
+              "texto": "Títulos negociáveis e sem pagamento de cupom."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 23,
@@ -319,7 +400,7 @@
         {
           "numero": 25,
           "codigo": "303523",
-          "pergunta": "Considere as seguintes afirmativas abaixo em relação as TIPS (Treasury Inflation Protected Securities):\n\n**I** — Tem seu preço ajustado de acordo com a inflação.\n\n**II** — O valor dos cupons recebidos não variam até o vencimento.\n\n**III** — Não tem seu valor de face alterado, mesmo que ocorra deflação.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas abaixo em relação as TIPS (Treasury Inflation Protected Securities):\n\nI — Tem seu preço ajustado de acordo com a inflação.\n\nII — O valor dos cupons recebidos não variam até o vencimento.\n\nIII — Não tem seu valor de face alterado, mesmo que ocorra deflação.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I, apenas.",
             "B": "II, apenas.",
@@ -327,7 +408,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "Considere as seguintes afirmativas abaixo em relação as TIPS (Treasury Inflation Protected Securities):",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Tem seu preço ajustado de acordo com a inflação."
+            },
+            {
+              "letra": "II",
+              "texto": "O valor dos cupons recebidos não variam até o vencimento."
+            },
+            {
+              "letra": "III",
+              "texto": "Não tem seu valor de face alterado, mesmo que ocorra deflação."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 26,
@@ -345,7 +443,7 @@
         {
           "numero": 27,
           "codigo": "514101",
-          "pergunta": "Sobre o uso das taxas Time-Weighted (TW) e Money-Weighted (MW) no cálculo do retorno de uma carteira administrada, pode-se afirmar que as taxas:\n\n**I** — TW não são influenciadas por aportes e saídas de recursos.\n\n**II** — MW devem ser recalculadas a cada aporte ou saída de recursos.\n\n**III** — TW são mais apropriadas se o gestor da carteira não tiver controle sobre o fluxo de aportes e resgates de recursos.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Sobre o uso das taxas Time-Weighted (TW) e Money-Weighted (MW) no cálculo do retorno de uma carteira administrada, pode-se afirmar que as taxas:\n\nI — TW não são influenciadas por aportes e saídas de recursos.\n\nII — MW devem ser recalculadas a cada aporte ou saída de recursos.\n\nIII — TW são mais apropriadas se o gestor da carteira não tiver controle sobre o fluxo de aportes e resgates de recursos.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -353,12 +451,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Avaliação de Desempenho"
+          "tema": "Avaliação de Desempenho",
+          "intro": "Sobre o uso das taxas Time-Weighted (TW) e Money-Weighted (MW) no cálculo do retorno de uma carteira administrada, pode-se afirmar que as taxas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "TW não são influenciadas por aportes e saídas de recursos."
+            },
+            {
+              "letra": "II",
+              "texto": "MW devem ser recalculadas a cada aporte ou saída de recursos."
+            },
+            {
+              "letra": "III",
+              "texto": "TW são mais apropriadas se o gestor da carteira não tiver controle sobre o fluxo de aportes e resgates de recursos."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 28,
           "codigo": "514203",
-          "pergunta": "A respeito do benchmark Universo de Gestores, considere as seguintes afirmativas:\n\n**I** — Pode ser considerado mensurável e adequado.\n\n**II** — Está sujeito ao survivorship bias (viés de sobrevivência).\n\n**III** — Não pode ser especificado de antemão nem replicado.\n\nEstá correto o que se afirma em:",
+          "pergunta": "A respeito do benchmark Universo de Gestores, considere as seguintes afirmativas:\n\nI — Pode ser considerado mensurável e adequado.\n\nII — Está sujeito ao survivorship bias (viés de sobrevivência).\n\nIII — Não pode ser especificado de antemão nem replicado.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -366,12 +481,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Avaliação de Desempenho"
+          "tema": "Avaliação de Desempenho",
+          "intro": "A respeito do benchmark Universo de Gestores, considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Pode ser considerado mensurável e adequado."
+            },
+            {
+              "letra": "II",
+              "texto": "Está sujeito ao survivorship bias (viés de sobrevivência)."
+            },
+            {
+              "letra": "III",
+              "texto": "Não pode ser especificado de antemão nem replicado."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 29,
           "codigo": "207307",
-          "pergunta": "Avalie as afirmativas a respeito do índice de Treynor:\n\n**I** — O ativo é mais atraente quanto maior for o índice.\n\n**II** — É uma medida apropriada se o fundo de investimentos for suficientemente diversificado.\n\n**III** — É uma medida de retorno excedente de um ativo semelhante ao Índice Sharpe, com a diferença que utiliza o desvio padrão como medida de risco.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Avalie as afirmativas a respeito do índice de Treynor:\n\nI — O ativo é mais atraente quanto maior for o índice.\n\nII — É uma medida apropriada se o fundo de investimentos for suficientemente diversificado.\n\nIII — É uma medida de retorno excedente de um ativo semelhante ao Índice Sharpe, com a diferença que utiliza o desvio padrão como medida de risco.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I, apenas.",
             "B": "I e II, apenas.",
@@ -379,12 +511,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Avaliação de Desempenho"
+          "tema": "Avaliação de Desempenho",
+          "intro": "Avalie as afirmativas a respeito do índice de Treynor:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O ativo é mais atraente quanto maior for o índice."
+            },
+            {
+              "letra": "II",
+              "texto": "É uma medida apropriada se o fundo de investimentos for suficientemente diversificado."
+            },
+            {
+              "letra": "III",
+              "texto": "É uma medida de retorno excedente de um ativo semelhante ao Índice Sharpe, com a diferença que utiliza o desvio padrão como medida de risco."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 30,
           "codigo": "207329",
-          "pergunta": "Considere as seguintes afirmativas sobre o Tracking Error:\n\n**I** — Serve para mensurar o risco do ativo não entregar o seu devido benchmark.\n\n**II** — Quanto maior o seu valor, maiores são as oscilações perante o benchmark.\n\n**III** — Quanto menor o índice, menor a aderência do fundo em relação ao seu parâmetro de performance.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Considere as seguintes afirmativas sobre o Tracking Error:\n\nI — Serve para mensurar o risco do ativo não entregar o seu devido benchmark.\n\nII — Quanto maior o seu valor, maiores são as oscilações perante o benchmark.\n\nIII — Quanto menor o índice, menor a aderência do fundo em relação ao seu parâmetro de performance.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I, apenas",
             "B": "II, apenas",
@@ -392,7 +541,24 @@
             "D": "I, II e III"
           },
           "resposta_correta": "C",
-          "tema": "Avaliação de Desempenho"
+          "tema": "Avaliação de Desempenho",
+          "intro": "Considere as seguintes afirmativas sobre o Tracking Error:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Serve para mensurar o risco do ativo não entregar o seu devido benchmark."
+            },
+            {
+              "letra": "II",
+              "texto": "Quanto maior o seu valor, maiores são as oscilações perante o benchmark."
+            },
+            {
+              "letra": "III",
+              "texto": "Quanto menor o índice, menor a aderência do fundo em relação ao seu parâmetro de performance."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 31,
@@ -436,7 +602,7 @@
         {
           "numero": 34,
           "codigo": "515402",
-          "pergunta": "No cálculo da perda esperada para títulos de crédito, devem ser consideradas:\n\n**I** — Duration do título.\n\n**II** — Probabilidade de default.\n\n**III** — Taxa de recuperação.\n\nEstá correto em o que se afirma em:",
+          "pergunta": "No cálculo da perda esperada para títulos de crédito, devem ser consideradas:\n\nI — Duration do título.\n\nII — Probabilidade de default.\n\nIII — Taxa de recuperação.\n\nEstá correto em o que se afirma em:",
           "alternativas": {
             "A": "I e III, apenas.",
             "B": "I e II, apenas.",
@@ -444,7 +610,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Risco"
+          "tema": "Gestão de Risco",
+          "intro": "No cálculo da perda esperada para títulos de crédito, devem ser consideradas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Duration do título."
+            },
+            {
+              "letra": "II",
+              "texto": "Probabilidade de default."
+            },
+            {
+              "letra": "III",
+              "texto": "Taxa de recuperação."
+            }
+          ],
+          "conclusao": "Está correto em o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 35,
@@ -476,7 +659,7 @@
         {
           "numero": 37,
           "codigo": "207201",
-          "pergunta": "Em relação ao conceito de Duration e suas variáveis, podemos afirmar que:\n\n**I** — Quanto maior o cupom pago pelo título, maior será a sua Duration.\n\n**II** — Quanto maior a frequência de pagamentos dos cupons, menor será a Duration dos títulos.\n\n**III** — A variação da taxa de juros possui um relação direta com o preço dos títulos prefixados.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Em relação ao conceito de Duration e suas variáveis, podemos afirmar que:\n\nI — Quanto maior o cupom pago pelo título, maior será a sua Duration.\n\nII — Quanto maior a frequência de pagamentos dos cupons, menor será a Duration dos títulos.\n\nIII — A variação da taxa de juros possui um relação direta com o preço dos títulos prefixados.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I, apenas",
             "B": "II, apenas",
@@ -484,12 +667,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Em relação ao conceito de Duration e suas variáveis, podemos afirmar que:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Quanto maior o cupom pago pelo título, maior será a sua Duration."
+            },
+            {
+              "letra": "II",
+              "texto": "Quanto maior a frequência de pagamentos dos cupons, menor será a Duration dos títulos."
+            },
+            {
+              "letra": "III",
+              "texto": "A variação da taxa de juros possui um relação direta com o preço dos títulos prefixados."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 38,
           "codigo": "105166",
-          "pergunta": "Considere as seguintes afirmativas sobre a taxa de performance em fundos de investimento:\n\n**I** — Deverá ser vinculada a um índice de referência verificável, originado por fonte independente, compatível com a política de investimentos do fundo.\n\n**II** — Poderá ser vinculada a percentual inferior a 100% do índice de referência.\n\n**III** — A cobrança deverá ser realizada em um período de, no mínimo, 6 meses.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre a taxa de performance em fundos de investimento:\n\nI — Deverá ser vinculada a um índice de referência verificável, originado por fonte independente, compatível com a política de investimentos do fundo.\n\nII — Poderá ser vinculada a percentual inferior a 100% do índice de referência.\n\nIII — A cobrança deverá ser realizada em um período de, no mínimo, 6 meses.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "III, apenas.",
@@ -497,12 +697,29 @@
             "D": "II e III, apenas."
           },
           "resposta_correta": "C",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Considere as seguintes afirmativas sobre a taxa de performance em fundos de investimento:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Deverá ser vinculada a um índice de referência verificável, originado por fonte independente, compatível com a política de investimentos do fundo."
+            },
+            {
+              "letra": "II",
+              "texto": "Poderá ser vinculada a percentual inferior a 100% do índice de referência."
+            },
+            {
+              "letra": "III",
+              "texto": "A cobrança deverá ser realizada em um período de, no mínimo, 6 meses."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 39,
           "codigo": "105167",
-          "pergunta": "São obrigações do Administrador nos fundos de investimentos financeiros:\n\n**I** — Verificar, após a realização das operações pelo gestor, a compatibilidade dos preços praticados com os preços de mercado.\n\n**II** — Verificar, após a realização das operações pelo gestor, em periodicidade compatível com a política de investimentos da classe, a observância da carteira de ativos aos limites de composição, concentração e, se for o caso, de exposição ao risco de capital.\n\n**III** — Contratar o Custodiante.\n\nEstá correto o que se afirma em:",
+          "pergunta": "São obrigações do Administrador nos fundos de investimentos financeiros:\n\nI — Verificar, após a realização das operações pelo gestor, a compatibilidade dos preços praticados com os preços de mercado.\n\nII — Verificar, após a realização das operações pelo gestor, em periodicidade compatível com a política de investimentos da classe, a observância da carteira de ativos aos limites de composição, concentração e, se for o caso, de exposição ao risco de capital.\n\nIII — Contratar o Custodiante.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -510,12 +727,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "São obrigações do Administrador nos fundos de investimentos financeiros:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Verificar, após a realização das operações pelo gestor, a compatibilidade dos preços praticados com os preços de mercado."
+            },
+            {
+              "letra": "II",
+              "texto": "Verificar, após a realização das operações pelo gestor, em periodicidade compatível com a política de investimentos da classe, a observância da carteira de ativos aos limites de composição, concentração e, se for o caso, de exposição ao risco de capital."
+            },
+            {
+              "letra": "III",
+              "texto": "Contratar o Custodiante."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 40,
           "codigo": "101278",
-          "pergunta": "Devem ser registrados em sistema de registro ou serem objeto de depósito central:\n\n**I** — Ativos financeiros negociados no mercado brasileiro.\n\n**II** — Ativos financeiros emitidos por companhia aberta.\n\n**III** — Cotas de classes abertas.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Devem ser registrados em sistema de registro ou serem objeto de depósito central:\n\nI — Ativos financeiros negociados no mercado brasileiro.\n\nII — Ativos financeiros emitidos por companhia aberta.\n\nIII — Cotas de classes abertas.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I e II.",
             "B": "I e III.",
@@ -523,12 +757,29 @@
             "D": "II."
           },
           "resposta_correta": "A",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Devem ser registrados em sistema de registro ou serem objeto de depósito central:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Ativos financeiros negociados no mercado brasileiro."
+            },
+            {
+              "letra": "II",
+              "texto": "Ativos financeiros emitidos por companhia aberta."
+            },
+            {
+              "letra": "III",
+              "texto": "Cotas de classes abertas."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 41,
           "codigo": "105348",
-          "pergunta": "As classes de cotas de FIF (Fundo de Investimento Financeiro) devem observar os seguintes limites de concentração ao aplicar em ativos financeiros no exterior:\n\n**I** — Ilimitado para classes categorizadas como Renda Fixa – Dívida Externa.\n\n**II** — Até 40% do patrimônio líquido para classes exclusivamente destinadas a investidores profissionais.\n\n**III** — Até 20% do patrimônio líquido para as classes destinadas ao público em geral.\n\nEstá correto o que se afirma em:",
+          "pergunta": "As classes de cotas de FIF (Fundo de Investimento Financeiro) devem observar os seguintes limites de concentração ao aplicar em ativos financeiros no exterior:\n\nI — Ilimitado para classes categorizadas como Renda Fixa – Dívida Externa.\n\nII — Até 40% do patrimônio líquido para classes exclusivamente destinadas a investidores profissionais.\n\nIII — Até 20% do patrimônio líquido para as classes destinadas ao público em geral.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II.",
             "B": "I e III.",
@@ -536,7 +787,24 @@
             "D": "III."
           },
           "resposta_correta": "B",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "As classes de cotas de FIF (Fundo de Investimento Financeiro) devem observar os seguintes limites de concentração ao aplicar em ativos financeiros no exterior:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Ilimitado para classes categorizadas como Renda Fixa – Dívida Externa."
+            },
+            {
+              "letra": "II",
+              "texto": "Até 40% do patrimônio líquido para classes exclusivamente destinadas a investidores profissionais."
+            },
+            {
+              "letra": "III",
+              "texto": "Até 20% do patrimônio líquido para as classes destinadas ao público em geral."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 42,
@@ -612,7 +880,7 @@
         {
           "numero": 2,
           "codigo": "427343",
-          "pergunta": "Considere as seguintes afirmativas a respeito de metodologias utilizadas para a gestão passiva de fundos de ações:\n\n**I** — A técnica de full replication é a mais adequada, independentemente da liquidez dos ativos que compõem o índice.\n\n**II** — Um gestor passivo pode utilizar derivativos e técnicas de otimização.\n\n**III** — Se os custos de transação forem elevados, pode-se gerir passivamente um fundo por meio da técnica de amostragem estratificada.\n\nÉ correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito de metodologias utilizadas para a gestão passiva de fundos de ações:\n\nI — A técnica de full replication é a mais adequada, independentemente da liquidez dos ativos que compõem o índice.\n\nII — Um gestor passivo pode utilizar derivativos e técnicas de otimização.\n\nIII — Se os custos de transação forem elevados, pode-se gerir passivamente um fundo por meio da técnica de amostragem estratificada.\n\nÉ correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -620,12 +888,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas a respeito de metodologias utilizadas para a gestão passiva de fundos de ações:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A técnica de full replication é a mais adequada, independentemente da liquidez dos ativos que compõem o índice."
+            },
+            {
+              "letra": "II",
+              "texto": "Um gestor passivo pode utilizar derivativos e técnicas de otimização."
+            },
+            {
+              "letra": "III",
+              "texto": "Se os custos de transação forem elevados, pode-se gerir passivamente um fundo por meio da técnica de amostragem estratificada."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 3,
           "codigo": "511207",
-          "pergunta": "A utilização de contratos futuros de um índice de ações para a indexação de uma carteira:\n\n**I** — Sujeita-se ao risco de taxa de juros.\n\n**II** — Permite o uso de uma estratégia de \"enhanced cash\" caso parte da carteira seja investida em ativos de renda fixa que paguem um prêmio sobre os títulos do tesouro.\n\n**III** — Isenta a carteira de ajustes diários nesses contratos.\n\nÉ correto o que se afirma em:",
+          "pergunta": "A utilização de contratos futuros de um índice de ações para a indexação de uma carteira:\n\nI — Sujeita-se ao risco de taxa de juros.\n\nII — Permite o uso de uma estratégia de \"enhanced cash\" caso parte da carteira seja investida em ativos de renda fixa que paguem um prêmio sobre os títulos do tesouro.\n\nIII — Isenta a carteira de ajustes diários nesses contratos.\n\nÉ correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -633,12 +918,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "A utilização de contratos futuros de um índice de ações para a indexação de uma carteira:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Sujeita-se ao risco de taxa de juros."
+            },
+            {
+              "letra": "II",
+              "texto": "Permite o uso de uma estratégia de \"enhanced cash\" caso parte da carteira seja investida em ativos de renda fixa que paguem um prêmio sobre os títulos do tesouro."
+            },
+            {
+              "letra": "III",
+              "texto": "Isenta a carteira de ajustes diários nesses contratos."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 4,
           "codigo": "427336",
-          "pergunta": "A estratégia de investimento:\n\n**I** — Long-Only pode usar a análise fundamentalista para encontrar ações subavaliadas.\n\n**II** — Long-Only pode gerar dois alfas.\n\n**III** — Long-and-Short tem como objetivo eliminar o risco não-sistemático da carteira.\n\n**IV** — Market-Neutral tem como um dos objetivos eliminar o risco sistemático da carteira.\n\nÉ correto o que se afirma em:",
+          "pergunta": "A estratégia de investimento:\n\nI — Long-Only pode usar a análise fundamentalista para encontrar ações subavaliadas.\n\nII — Long-Only pode gerar dois alfas.\n\nIII — Long-and-Short tem como objetivo eliminar o risco não-sistemático da carteira.\n\nIV — Market-Neutral tem como um dos objetivos eliminar o risco sistemático da carteira.\n\nÉ correto o que se afirma em:",
           "alternativas": {
             "A": "I e IV, apenas.",
             "B": "I, III e IV, apenas.",
@@ -646,12 +948,33 @@
             "D": "I, II, III e IV."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "A estratégia de investimento:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Long-Only pode usar a análise fundamentalista para encontrar ações subavaliadas."
+            },
+            {
+              "letra": "II",
+              "texto": "Long-Only pode gerar dois alfas."
+            },
+            {
+              "letra": "III",
+              "texto": "Long-and-Short tem como objetivo eliminar o risco não-sistemático da carteira."
+            },
+            {
+              "letra": "IV",
+              "texto": "Market-Neutral tem como um dos objetivos eliminar o risco sistemático da carteira."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 5,
           "codigo": "511502",
-          "pergunta": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:\n\n**I** — o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos.\n\n**II** — as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices.\n\n**III** — os dois métodos não podem ser combinados na gestão de uma carteira de renda variável.\n\nÉ correto o que se afirma em",
+          "pergunta": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:\n\nI — o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos.\n\nII — as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices.\n\nIII — os dois métodos não podem ser combinados na gestão de uma carteira de renda variável.\n\nÉ correto o que se afirma em",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -659,7 +982,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos."
+            },
+            {
+              "letra": "II",
+              "texto": "as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices."
+            },
+            {
+              "letra": "III",
+              "texto": "os dois métodos não podem ser combinados na gestão de uma carteira de renda variável."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em",
+          "tem_itens": true
         },
         {
           "numero": 6,
@@ -677,7 +1017,7 @@
         {
           "numero": 7,
           "codigo": "516101",
-          "pergunta": "Considere as seguintes afirmativas a respeito do processo de seleção de gestores:\n\n**I** — A existência de áreas de risco e compliance, com a devida independência em relação à área de gestão, é um ponto a ser observado pelo gestor, embora não seja uma exigência regulamentação de fundos no Brasil.\n\n**II** — A análise da qualidade da gestão de uma empresa de asset management deve considerar não apenas seus fundos atuais, mas também os fundos encerrados, reduzindo o viés de sobrevivência (Survivorship Bias).\n\n**III** — As práticas como cherry picking devem ser identificadas e consideradas pelo gestor ao realizar sua avaliação.\n\nÉ correto o que se afirma em",
+          "pergunta": "Considere as seguintes afirmativas a respeito do processo de seleção de gestores:\n\nI — A existência de áreas de risco e compliance, com a devida independência em relação à área de gestão, é um ponto a ser observado pelo gestor, embora não seja uma exigência regulamentação de fundos no Brasil.\n\nII — A análise da qualidade da gestão de uma empresa de asset management deve considerar não apenas seus fundos atuais, mas também os fundos encerrados, reduzindo o viés de sobrevivência (Survivorship Bias).\n\nIII — As práticas como cherry picking devem ser identificadas e consideradas pelo gestor ao realizar sua avaliação.\n\nÉ correto o que se afirma em",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -685,12 +1025,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Avaliação de Desempenho"
+          "tema": "Avaliação de Desempenho",
+          "intro": "Considere as seguintes afirmativas a respeito do processo de seleção de gestores:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A existência de áreas de risco e compliance, com a devida independência em relação à área de gestão, é um ponto a ser observado pelo gestor, embora não seja uma exigência regulamentação de fundos no Brasil."
+            },
+            {
+              "letra": "II",
+              "texto": "A análise da qualidade da gestão de uma empresa de asset management deve considerar não apenas seus fundos atuais, mas também os fundos encerrados, reduzindo o viés de sobrevivência (Survivorship Bias)."
+            },
+            {
+              "letra": "III",
+              "texto": "As práticas como cherry picking devem ser identificadas e consideradas pelo gestor ao realizar sua avaliação."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em",
+          "tem_itens": true
         },
         {
           "numero": 8,
           "codigo": "511501",
-          "pergunta": "Considere as seguintes afirmativas:\n\n**I** — Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro.\n\n**II** — Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento.\n\nPode-se afirmar que o processo de análise descrito em",
+          "pergunta": "Considere as seguintes afirmativas:\n\nI — Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro.\n\nII — Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento.\n\nPode-se afirmar que o processo de análise descrito em",
           "alternativas": {
             "A": "I refere-se à análise bottom-up e em II, top-down.",
             "B": "I refere-se à análise top-down e em II, bottom-up.",
@@ -698,7 +1055,20 @@
             "D": "ambas afirmativas referem-se à análise top-down."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Um investidor procura inicialmente por empresas que apresentam boa perspectiva de crescimento no futuro."
+            },
+            {
+              "letra": "II",
+              "texto": "Um gestor projeta inicialmente taxas de crescimento para o PIB da economia de um país e depois procura pelos setores que serão mais beneficiados por esse crescimento."
+            }
+          ],
+          "conclusao": "Pode-se afirmar que o processo de análise descrito em",
+          "tem_itens": true
         },
         {
           "numero": 9,
@@ -716,7 +1086,7 @@
         {
           "numero": 10,
           "codigo": "512103",
-          "pergunta": "A gestão de um Fundo de Renda Fixa por meio da estratégia de Indexação Reforçada busca:\n\n**I** — Oferecer maior retorno pela redução dos custos de construção e manutenção da carteira.\n\n**II** — Imunizar a carteira contra variações no nível e no formato da curva de juros.\n\n**III** — Replicar os principais fatores de risco do benchmark desse fundo.\n\nEstá correto o que se afirma em:",
+          "pergunta": "A gestão de um Fundo de Renda Fixa por meio da estratégia de Indexação Reforçada busca:\n\nI — Oferecer maior retorno pela redução dos custos de construção e manutenção da carteira.\n\nII — Imunizar a carteira contra variações no nível e no formato da curva de juros.\n\nIII — Replicar os principais fatores de risco do benchmark desse fundo.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -724,7 +1094,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "A gestão de um Fundo de Renda Fixa por meio da estratégia de Indexação Reforçada busca:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Oferecer maior retorno pela redução dos custos de construção e manutenção da carteira."
+            },
+            {
+              "letra": "II",
+              "texto": "Imunizar a carteira contra variações no nível e no formato da curva de juros."
+            },
+            {
+              "letra": "III",
+              "texto": "Replicar os principais fatores de risco do benchmark desse fundo."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 11,
@@ -755,7 +1142,7 @@
         {
           "numero": 13,
           "codigo": "512208",
-          "pergunta": "Considere as seguintes afirmativas sobre Spread Duration:\n\n**I** — Mede a sensibilidade do preço de um título privado a mudanças em seu spread de crédito.\n\n**II** — É uma estratégia de imunização de carteiras de Renda Fixa.\n\n**III** — É uma medida irrelevante em se tratando de títulos do tipo plain-vanilla com cupom fixo pois não acrescenta qualquer informação nova sobre a carteira, sendo idêntica à duration modificada desse título.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre Spread Duration:\n\nI — Mede a sensibilidade do preço de um título privado a mudanças em seu spread de crédito.\n\nII — É uma estratégia de imunização de carteiras de Renda Fixa.\n\nIII — É uma medida irrelevante em se tratando de títulos do tipo plain-vanilla com cupom fixo pois não acrescenta qualquer informação nova sobre a carteira, sendo idêntica à duration modificada desse título.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -763,7 +1150,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas sobre Spread Duration:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Mede a sensibilidade do preço de um título privado a mudanças em seu spread de crédito."
+            },
+            {
+              "letra": "II",
+              "texto": "É uma estratégia de imunização de carteiras de Renda Fixa."
+            },
+            {
+              "letra": "III",
+              "texto": "É uma medida irrelevante em se tratando de títulos do tipo plain-vanilla com cupom fixo pois não acrescenta qualquer informação nova sobre a carteira, sendo idêntica à duration modificada desse título."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 14,
@@ -821,7 +1225,7 @@
         {
           "numero": 18,
           "codigo": "513104",
-          "pergunta": "Considere as seguintes informações a respeito de ações do setor de utilities nos Estudos Unidos:\n\n**I** — Apresentam alta variabilidade no pagamento de dividendos.\n\n**II** — Oferecem aos acionistas retornos com baixa correlação em relação ao índice de mercado.\n\n**III** — Estão sujeitas a intensa carga regulatória.\n\nEstá correto o que se afirma em",
+          "pergunta": "Considere as seguintes informações a respeito de ações do setor de utilities nos Estudos Unidos:\n\nI — Apresentam alta variabilidade no pagamento de dividendos.\n\nII — Oferecem aos acionistas retornos com baixa correlação em relação ao índice de mercado.\n\nIII — Estão sujeitas a intensa carga regulatória.\n\nEstá correto o que se afirma em",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -829,12 +1233,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "Considere as seguintes informações a respeito de ações do setor de utilities nos Estudos Unidos:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Apresentam alta variabilidade no pagamento de dividendos."
+            },
+            {
+              "letra": "II",
+              "texto": "Oferecem aos acionistas retornos com baixa correlação em relação ao índice de mercado."
+            },
+            {
+              "letra": "III",
+              "texto": "Estão sujeitas a intensa carga regulatória."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em",
+          "tem_itens": true
         },
         {
           "numero": 19,
           "codigo": "513201",
-          "pergunta": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:\n\n**I** — São emitidos apenas por cidades norte-americanas.\n\n**II** — Há dois principais tipos: Revenue Bonds e General Obligations.\n\n**III** — Os rendimentos são isentos de tributação.\n\nEstá correto o que se afirma em:",
+          "pergunta": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:\n\nI — São emitidos apenas por cidades norte-americanas.\n\nII — Há dois principais tipos: Revenue Bonds e General Obligations.\n\nIII — Os rendimentos são isentos de tributação.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -842,12 +1263,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "São emitidos apenas por cidades norte-americanas."
+            },
+            {
+              "letra": "II",
+              "texto": "Há dois principais tipos: Revenue Bonds e General Obligations."
+            },
+            {
+              "letra": "III",
+              "texto": "Os rendimentos são isentos de tributação."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 20,
           "codigo": "513101",
-          "pergunta": "Representam possíveis operações de serem realizadas no Mercado de Balcão (Over-the-Counter) nos Estados Unidos:\n\n**I** — O Market Maker pode vender ações diretamente para investidores.\n\n**II** — Fundo de Investimento e Banco são contrapartes de uma operação de swap.\n\n**III** — Investidor vende block trade de ações via bolsa.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Representam possíveis operações de serem realizadas no Mercado de Balcão (Over-the-Counter) nos Estados Unidos:\n\nI — O Market Maker pode vender ações diretamente para investidores.\n\nII — Fundo de Investimento e Banco são contrapartes de uma operação de swap.\n\nIII — Investidor vende block trade de ações via bolsa.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -855,7 +1293,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "Representam possíveis operações de serem realizadas no Mercado de Balcão (Over-the-Counter) nos Estados Unidos:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O Market Maker pode vender ações diretamente para investidores."
+            },
+            {
+              "letra": "II",
+              "texto": "Fundo de Investimento e Banco são contrapartes de uma operação de swap."
+            },
+            {
+              "letra": "III",
+              "texto": "Investidor vende block trade de ações via bolsa."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 21,
@@ -979,7 +1434,7 @@
         {
           "numero": 30,
           "codigo": "515102",
-          "pergunta": "Considere as seguintes afirmativas sobre gestão de riscos:\n\n**I** — O diretor jurídico de uma asset management pode acumular a função de diretor de riscos, liberando assim o gestor para focar no que realmente importa da gestão.\n\n**II** — O administrador de recursos de terceiros pode exercer também a função de diretor de riscos.\n\n**III** — A atividade de gerenciamento de riscos deve ser segregada da unidade de negócios e unidade executora da atividade de auditoria interna.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre gestão de riscos:\n\nI — O diretor jurídico de uma asset management pode acumular a função de diretor de riscos, liberando assim o gestor para focar no que realmente importa da gestão.\n\nII — O administrador de recursos de terceiros pode exercer também a função de diretor de riscos.\n\nIII — A atividade de gerenciamento de riscos deve ser segregada da unidade de negócios e unidade executora da atividade de auditoria interna.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -987,7 +1442,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Risco"
+          "tema": "Gestão de Risco",
+          "intro": "Considere as seguintes afirmativas sobre gestão de riscos:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O diretor jurídico de uma asset management pode acumular a função de diretor de riscos, liberando assim o gestor para focar no que realmente importa da gestão."
+            },
+            {
+              "letra": "II",
+              "texto": "O administrador de recursos de terceiros pode exercer também a função de diretor de riscos."
+            },
+            {
+              "letra": "III",
+              "texto": "A atividade de gerenciamento de riscos deve ser segregada da unidade de negócios e unidade executora da atividade de auditoria interna."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 31,
@@ -1058,7 +1530,7 @@
         {
           "numero": 36,
           "codigo": "506202",
-          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de rebalanceamento corredor e por calendário.\n\n**I** — O rebalanceamento por corredor permite reações mais rápidas a desvios da alocação estratégica do que a estratégia por calendário.\n\n**II** — O rebalanceamento por calendário envolve menores custos de monitoramento, comparativamente à estratégia por corredor.\n\n**III** — No rebalanceamento por corredor, quanto maior a aversão a risco do cliente, menor o corredor.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de rebalanceamento corredor e por calendário.\n\nI — O rebalanceamento por corredor permite reações mais rápidas a desvios da alocação estratégica do que a estratégia por calendário.\n\nII — O rebalanceamento por calendário envolve menores custos de monitoramento, comparativamente à estratégia por corredor.\n\nIII — No rebalanceamento por corredor, quanto maior a aversão a risco do cliente, menor o corredor.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1066,7 +1538,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas a respeito das estratégias de rebalanceamento corredor e por calendário.",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O rebalanceamento por corredor permite reações mais rápidas a desvios da alocação estratégica do que a estratégia por calendário."
+            },
+            {
+              "letra": "II",
+              "texto": "O rebalanceamento por calendário envolve menores custos de monitoramento, comparativamente à estratégia por corredor."
+            },
+            {
+              "letra": "III",
+              "texto": "No rebalanceamento por corredor, quanto maior a aversão a risco do cliente, menor o corredor."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 37,
@@ -1097,7 +1586,7 @@
         {
           "numero": 39,
           "codigo": "105168",
-          "pergunta": "Em relação aos limites de concentração de um FIF (Fundo de Investimento Financeiro), podemos afirmar que:\n\n**I** — É de responsabilidade do gestor o cumprimento dos limites de composição e concentração de carteira, de exposição ao risco de capital e de concentração em fatores de risco.\n\n**II** — Caso ocorra desenquadramento, o gestor é responsável por encaminhar à CVM um plano de ação para o reenquadramento da carteira.\n\n**III** — Fica o Administrador responsável por reenquadrar a carteira do fundo aos limites preestabelecidos.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Em relação aos limites de concentração de um FIF (Fundo de Investimento Financeiro), podemos afirmar que:\n\nI — É de responsabilidade do gestor o cumprimento dos limites de composição e concentração de carteira, de exposição ao risco de capital e de concentração em fatores de risco.\n\nII — Caso ocorra desenquadramento, o gestor é responsável por encaminhar à CVM um plano de ação para o reenquadramento da carteira.\n\nIII — Fica o Administrador responsável por reenquadrar a carteira do fundo aos limites preestabelecidos.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I.",
             "B": "I e II.",
@@ -1105,12 +1594,29 @@
             "D": "I e III."
           },
           "resposta_correta": "B",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Em relação aos limites de concentração de um FIF (Fundo de Investimento Financeiro), podemos afirmar que:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "É de responsabilidade do gestor o cumprimento dos limites de composição e concentração de carteira, de exposição ao risco de capital e de concentração em fatores de risco."
+            },
+            {
+              "letra": "II",
+              "texto": "Caso ocorra desenquadramento, o gestor é responsável por encaminhar à CVM um plano de ação para o reenquadramento da carteira."
+            },
+            {
+              "letra": "III",
+              "texto": "Fica o Administrador responsável por reenquadrar a carteira do fundo aos limites preestabelecidos."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 40,
           "codigo": "105169",
-          "pergunta": "Nos fundos de investimento financeiro (FIF), as classes de cotas têm os seguintes prazos máximos para atingir os limites de concentração por emissor e por modalidade de ativo financeiro:\n\n**I** — 60 dias, a contar da data da primeira integralização de cotas, para as classes fechadas.\n\n**II** — 180 dias, a contar da data de encerramento da distribuição, para as classes abertas.\n\nCom relação a tais afirmações, podemos concluir que:",
+          "pergunta": "Nos fundos de investimento financeiro (FIF), as classes de cotas têm os seguintes prazos máximos para atingir os limites de concentração por emissor e por modalidade de ativo financeiro:\n\nI — 60 dias, a contar da data da primeira integralização de cotas, para as classes fechadas.\n\nII — 180 dias, a contar da data de encerramento da distribuição, para as classes abertas.\n\nCom relação a tais afirmações, podemos concluir que:",
           "alternativas": {
             "A": "a primeira está correta e a segunda, incorreta.",
             "B": "a primeira está incorreta e a segunda, correta.",
@@ -1118,12 +1624,25 @@
             "D": "ambas estão incorretas."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Nos fundos de investimento financeiro (FIF), as classes de cotas têm os seguintes prazos máximos para atingir os limites de concentração por emissor e por modalidade de ativo financeiro:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "60 dias, a contar da data da primeira integralização de cotas, para as classes fechadas."
+            },
+            {
+              "letra": "II",
+              "texto": "180 dias, a contar da data de encerramento da distribuição, para as classes abertas."
+            }
+          ],
+          "conclusao": "Com relação a tais afirmações, podemos concluir que:",
+          "tem_itens": true
         },
         {
           "numero": 41,
           "codigo": "105353",
-          "pergunta": "Em relação aos limites de concentração por modalidade de ativo financeiro em Fundo de Investimento Financeiro (FIF), considere as seguintes afirmativas:\n\n**I** — Não há limite de concentração por modalidade quando o investimento for em títulos públicos federais.\n\n**II** — Poderá ocorrer concentração do patrimônio líquido do fundo integralmente em debêntures emitidas por companhia aberta e objeto de oferta pública.\n\n**III** — Não é permitida a alocação total do patrimônio líquido do fundo em criptoativos.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Em relação aos limites de concentração por modalidade de ativo financeiro em Fundo de Investimento Financeiro (FIF), considere as seguintes afirmativas:\n\nI — Não há limite de concentração por modalidade quando o investimento for em títulos públicos federais.\n\nII — Poderá ocorrer concentração do patrimônio líquido do fundo integralmente em debêntures emitidas por companhia aberta e objeto de oferta pública.\n\nIII — Não é permitida a alocação total do patrimônio líquido do fundo em criptoativos.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "II e III, apenas.",
@@ -1131,7 +1650,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Em relação aos limites de concentração por modalidade de ativo financeiro em Fundo de Investimento Financeiro (FIF), considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Não há limite de concentração por modalidade quando o investimento for em títulos públicos federais."
+            },
+            {
+              "letra": "II",
+              "texto": "Poderá ocorrer concentração do patrimônio líquido do fundo integralmente em debêntures emitidas por companhia aberta e objeto de oferta pública."
+            },
+            {
+              "letra": "III",
+              "texto": "Não é permitida a alocação total do patrimônio líquido do fundo em criptoativos."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 42,
@@ -1176,7 +1712,7 @@
         {
           "numero": 45,
           "codigo": "511402",
-          "pergunta": "Sejam as seguintes afirmativas a respeito dos critérios para gestores de fundos IS (Investimento Sustentável):\n\n**I** — Tratam da existência de um compromisso formal da sustentabilidade na atividade de gestão, com compromisso com a sustentabilidade, governança e transparência.\n\n**II** — O documento com detalhamento dos critérios deve estar disponível para consulta interna e pública e sofrer atualizações em períodos não superiores a 24 meses.\n\n**III** — A Resolução CVM 175 prevê a possibilidade de um fundo de investimento ser qualificado como sustentável.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Sejam as seguintes afirmativas a respeito dos critérios para gestores de fundos IS (Investimento Sustentável):\n\nI — Tratam da existência de um compromisso formal da sustentabilidade na atividade de gestão, com compromisso com a sustentabilidade, governança e transparência.\n\nII — O documento com detalhamento dos critérios deve estar disponível para consulta interna e pública e sofrer atualizações em períodos não superiores a 24 meses.\n\nIII — A Resolução CVM 175 prevê a possibilidade de um fundo de investimento ser qualificado como sustentável.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1184,7 +1720,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Sejam as seguintes afirmativas a respeito dos critérios para gestores de fundos IS (Investimento Sustentável):",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Tratam da existência de um compromisso formal da sustentabilidade na atividade de gestão, com compromisso com a sustentabilidade, governança e transparência."
+            },
+            {
+              "letra": "II",
+              "texto": "O documento com detalhamento dos critérios deve estar disponível para consulta interna e pública e sofrer atualizações em períodos não superiores a 24 meses."
+            },
+            {
+              "letra": "III",
+              "texto": "A Resolução CVM 175 prevê a possibilidade de um fundo de investimento ser qualificado como sustentável."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         }
       ]
     },
@@ -1234,7 +1787,7 @@
         {
           "numero": 4,
           "codigo": "306378",
-          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:\n\n**I** — O gestor busca retornos positivos explorando eventuais distorções de preços.\n\n**II** — É possível ganhar 3 alfas.\n\n**III** — Pode ter como objetivo eliminar o risco sistêmico.\n\nÉ correto o que se afirma em",
+          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:\n\nI — O gestor busca retornos positivos explorando eventuais distorções de preços.\n\nII — É possível ganhar 3 alfas.\n\nIII — Pode ter como objetivo eliminar o risco sistêmico.\n\nÉ correto o que se afirma em",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1242,7 +1795,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O gestor busca retornos positivos explorando eventuais distorções de preços."
+            },
+            {
+              "letra": "II",
+              "texto": "É possível ganhar 3 alfas."
+            },
+            {
+              "letra": "III",
+              "texto": "Pode ter como objetivo eliminar o risco sistêmico."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em",
+          "tem_itens": true
         },
         {
           "numero": 5,
@@ -1312,7 +1882,7 @@
         {
           "numero": 10,
           "codigo": "512213",
-          "pergunta": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:\n\n**I** — Quanto menor a duration do título, maior a convexidade.\n\n**II** — A convexidade positiva desse gráfico proporciona maior elevação dos preços dos títulos, quando as taxas de juros caem.\n\n**III** — O ajuste de convexidade é somado à Duration Modificada.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:\n\nI — Quanto menor a duration do título, maior a convexidade.\n\nII — A convexidade positiva desse gráfico proporciona maior elevação dos preços dos títulos, quando as taxas de juros caem.\n\nIII — O ajuste de convexidade é somado à Duration Modificada.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1320,12 +1890,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Quanto menor a duration do título, maior a convexidade."
+            },
+            {
+              "letra": "II",
+              "texto": "A convexidade positiva desse gráfico proporciona maior elevação dos preços dos títulos, quando as taxas de juros caem."
+            },
+            {
+              "letra": "III",
+              "texto": "O ajuste de convexidade é somado à Duration Modificada."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 11,
           "codigo": "512306",
-          "pergunta": "Considere as seguintes informações sobre teorias de curvas de juros:\n\n**I** — A Teoria das Expectativas Puras defende que comportamento das taxas de juros reflete as expectativas dos agentes de mercado.\n\n**II** — A Teoria da Preferência por liquidez afirma que a curva de juros poderá ser positiva ou negativamente inclinada.\n\n**III** — A Teoria de Segmentação de Mercado se baseia na premissa de que os investidores têm preferência por determinados vencimentos da curva de juros.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes informações sobre teorias de curvas de juros:\n\nI — A Teoria das Expectativas Puras defende que comportamento das taxas de juros reflete as expectativas dos agentes de mercado.\n\nII — A Teoria da Preferência por liquidez afirma que a curva de juros poderá ser positiva ou negativamente inclinada.\n\nIII — A Teoria de Segmentação de Mercado se baseia na premissa de que os investidores têm preferência por determinados vencimentos da curva de juros.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1333,7 +1920,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes informações sobre teorias de curvas de juros:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A Teoria das Expectativas Puras defende que comportamento das taxas de juros reflete as expectativas dos agentes de mercado."
+            },
+            {
+              "letra": "II",
+              "texto": "A Teoria da Preferência por liquidez afirma que a curva de juros poderá ser positiva ou negativamente inclinada."
+            },
+            {
+              "letra": "III",
+              "texto": "A Teoria de Segmentação de Mercado se baseia na premissa de que os investidores têm preferência por determinados vencimentos da curva de juros."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 12,
@@ -1429,7 +2033,24 @@
           },
           "resposta_correta": "B",
           "tema": "Gestão de Carteiras - Renda Fixa",
-          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q18.png"
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s3q18.png",
+          "intro": "Um gestor de Renda Fixa tem a expectativa que a curva de juros se movimente da seguinte forma:",
+          "itens": [
+            {
+              "letra": "1",
+              "texto": "Vencimento 2 anos: queda de 12% ao ano para 8% ao ano;"
+            },
+            {
+              "letra": "2",
+              "texto": "Vencimento 4 anos: elevação de 11% ao ano para 13% ao ano;"
+            },
+            {
+              "letra": "3",
+              "texto": "Vencimento 8 anos: manutenção em 7% ano."
+            }
+          ],
+          "conclusao": "Se esse cenário se configurar, dentre as carteiras abaixo, que relacionam o peso da carteira total alocado em cada título sem cupom nos respectivos vencimentos, a que obteria o melhor desempenho seria:",
+          "tem_itens": true
         },
         {
           "numero": 19,
@@ -1486,7 +2107,7 @@
         {
           "numero": 23,
           "codigo": "425307",
-          "pergunta": "Com relação às common stocks, avalie as alternativas:\n\n**I** — São subordinadas às preferred stocks no caso de liquidação da empresa.\n\n**II** — São as ações de maior liquidez.\n\n**III** — São ações preferenciais que podem ser convertidas em ordinárias.\n\nEstá correto o que está afirmado em:",
+          "pergunta": "Com relação às common stocks, avalie as alternativas:\n\nI — São subordinadas às preferred stocks no caso de liquidação da empresa.\n\nII — São as ações de maior liquidez.\n\nIII — São ações preferenciais que podem ser convertidas em ordinárias.\n\nEstá correto o que está afirmado em:",
           "alternativas": {
             "A": "I.",
             "B": "I e II",
@@ -1494,7 +2115,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Com relação às common stocks, avalie as alternativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "São subordinadas às preferred stocks no caso de liquidação da empresa."
+            },
+            {
+              "letra": "II",
+              "texto": "São as ações de maior liquidez."
+            },
+            {
+              "letra": "III",
+              "texto": "São ações preferenciais que podem ser convertidas em ordinárias."
+            }
+          ],
+          "conclusao": "Está correto o que está afirmado em:",
+          "tem_itens": true
         },
         {
           "numero": 24,
@@ -1590,7 +2228,7 @@
         {
           "numero": 31,
           "codigo": "515202",
-          "pergunta": "Considere as seguintes afirmativas sobre Value at Risk:\n\n**I** — O cálculo do VaR analítico ou paramétrico envolve relacionar os retornos passados, organizá-los em uma ordem e, após acumulá-los, identificar os menores retornos, de acordo com o percentual de confiança desejado.\n\n**II** — O VaR Histórico leva em consideração no seu cálculo a correlação entre os ativos, o coeficiente do intervalo de confiança, o volume da carteira e o prazo.\n\n**III** — O VaR de Monte Carlo é calculado da mesma forma que o VaR Histórico, mas a partir da geração aleatória de dados.\n\nEstá correto o que se afirma em apenas em:",
+          "pergunta": "Considere as seguintes afirmativas sobre Value at Risk:\n\nI — O cálculo do VaR analítico ou paramétrico envolve relacionar os retornos passados, organizá-los em uma ordem e, após acumulá-los, identificar os menores retornos, de acordo com o percentual de confiança desejado.\n\nII — O VaR Histórico leva em consideração no seu cálculo a correlação entre os ativos, o coeficiente do intervalo de confiança, o volume da carteira e o prazo.\n\nIII — O VaR de Monte Carlo é calculado da mesma forma que o VaR Histórico, mas a partir da geração aleatória de dados.\n\nEstá correto o que se afirma em apenas em:",
           "alternativas": {
             "A": "II e III.",
             "B": "I e III.",
@@ -1598,7 +2236,24 @@
             "D": "I e II."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Risco"
+          "tema": "Gestão de Risco",
+          "intro": "Considere as seguintes afirmativas sobre Value at Risk:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O cálculo do VaR analítico ou paramétrico envolve relacionar os retornos passados, organizá-los em uma ordem e, após acumulá-los, identificar os menores retornos, de acordo com o percentual de confiança desejado."
+            },
+            {
+              "letra": "II",
+              "texto": "O VaR Histórico leva em consideração no seu cálculo a correlação entre os ativos, o coeficiente do intervalo de confiança, o volume da carteira e o prazo."
+            },
+            {
+              "letra": "III",
+              "texto": "O VaR de Monte Carlo é calculado da mesma forma que o VaR Histórico, mas a partir da geração aleatória de dados."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 32,
@@ -1746,7 +2401,7 @@
         {
           "numero": 43,
           "codigo": "105305",
-          "pergunta": "Considere as seguintes afirmativas sobre as classes tipificadas como Renda Fixa Simples dos fundos de investimento financeiro:\n\n**I** — São constituídos sob a forma de classe aberta ou fechada.\n\n**II** — Têm no mínimo 95% de seu patrimônio líquido, isolada ou cumulativamente, por títulos de dívida pública federal, títulos de renda fixa de emissão ou coobrigação de instituições financeiras que possuam no mínimo mesma classificação que os títulos públicos federais.\n\n**III** — Dispensam análise de \"suitability\".\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre as classes tipificadas como Renda Fixa Simples dos fundos de investimento financeiro:\n\nI — São constituídos sob a forma de classe aberta ou fechada.\n\nII — Têm no mínimo 95% de seu patrimônio líquido, isolada ou cumulativamente, por títulos de dívida pública federal, títulos de renda fixa de emissão ou coobrigação de instituições financeiras que possuam no mínimo mesma classificação que os títulos públicos federais.\n\nIII — Dispensam análise de \"suitability\".\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1754,7 +2409,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Considere as seguintes afirmativas sobre as classes tipificadas como Renda Fixa Simples dos fundos de investimento financeiro:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "São constituídos sob a forma de classe aberta ou fechada."
+            },
+            {
+              "letra": "II",
+              "texto": "Têm no mínimo 95% de seu patrimônio líquido, isolada ou cumulativamente, por títulos de dívida pública federal, títulos de renda fixa de emissão ou coobrigação de instituições financeiras que possuam no mínimo mesma classificação que os títulos públicos federais."
+            },
+            {
+              "letra": "III",
+              "texto": "Dispensam análise de \"suitability\"."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 44,
@@ -1804,7 +2476,7 @@
         {
           "numero": 2,
           "codigo": "511502",
-          "pergunta": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:\n\n**I** — o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos.\n\n**II** — as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices.\n\n**III** — os dois métodos não podem ser combinados na gestão de uma carteira de renda variável.\n\nÉ correto o que se afirma em",
+          "pergunta": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:\n\nI — o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos.\n\nII — as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices.\n\nIII — os dois métodos não podem ser combinados na gestão de uma carteira de renda variável.\n\nÉ correto o que se afirma em",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1812,7 +2484,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Ao comparar os métodos de análise bottom-up e top-down, um gestor afirmou que:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "o método top-down pode ser utilizado se o investidor pretende formar uma carteira apenas com um índice diversificado e um ativo livre de risco, variando a proporção entre ambos."
+            },
+            {
+              "letra": "II",
+              "texto": "as projeções para o mercado como um todo, a partir de uma abordagem bottom-up, tendem a superestimar os índices."
+            },
+            {
+              "letra": "III",
+              "texto": "os dois métodos não podem ser combinados na gestão de uma carteira de renda variável."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em",
+          "tem_itens": true
         },
         {
           "numero": 3,
@@ -1895,7 +2584,7 @@
         {
           "numero": 9,
           "codigo": "425314",
-          "pergunta": "A respeito do método alternativo de Indexação conhecido por Amostragem Estratificada, considere as seguintes afirmativas:\n\n**I** — Utiliza na formação da carteira informações sobre correlação entre os ativos.\n\n**II** — O gestor define um subconjunto do índice, selecionando os ativos de forma a replicar as condições de retorno e risco desse índice\n\n**III** — O gestor geralmente compra primeiro as ações mais líquidas e de menor custo e, depois, avaliará a relação benefício/custo de adicionar ações menos líquidas e de menor representatividade no índice.\n\nÉ correto o que se afirma em:",
+          "pergunta": "A respeito do método alternativo de Indexação conhecido por Amostragem Estratificada, considere as seguintes afirmativas:\n\nI — Utiliza na formação da carteira informações sobre correlação entre os ativos.\n\nII — O gestor define um subconjunto do índice, selecionando os ativos de forma a replicar as condições de retorno e risco desse índice\n\nIII — O gestor geralmente compra primeiro as ações mais líquidas e de menor custo e, depois, avaliará a relação benefício/custo de adicionar ações menos líquidas e de menor representatividade no índice.\n\nÉ correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1903,7 +2592,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "A respeito do método alternativo de Indexação conhecido por Amostragem Estratificada, considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Utiliza na formação da carteira informações sobre correlação entre os ativos."
+            },
+            {
+              "letra": "II",
+              "texto": "O gestor define um subconjunto do índice, selecionando os ativos de forma a replicar as condições de retorno e risco desse índice"
+            },
+            {
+              "letra": "III",
+              "texto": "O gestor geralmente compra primeiro as ações mais líquidas e de menor custo e, depois, avaliará a relação benefício/custo de adicionar ações menos líquidas e de menor representatividade no índice."
+            }
+          ],
+          "conclusao": "É correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 10,
@@ -1963,7 +2669,7 @@
         {
           "numero": 14,
           "codigo": "512212",
-          "pergunta": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:\n\n**I** — Quanto maior a duration do título, maior a convexidade.\n\n**II** — A convexidade positiva desse gráfico proporciona menor queda dos preços dos títulos, quando as taxas de juros sobem.\n\n**III** — O ajuste de convexidade é somado à Duration de Macaualy.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:\n\nI — Quanto maior a duration do título, maior a convexidade.\n\nII — A convexidade positiva desse gráfico proporciona menor queda dos preços dos títulos, quando as taxas de juros sobem.\n\nIII — O ajuste de convexidade é somado à Duration de Macaualy.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1971,7 +2677,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas sobre a convexidade em gráficos relacionando preço e taxa de juros de títulos de Renda Fixa:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Quanto maior a duration do título, maior a convexidade."
+            },
+            {
+              "letra": "II",
+              "texto": "A convexidade positiva desse gráfico proporciona menor queda dos preços dos títulos, quando as taxas de juros sobem."
+            },
+            {
+              "letra": "III",
+              "texto": "O ajuste de convexidade é somado à Duration de Macaualy."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 15,
@@ -1999,7 +2722,24 @@
           },
           "resposta_correta": "A",
           "tema": "Gestão de Carteiras - Renda Fixa",
-          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q16.png"
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s4q16.png",
+          "intro": "Um gestor de Renda Fixa tem a expectativa que a curva de juros se movimente da seguinte forma:",
+          "itens": [
+            {
+              "letra": "1",
+              "texto": "Vencimento 2 anos: queda de 12% ao ano para 8% ao ano;"
+            },
+            {
+              "letra": "2",
+              "texto": "Vencimento 4 anos: elevação de 11% ao ano para 13% ao ano;"
+            },
+            {
+              "letra": "3",
+              "texto": "Vencimento 8 anos: manutenção em 7% ano."
+            }
+          ],
+          "conclusao": "Se esse cenário se configurar, dentre as carteiras abaixo, com os respectivos pesos em cada vértice da curva, a que obteria o pior desempenho seria:",
+          "tem_itens": true
         },
         {
           "numero": 17,
@@ -2057,7 +2797,7 @@
         {
           "numero": 21,
           "codigo": "303524",
-          "pergunta": "Considere as seguintes afirmativas abaixo em relação aos títulos emitidos nos EUA chamados de Commercial Papers:\n\n**I** — São títulos que necessitam de registro na SEC.\n\n**II** — Possuem baixa liquidez no mercado secundário.\n\n**III** — São títulos de curto prazo.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas abaixo em relação aos títulos emitidos nos EUA chamados de Commercial Papers:\n\nI — São títulos que necessitam de registro na SEC.\n\nII — Possuem baixa liquidez no mercado secundário.\n\nIII — São títulos de curto prazo.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I, apenas.",
             "B": "II, apenas.",
@@ -2065,7 +2805,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "Considere as seguintes afirmativas abaixo em relação aos títulos emitidos nos EUA chamados de Commercial Papers:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "São títulos que necessitam de registro na SEC."
+            },
+            {
+              "letra": "II",
+              "texto": "Possuem baixa liquidez no mercado secundário."
+            },
+            {
+              "letra": "III",
+              "texto": "São títulos de curto prazo."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 22,
@@ -2122,7 +2879,7 @@
         {
           "numero": 26,
           "codigo": "514201",
-          "pergunta": "São propriedades válidas de um benchmark:\n\n**I** — Especificação prévia - o benchmark deve ser estabelecido antes de se iniciar a avaliação.\n\n**II** — Abrangência – todos os ativos de risco devem compor o benchmark.\n\n**III** — Investibilidade – possibilidade de investimento no próprio benchmark como alternativa de gestão passiva.\n\nEstá correto o que se afirma em:",
+          "pergunta": "São propriedades válidas de um benchmark:\n\nI — Especificação prévia - o benchmark deve ser estabelecido antes de se iniciar a avaliação.\n\nII — Abrangência – todos os ativos de risco devem compor o benchmark.\n\nIII — Investibilidade – possibilidade de investimento no próprio benchmark como alternativa de gestão passiva.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -2130,7 +2887,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Avaliação de Desempenho"
+          "tema": "Avaliação de Desempenho",
+          "intro": "São propriedades válidas de um benchmark:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Especificação prévia - o benchmark deve ser estabelecido antes de se iniciar a avaliação."
+            },
+            {
+              "letra": "II",
+              "texto": "Abrangência – todos os ativos de risco devem compor o benchmark."
+            },
+            {
+              "letra": "III",
+              "texto": "Investibilidade – possibilidade de investimento no próprio benchmark como alternativa de gestão passiva."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 27,
@@ -2188,7 +2962,7 @@
         {
           "numero": 31,
           "codigo": "515203",
-          "pergunta": "Considere as seguintes afirmativas sobre Value at Risk:\n\n**I** — O Benchmark VaR (B-Var) representa a perda máxima de um título ou carteira acima da perda registrada pelo respectivo benchmark.\n\n**II** — O VaR Analítico ou Paramétrico tem como vantagem não utilizar dados históricos para cálculo da perda esperada, como ocorre no VaR histórico.\n\n**III** — O VaR de Monte Carlo permite a incorporação no modelo de qualquer formato de distribuição dos retornos que serão analisados.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas sobre Value at Risk:\n\nI — O Benchmark VaR (B-Var) representa a perda máxima de um título ou carteira acima da perda registrada pelo respectivo benchmark.\n\nII — O VaR Analítico ou Paramétrico tem como vantagem não utilizar dados históricos para cálculo da perda esperada, como ocorre no VaR histórico.\n\nIII — O VaR de Monte Carlo permite a incorporação no modelo de qualquer formato de distribuição dos retornos que serão analisados.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -2196,7 +2970,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Risco"
+          "tema": "Gestão de Risco",
+          "intro": "Considere as seguintes afirmativas sobre Value at Risk:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O Benchmark VaR (B-Var) representa a perda máxima de um título ou carteira acima da perda registrada pelo respectivo benchmark."
+            },
+            {
+              "letra": "II",
+              "texto": "O VaR Analítico ou Paramétrico tem como vantagem não utilizar dados históricos para cálculo da perda esperada, como ocorre no VaR histórico."
+            },
+            {
+              "letra": "III",
+              "texto": "O VaR de Monte Carlo permite a incorporação no modelo de qualquer formato de distribuição dos retornos que serão analisados."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 32,
@@ -2279,7 +3070,7 @@
         {
           "numero": 38,
           "codigo": "105352",
-          "pergunta": "Sobre a possibilidade de investimento em cotas de outros FIF (Fundo de Investimento Financeiro), considere as seguintes afirmativas:\n\n**I** — As classes de investimento em cotas devem adquirir classes do mesmo tipo que a sua, em todos os casos possíveis.\n\n**II** — Como regra geral, os Fundos Multimercados poderão investir em cotas de FIF de qualquer tipo.\n\n**III** — É dispensado que o regulamento informe o percentual máximo do patrimônio líquido que poderá ser aplicado em uma única classe, sendo obrigatório apenas que seja informado o percentual mínimo.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Sobre a possibilidade de investimento em cotas de outros FIF (Fundo de Investimento Financeiro), considere as seguintes afirmativas:\n\nI — As classes de investimento em cotas devem adquirir classes do mesmo tipo que a sua, em todos os casos possíveis.\n\nII — Como regra geral, os Fundos Multimercados poderão investir em cotas de FIF de qualquer tipo.\n\nIII — É dispensado que o regulamento informe o percentual máximo do patrimônio líquido que poderá ser aplicado em uma única classe, sendo obrigatório apenas que seja informado o percentual mínimo.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I e II.",
             "B": "II.",
@@ -2287,12 +3078,29 @@
             "D": "II e III."
           },
           "resposta_correta": "B",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Sobre a possibilidade de investimento em cotas de outros FIF (Fundo de Investimento Financeiro), considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "As classes de investimento em cotas devem adquirir classes do mesmo tipo que a sua, em todos os casos possíveis."
+            },
+            {
+              "letra": "II",
+              "texto": "Como regra geral, os Fundos Multimercados poderão investir em cotas de FIF de qualquer tipo."
+            },
+            {
+              "letra": "III",
+              "texto": "É dispensado que o regulamento informe o percentual máximo do patrimônio líquido que poderá ser aplicado em uma única classe, sendo obrigatório apenas que seja informado o percentual mínimo."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 39,
           "codigo": "205105",
-          "pergunta": "Um fundo de investimentos financeiro de classe única, possui duas subclasses de cotas: uma destinada exclusivamente para investidores qualificados e, outra, destinado ao público em geral. Desta forma, considere as seguintes práticas adotadas por um administrador fiduciário com relação as subclasses desse fundo:\n\n**I** — A taxa de administração da subclasse destinada exclusivamente para investidores qualificados é de 1% ao ano e para a subclasse para o público em geral, 2% ao ano. Já a taxa de performance é igual para ambas as subclasses, sendo de 20% sobre o que exceder o benchmark.\n\n**II** — As operações mais lucrativas são alocadas no fundo destinado exclusivamente para investidores qualificados, mas o administrador divulga amplamente essa prática (full disclosure).\n\nCom relação a tais práticas, pode-se afirmar que:",
+          "pergunta": "Um fundo de investimentos financeiro de classe única, possui duas subclasses de cotas: uma destinada exclusivamente para investidores qualificados e, outra, destinado ao público em geral. Desta forma, considere as seguintes práticas adotadas por um administrador fiduciário com relação as subclasses desse fundo:\n\nI — A taxa de administração da subclasse destinada exclusivamente para investidores qualificados é de 1% ao ano e para a subclasse para o público em geral, 2% ao ano. Já a taxa de performance é igual para ambas as subclasses, sendo de 20% sobre o que exceder o benchmark.\n\nII — As operações mais lucrativas são alocadas no fundo destinado exclusivamente para investidores qualificados, mas o administrador divulga amplamente essa prática (full disclosure).\n\nCom relação a tais práticas, pode-se afirmar que:",
           "alternativas": {
             "A": "ambas são permitidas.",
             "B": "a prática I é permitida mas a II, não.",
@@ -2300,7 +3108,20 @@
             "D": "ambas são proibidas."
           },
           "resposta_correta": "B",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Um fundo de investimentos financeiro de classe única, possui duas subclasses de cotas: uma destinada exclusivamente para investidores qualificados e, outra, destinado ao público em geral. Desta forma, considere as seguintes práticas adotadas por um administrador fiduciário com relação as subclasses desse fundo:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A taxa de administração da subclasse destinada exclusivamente para investidores qualificados é de 1% ao ano e para a subclasse para o público em geral, 2% ao ano. Já a taxa de performance é igual para ambas as subclasses, sendo de 20% sobre o que exceder o benchmark."
+            },
+            {
+              "letra": "II",
+              "texto": "As operações mais lucrativas são alocadas no fundo destinado exclusivamente para investidores qualificados, mas o administrador divulga amplamente essa prática (full disclosure)."
+            }
+          ],
+          "conclusao": "Com relação a tais práticas, pode-se afirmar que:",
+          "tem_itens": true
         },
         {
           "numero": 40,
@@ -2318,7 +3139,7 @@
         {
           "numero": 41,
           "codigo": "105335",
-          "pergunta": "Sobre a classe tipificada como Renda Fixa Simples, considere as seguintes afirmativas:\n\n**I** — Podem realizar investimentos no exterior.\n\n**II** — São permitidas operações com derivativos exclusivamente para fins de proteção da carteira (hedge).\n\n**III** — Não permitem cobrança de taxa de performance.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Sobre a classe tipificada como Renda Fixa Simples, considere as seguintes afirmativas:\n\nI — Podem realizar investimentos no exterior.\n\nII — São permitidas operações com derivativos exclusivamente para fins de proteção da carteira (hedge).\n\nIII — Não permitem cobrança de taxa de performance.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "II e III, apenas.",
@@ -2326,7 +3147,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "B",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Sobre a classe tipificada como Renda Fixa Simples, considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Podem realizar investimentos no exterior."
+            },
+            {
+              "letra": "II",
+              "texto": "São permitidas operações com derivativos exclusivamente para fins de proteção da carteira (hedge)."
+            },
+            {
+              "letra": "III",
+              "texto": "Não permitem cobrança de taxa de performance."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 42,
@@ -2370,7 +3208,7 @@
         {
           "numero": 45,
           "codigo": "108104",
-          "pergunta": "A respeito dos requisitos para um fundo ser classificado como Investimento Sustentável pela Anbima, considere as seguintes afirmativas:\n\n**I** — Aplicar filtros positivos e negativos é o principal requisito para obter tal classificação.\n\n**II** — Como uma das práticas de ações continuadas, o fundo deverá adotar um processo sistemático de engajamento ativo com as empresas da carteira a respeito de questões relevantes, para fins de seus objetivos.\n\n**III** — Em se tratando de fundos passivos que utilizam índice como referencia, é esperado que o fundo seja capaz de atestar que o indicador utilizado está alinhado ao objetivo de investimento sustentável.\n\nEstá correto o que se afirma em:",
+          "pergunta": "A respeito dos requisitos para um fundo ser classificado como Investimento Sustentável pela Anbima, considere as seguintes afirmativas:\n\nI — Aplicar filtros positivos e negativos é o principal requisito para obter tal classificação.\n\nII — Como uma das práticas de ações continuadas, o fundo deverá adotar um processo sistemático de engajamento ativo com as empresas da carteira a respeito de questões relevantes, para fins de seus objetivos.\n\nIII — Em se tratando de fundos passivos que utilizam índice como referencia, é esperado que o fundo seja capaz de atestar que o indicador utilizado está alinhado ao objetivo de investimento sustentável.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -2378,7 +3216,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "C",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "A respeito dos requisitos para um fundo ser classificado como Investimento Sustentável pela Anbima, considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Aplicar filtros positivos e negativos é o principal requisito para obter tal classificação."
+            },
+            {
+              "letra": "II",
+              "texto": "Como uma das práticas de ações continuadas, o fundo deverá adotar um processo sistemático de engajamento ativo com as empresas da carteira a respeito de questões relevantes, para fins de seus objetivos."
+            },
+            {
+              "letra": "III",
+              "texto": "Em se tratando de fundos passivos que utilizam índice como referencia, é esperado que o fundo seja capaz de atestar que o indicador utilizado está alinhado ao objetivo de investimento sustentável."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         }
       ]
     },
@@ -2467,7 +3322,7 @@
         {
           "numero": 7,
           "codigo": "425335",
-          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Variável Full Replication e Otimização:\n\n**I** — A estratégia Full Replication é geralmente mais cara para implementar que a Otimização.\n\n**II** — A estratégia Full Replication possui maior tracking error que a Otimização.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Variável Full Replication e Otimização:\n\nI — A estratégia Full Replication é geralmente mais cara para implementar que a Otimização.\n\nII — A estratégia Full Replication possui maior tracking error que a Otimização.\n\nA respeito de tais afirmações, podemos dizer que:",
           "alternativas": {
             "A": "ambas estão corretas.",
             "B": "ambas estão incorretas.",
@@ -2475,12 +3330,25 @@
             "D": "a primeira está correta e a segunda, incorreta."
           },
           "resposta_correta": "D",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Variável Full Replication e Otimização:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A estratégia Full Replication é geralmente mais cara para implementar que a Otimização."
+            },
+            {
+              "letra": "II",
+              "texto": "A estratégia Full Replication possui maior tracking error que a Otimização."
+            }
+          ],
+          "conclusao": "A respeito de tais afirmações, podemos dizer que:",
+          "tem_itens": true
         },
         {
           "numero": 8,
           "codigo": "425336",
-          "pergunta": "Um gestor estuda a possibilidade de implementar a técnica de gestão de carteiras de Renda Variável Full Replication. Ele analisa então as três características seguintes dessa técnica:\n\n**I** — Se implementada, contribuirá para reduzir o tracking error do fundo.\n\n**II** — É mais fácil de ser implementada quanto mais líquidas forem as ações do índice que se busca replicar.\n\n**III** — É recomendada para fundos com gestão ativa.\n\nPode-se afirmar que são características corretamente enunciadas da técnica Full Replication apenas aquelas descritas em:",
+          "pergunta": "Um gestor estuda a possibilidade de implementar a técnica de gestão de carteiras de Renda Variável Full Replication. Ele analisa então as três características seguintes dessa técnica:\n\nI — Se implementada, contribuirá para reduzir o tracking error do fundo.\n\nII — É mais fácil de ser implementada quanto mais líquidas forem as ações do índice que se busca replicar.\n\nIII — É recomendada para fundos com gestão ativa.\n\nPode-se afirmar que são características corretamente enunciadas da técnica Full Replication apenas aquelas descritas em:",
           "alternativas": {
             "A": "II e III.",
             "B": "I.",
@@ -2488,12 +3356,29 @@
             "D": "II."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Um gestor estuda a possibilidade de implementar a técnica de gestão de carteiras de Renda Variável Full Replication. Ele analisa então as três características seguintes dessa técnica:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Se implementada, contribuirá para reduzir o tracking error do fundo."
+            },
+            {
+              "letra": "II",
+              "texto": "É mais fácil de ser implementada quanto mais líquidas forem as ações do índice que se busca replicar."
+            },
+            {
+              "letra": "III",
+              "texto": "É recomendada para fundos com gestão ativa."
+            }
+          ],
+          "conclusao": "Pode-se afirmar que são características corretamente enunciadas da técnica Full Replication apenas aquelas descritas em:",
+          "tem_itens": true
         },
         {
           "numero": 9,
           "codigo": "306380",
-          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:\n\n**I** — Consiste em vender uma ação que não se possui e, com o recurso da venda, comprar outra ação.\n\n**II** — É uma operação que busca obter ganhos com distorções de preços dos ativos envolvidos.\n\n**III** — Pode gerar até 2 alfas.\n\nEstá correto o que se afirma em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:\n\nI — Consiste em vender uma ação que não se possui e, com o recurso da venda, comprar outra ação.\n\nII — É uma operação que busca obter ganhos com distorções de preços dos ativos envolvidos.\n\nIII — Pode gerar até 2 alfas.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "II e III, apenas.",
             "B": "I e III, apenas.",
@@ -2501,7 +3386,24 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Gestão de Carteiras - Renda Variável"
+          "tema": "Gestão de Carteiras - Renda Variável",
+          "intro": "Considere as seguintes afirmativas a respeito da estratégia Long and Short:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Consiste em vender uma ação que não se possui e, com o recurso da venda, comprar outra ação."
+            },
+            {
+              "letra": "II",
+              "texto": "É uma operação que busca obter ganhos com distorções de preços dos ativos envolvidos."
+            },
+            {
+              "letra": "III",
+              "texto": "Pode gerar até 2 alfas."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 10,
@@ -2519,7 +3421,7 @@
         {
           "numero": 11,
           "codigo": "512106",
-          "pergunta": "Considere as seguintes afirmativas a respeito de estratégias de Gestão de Carteiras de Renda Fixa:\n\n**I** — A Indexação Pura busca superar o benchmark e sem risco ativo.\n\n**II** — A Indexação Reforçada proporciona certa flexibilidade para o gestor tentar superar o benchmark.\n\n**III** — A Indexação Pura muitas vezes é inviável de ser implementada.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito de estratégias de Gestão de Carteiras de Renda Fixa:\n\nI — A Indexação Pura busca superar o benchmark e sem risco ativo.\n\nII — A Indexação Reforçada proporciona certa flexibilidade para o gestor tentar superar o benchmark.\n\nIII — A Indexação Pura muitas vezes é inviável de ser implementada.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "II e III.",
             "B": "I e III.",
@@ -2527,12 +3429,29 @@
             "D": "III."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas a respeito de estratégias de Gestão de Carteiras de Renda Fixa:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A Indexação Pura busca superar o benchmark e sem risco ativo."
+            },
+            {
+              "letra": "II",
+              "texto": "A Indexação Reforçada proporciona certa flexibilidade para o gestor tentar superar o benchmark."
+            },
+            {
+              "letra": "III",
+              "texto": "A Indexação Pura muitas vezes é inviável de ser implementada."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 12,
           "codigo": "512209",
-          "pergunta": "Considere as seguintes afirmativas a respeito de imunização de carteiras de Renda Fixa:\n\n**I** — O risco de mudança de taxa de juros em uma carteira de renda fixa com cupons pode ser decomposto em risco de preço e risco de reinvestimento.\n\n**II** — O aumento da taxa de juros é positivo para o preço do título, mas negativo para o reinvestimento dos cupons.\n\n**III** — Em um cenário de queda da taxa de juros, o ganho com o aumento do preço do título deve ser igual ou superior às perdas com o reinvestimento dos cupons.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito de imunização de carteiras de Renda Fixa:\n\nI — O risco de mudança de taxa de juros em uma carteira de renda fixa com cupons pode ser decomposto em risco de preço e risco de reinvestimento.\n\nII — O aumento da taxa de juros é positivo para o preço do título, mas negativo para o reinvestimento dos cupons.\n\nIII — Em um cenário de queda da taxa de juros, o ganho com o aumento do preço do título deve ser igual ou superior às perdas com o reinvestimento dos cupons.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I e II.",
             "B": "I e III.",
@@ -2540,12 +3459,29 @@
             "D": "III."
           },
           "resposta_correta": "B",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas a respeito de imunização de carteiras de Renda Fixa:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O risco de mudança de taxa de juros em uma carteira de renda fixa com cupons pode ser decomposto em risco de preço e risco de reinvestimento."
+            },
+            {
+              "letra": "II",
+              "texto": "O aumento da taxa de juros é positivo para o preço do título, mas negativo para o reinvestimento dos cupons."
+            },
+            {
+              "letra": "III",
+              "texto": "Em um cenário de queda da taxa de juros, o ganho com o aumento do preço do título deve ser igual ou superior às perdas com o reinvestimento dos cupons."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 13,
           "codigo": "512206",
-          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Fixa em relação a passivos:\n\n**I** — Para imunizar uma carteira com múltiplos passivos, o gestor poderia comprar vários títulos com vencimentos iguais aos dos passivos.\n\n**II** — A Key Rate Duration é uma estratégia em que o gestor se concentra em determinados prazos de taxa de juros que podem representar maiores variações no preço dada uma mudança na taxa de juros.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "pergunta": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Fixa em relação a passivos:\n\nI — Para imunizar uma carteira com múltiplos passivos, o gestor poderia comprar vários títulos com vencimentos iguais aos dos passivos.\n\nII — A Key Rate Duration é uma estratégia em que o gestor se concentra em determinados prazos de taxa de juros que podem representar maiores variações no preço dada uma mudança na taxa de juros.\n\nA respeito de tais afirmações, podemos dizer que:",
           "alternativas": {
             "A": "ambas estão corretas.",
             "B": "ambas estão incorretas.",
@@ -2553,12 +3489,25 @@
             "D": "a primeira está correta e a segunda, incorreta."
           },
           "resposta_correta": "A",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas a respeito das estratégias de gestão de carteiras de Renda Fixa em relação a passivos:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Para imunizar uma carteira com múltiplos passivos, o gestor poderia comprar vários títulos com vencimentos iguais aos dos passivos."
+            },
+            {
+              "letra": "II",
+              "texto": "A Key Rate Duration é uma estratégia em que o gestor se concentra em determinados prazos de taxa de juros que podem representar maiores variações no preço dada uma mudança na taxa de juros."
+            }
+          ],
+          "conclusao": "A respeito de tais afirmações, podemos dizer que:",
+          "tem_itens": true
         },
         {
           "numero": 14,
           "codigo": "512107",
-          "pergunta": "Considere as seguintes afirmativas a respeito de um fundo de Renda Fixa que utiliza a estratégia de indexação pura em relação a um benchmark de mercado:\n\n**I** — O grande número de títulos que compõem o benchmark facilita a implementação dessa estratégia.\n\n**II** — A elevada liquidez dos títulos que compõem o benchmark dificulta a implementação dessa estratégia.\n\nA respeito de tais afirmações, podemos dizer que: [ver tabela/gráfico no material original]",
+          "pergunta": "Considere as seguintes afirmativas a respeito de um fundo de Renda Fixa que utiliza a estratégia de indexação pura em relação a um benchmark de mercado:\n\nI — O grande número de títulos que compõem o benchmark facilita a implementação dessa estratégia.\n\nII — A elevada liquidez dos títulos que compõem o benchmark dificulta a implementação dessa estratégia.\n\nA respeito de tais afirmações, podemos dizer que: [ver tabela/gráfico no material original]",
           "alternativas": {
             "A": "ambas estão corretas.",
             "B": "ambas estão incorretas.",
@@ -2567,7 +3516,20 @@
           },
           "resposta_correta": "B",
           "tema": "Gestão de Carteiras - Renda Fixa",
-          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q14.png"
+          "url_imagem": "https://raw.githubusercontent.com/TCRMO/EstudosAnbima/main/assets/s5q14.png",
+          "intro": "Considere as seguintes afirmativas a respeito de um fundo de Renda Fixa que utiliza a estratégia de indexação pura em relação a um benchmark de mercado:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O grande número de títulos que compõem o benchmark facilita a implementação dessa estratégia."
+            },
+            {
+              "letra": "II",
+              "texto": "A elevada liquidez dos títulos que compõem o benchmark dificulta a implementação dessa estratégia."
+            }
+          ],
+          "conclusao": "A respeito de tais afirmações, podemos dizer que: [ver tabela/gráfico no material original]",
+          "tem_itens": true
         },
         {
           "numero": 15,
@@ -2599,7 +3561,7 @@
         {
           "numero": 17,
           "codigo": "512303",
-          "pergunta": "Considere as seguintes afirmativas a respeito de teorias sobre o comportamento esperado da curva de juros:\n\n**I** — A Teoria das Expectativas Puras defende que os investidores têm preferência por títulos de determinados vencimentos e o que determina a taxa de juros é tão somente a demanda e a oferta por títulos de determinado vencimento.\n\n**II** — A Teoria da Preferência por Liquidez defende que a curva de juros será sempre positivamente inclinada.\n\n**III** — A Teoria da Segmentação associa o formato da curva de juros às expectativas dos agentes de mercado.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito de teorias sobre o comportamento esperado da curva de juros:\n\nI — A Teoria das Expectativas Puras defende que os investidores têm preferência por títulos de determinados vencimentos e o que determina a taxa de juros é tão somente a demanda e a oferta por títulos de determinado vencimento.\n\nII — A Teoria da Preferência por Liquidez defende que a curva de juros será sempre positivamente inclinada.\n\nIII — A Teoria da Segmentação associa o formato da curva de juros às expectativas dos agentes de mercado.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I.",
             "B": "II e III.",
@@ -2607,12 +3569,29 @@
             "D": "II."
           },
           "resposta_correta": "D",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas a respeito de teorias sobre o comportamento esperado da curva de juros:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "A Teoria das Expectativas Puras defende que os investidores têm preferência por títulos de determinados vencimentos e o que determina a taxa de juros é tão somente a demanda e a oferta por títulos de determinado vencimento."
+            },
+            {
+              "letra": "II",
+              "texto": "A Teoria da Preferência por Liquidez defende que a curva de juros será sempre positivamente inclinada."
+            },
+            {
+              "letra": "III",
+              "texto": "A Teoria da Segmentação associa o formato da curva de juros às expectativas dos agentes de mercado."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 18,
           "codigo": "512307",
-          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia de imunização de carteiras Barbell:\n\n**I** — O gestor aloca metade da carteira em títulos de curto prazo e a outra metade em títulos de longo prazo.\n\n**II** — A estratégia se beneficia em cenários de elevação da curva de juros.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "pergunta": "Considere as seguintes afirmativas a respeito da estratégia de imunização de carteiras Barbell:\n\nI — O gestor aloca metade da carteira em títulos de curto prazo e a outra metade em títulos de longo prazo.\n\nII — A estratégia se beneficia em cenários de elevação da curva de juros.\n\nA respeito de tais afirmações, podemos dizer que:",
           "alternativas": {
             "A": "ambas estão corretas.",
             "B": "ambas estão incorretas.",
@@ -2620,7 +3599,20 @@
             "D": "a primeira está correta e a segunda, incorreta."
           },
           "resposta_correta": "D",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Considere as seguintes afirmativas a respeito da estratégia de imunização de carteiras Barbell:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "O gestor aloca metade da carteira em títulos de curto prazo e a outra metade em títulos de longo prazo."
+            },
+            {
+              "letra": "II",
+              "texto": "A estratégia se beneficia em cenários de elevação da curva de juros."
+            }
+          ],
+          "conclusao": "A respeito de tais afirmações, podemos dizer que:",
+          "tem_itens": true
         },
         {
           "numero": 19,
@@ -2639,7 +3631,7 @@
         {
           "numero": 20,
           "codigo": "513206",
-          "pergunta": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:\n\n**I** — É um título de dívida emitido por governos locais nos Estados Unidos.\n\n**II** — São usados para levantar dinheiro para financiar projetos de infraestrutura, como construção de escolas, hospitais, sistemas de transporte e outras obras públicas.\n\n**III** — Podem ser adquiridos por seguradoras.\n\nEstá correto o que se afirma em:",
+          "pergunta": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:\n\nI — É um título de dívida emitido por governos locais nos Estados Unidos.\n\nII — São usados para levantar dinheiro para financiar projetos de infraestrutura, como construção de escolas, hospitais, sistemas de transporte e outras obras públicas.\n\nIII — Podem ser adquiridos por seguradoras.\n\nEstá correto o que se afirma em:",
           "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -2647,12 +3639,29 @@
             "D": "I, II e III."
           },
           "resposta_correta": "D",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "A respeito dos Municipal Bonds (Munis), considere as seguintes afirmativas:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "É um título de dívida emitido por governos locais nos Estados Unidos."
+            },
+            {
+              "letra": "II",
+              "texto": "São usados para levantar dinheiro para financiar projetos de infraestrutura, como construção de escolas, hospitais, sistemas de transporte e outras obras públicas."
+            },
+            {
+              "letra": "III",
+              "texto": "Podem ser adquiridos por seguradoras."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em:",
+          "tem_itens": true
         },
         {
           "numero": 21,
           "codigo": "513208",
-          "pergunta": "Considere as seguintes afirmativas a respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities):\n\n**I** — As STRIPS têm um benefício implícito do governo norte-americano.\n\n**II** — A duration das STRIPS pode ser maior ou menor que a do título de origem.\n\n**III** — As STRIPS são corrigidas pelo CPI.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Considere as seguintes afirmativas a respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities):\n\nI — As STRIPS têm um benefício implícito do governo norte-americano.\n\nII — A duration das STRIPS pode ser maior ou menor que a do título de origem.\n\nIII — As STRIPS são corrigidas pelo CPI.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I e II.",
             "B": "I e III.",
@@ -2660,7 +3669,24 @@
             "D": "II e III."
           },
           "resposta_correta": "C",
-          "tema": "Investimentos no Exterior"
+          "tema": "Investimentos no Exterior",
+          "intro": "Considere as seguintes afirmativas a respeito das STRIPS (Separated Trading of Registered Interest and Principal Securities):",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "As STRIPS têm um benefício implícito do governo norte-americano."
+            },
+            {
+              "letra": "II",
+              "texto": "A duration das STRIPS pode ser maior ou menor que a do título de origem."
+            },
+            {
+              "letra": "III",
+              "texto": "As STRIPS são corrigidas pelo CPI."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 22,
@@ -2810,7 +3836,7 @@
         {
           "numero": 33,
           "codigo": "207233",
-          "pergunta": "Uma carteira de investimentos possui as seguintes características:\n\n**I** — Duration de Macaulay de 4,00.\n\n**II** — Duration Modificada de 3,20.\n\nDesta forma, podemos afirmar que:",
+          "pergunta": "Uma carteira de investimentos possui as seguintes características:\n\nI — Duration de Macaulay de 4,00.\n\nII — Duration Modificada de 3,20.\n\nDesta forma, podemos afirmar que:",
           "alternativas": {
             "A": "O prazo médio dos títulos da carteira é de 3,20.",
             "B": "Se a taxa de juros subir 100 basis points, a carteira desvaloriza 4,00%.",
@@ -2818,7 +3844,20 @@
             "D": "Se a taxa de juros subir 100 basis points, a carteira valoriza 3,20%."
           },
           "resposta_correta": "C",
-          "tema": "Gestão de Carteiras - Renda Fixa"
+          "tema": "Gestão de Carteiras - Renda Fixa",
+          "intro": "Uma carteira de investimentos possui as seguintes características:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Duration de Macaulay de 4,00."
+            },
+            {
+              "letra": "II",
+              "texto": "Duration Modificada de 3,20."
+            }
+          ],
+          "conclusao": "Desta forma, podemos afirmar que:",
+          "tem_itens": true
         },
         {
           "numero": 34,
@@ -2875,7 +3914,7 @@
         {
           "numero": 38,
           "codigo": "205314-A",
-          "pergunta": "Em relação aos limites de concentração por modalidade de ativo financeiro, a classe de cotas deve observar os seguintes limites:\n\n**I** — Até 20% do patrimônio líquido em cotas de FII (Fundo de Investimento Imobiliário).\n\n**II** — Caso o FIF (Fundo de Investimento Financeiro) seja destinado ao público em geral, não é permitida aplicação em cotas de FIF destinadas exclusivamente a investidores qualificados.\n\n**III** — Até 10% do patrimônio líquido do fundo em criptoativos.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "Em relação aos limites de concentração por modalidade de ativo financeiro, a classe de cotas deve observar os seguintes limites:\n\nI — Até 20% do patrimônio líquido em cotas de FII (Fundo de Investimento Imobiliário).\n\nII — Caso o FIF (Fundo de Investimento Financeiro) seja destinado ao público em geral, não é permitida aplicação em cotas de FIF destinadas exclusivamente a investidores qualificados.\n\nIII — Até 10% do patrimônio líquido do fundo em criptoativos.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I.",
             "B": "III.",
@@ -2883,12 +3922,29 @@
             "D": "II e III."
           },
           "resposta_correta": "C",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Em relação aos limites de concentração por modalidade de ativo financeiro, a classe de cotas deve observar os seguintes limites:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Até 20% do patrimônio líquido em cotas de FII (Fundo de Investimento Imobiliário)."
+            },
+            {
+              "letra": "II",
+              "texto": "Caso o FIF (Fundo de Investimento Financeiro) seja destinado ao público em geral, não é permitida aplicação em cotas de FIF destinadas exclusivamente a investidores qualificados."
+            },
+            {
+              "letra": "III",
+              "texto": "Até 10% do patrimônio líquido do fundo em criptoativos."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 39,
           "codigo": "105156",
-          "pergunta": "Considere as seguintes afirmativas sobre taxa de administração de fundos de investimento:\n\n**I** — Nas classes abertas, deve ser provisionada por dia útil, sempre como despesa da classe e apropriada conforme estabelecido no regulamento.\n\n**II** — Pode ser utilizada para remunerar o distribuidor.\n\nA respeito de tais afirmações, podemos dizer que:",
+          "pergunta": "Considere as seguintes afirmativas sobre taxa de administração de fundos de investimento:\n\nI — Nas classes abertas, deve ser provisionada por dia útil, sempre como despesa da classe e apropriada conforme estabelecido no regulamento.\n\nII — Pode ser utilizada para remunerar o distribuidor.\n\nA respeito de tais afirmações, podemos dizer que:",
           "alternativas": {
             "A": "ambas estão corretas.",
             "B": "ambas estão incorretas.",
@@ -2896,7 +3952,20 @@
             "D": "a primeira está correta e a segunda, incorreta."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Considere as seguintes afirmativas sobre taxa de administração de fundos de investimento:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Nas classes abertas, deve ser provisionada por dia útil, sempre como despesa da classe e apropriada conforme estabelecido no regulamento."
+            },
+            {
+              "letra": "II",
+              "texto": "Pode ser utilizada para remunerar o distribuidor."
+            }
+          ],
+          "conclusao": "A respeito de tais afirmações, podemos dizer que:",
+          "tem_itens": true
         },
         {
           "numero": 40,
@@ -2914,7 +3983,7 @@
         {
           "numero": 41,
           "codigo": "105341",
-          "pergunta": "Um Fundo de Investimento de Renda Fixa adquiriu para a sua carteira um lote de Nota do Tesouro Nacional série B (NTN-B), com vencimento em 15/05/2020. Sobre o conceito denominado marcação a mercado, um especialista em investimento explicará ao seu cliente que se:\n\n**I** — o fundo permanecer com esse título em sua carteira até o vencimento, a sua rentabilidade refletirá a taxa de juros acordada na aquisição, caso os recebimentos de cupom sejam reinvestidos pela mesma taxa de aquisição.\n\n**II** — ocorrer queda na Taxa Selic, esse título poderá ter seu cupom desvalorizado.\n\n**III** — a taxa de juros de mercado estiver sendo negociada acima da taxa de juros na data de aquisição, a cota do fundo poderá apresentar rentabilidade negativa.\n\nEstá correto o que se afirma em",
+          "pergunta": "Um Fundo de Investimento de Renda Fixa adquiriu para a sua carteira um lote de Nota do Tesouro Nacional série B (NTN-B), com vencimento em 15/05/2020. Sobre o conceito denominado marcação a mercado, um especialista em investimento explicará ao seu cliente que se:\n\nI — o fundo permanecer com esse título em sua carteira até o vencimento, a sua rentabilidade refletirá a taxa de juros acordada na aquisição, caso os recebimentos de cupom sejam reinvestidos pela mesma taxa de aquisição.\n\nII — ocorrer queda na Taxa Selic, esse título poderá ter seu cupom desvalorizado.\n\nIII — a taxa de juros de mercado estiver sendo negociada acima da taxa de juros na data de aquisição, a cota do fundo poderá apresentar rentabilidade negativa.\n\nEstá correto o que se afirma em",
           "alternativas": {
             "A": "I e III, apenas.",
             "B": "I, II e III.",
@@ -2922,7 +3991,24 @@
             "D": "I e II apenas."
           },
           "resposta_correta": "A",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "Um Fundo de Investimento de Renda Fixa adquiriu para a sua carteira um lote de Nota do Tesouro Nacional série B (NTN-B), com vencimento em 15/05/2020. Sobre o conceito denominado marcação a mercado, um especialista em investimento explicará ao seu cliente que se:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "o fundo permanecer com esse título em sua carteira até o vencimento, a sua rentabilidade refletirá a taxa de juros acordada na aquisição, caso os recebimentos de cupom sejam reinvestidos pela mesma taxa de aquisição."
+            },
+            {
+              "letra": "II",
+              "texto": "ocorrer queda na Taxa Selic, esse título poderá ter seu cupom desvalorizado."
+            },
+            {
+              "letra": "III",
+              "texto": "a taxa de juros de mercado estiver sendo negociada acima da taxa de juros na data de aquisição, a cota do fundo poderá apresentar rentabilidade negativa."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma em",
+          "tem_itens": true
         },
         {
           "numero": 42,
@@ -2940,7 +4026,7 @@
         {
           "numero": 43,
           "codigo": "105342",
-          "pergunta": "A classe de um fundo de investimento financeiro pode aplicar até 10% de seu patrimônio líquido em ativos dos seguintes emissores:\n\n**I** — Instituição Financeira.\n\n**II** — Companhia aberta.\n\n**III** — Gestor e de companhias integrantes de seu grupo econômico.\n\nEstá correto o que se afirma apenas em:",
+          "pergunta": "A classe de um fundo de investimento financeiro pode aplicar até 10% de seu patrimônio líquido em ativos dos seguintes emissores:\n\nI — Instituição Financeira.\n\nII — Companhia aberta.\n\nIII — Gestor e de companhias integrantes de seu grupo econômico.\n\nEstá correto o que se afirma apenas em:",
           "alternativas": {
             "A": "I.",
             "B": "II e III.",
@@ -2948,7 +4034,24 @@
             "D": "II."
           },
           "resposta_correta": "D",
-          "tema": "Legislação, Regulação e Tributação"
+          "tema": "Legislação, Regulação e Tributação",
+          "intro": "A classe de um fundo de investimento financeiro pode aplicar até 10% de seu patrimônio líquido em ativos dos seguintes emissores:",
+          "itens": [
+            {
+              "letra": "I",
+              "texto": "Instituição Financeira."
+            },
+            {
+              "letra": "II",
+              "texto": "Companhia aberta."
+            },
+            {
+              "letra": "III",
+              "texto": "Gestor e de companhias integrantes de seu grupo econômico."
+            }
+          ],
+          "conclusao": "Está correto o que se afirma apenas em:",
+          "tem_itens": true
         },
         {
           "numero": 44,
